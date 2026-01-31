@@ -1,21 +1,35 @@
 ---
 import pubs from "../content/publications.json";
 
-const grouped = pubs.reduce((acc, p) => {
+// Ensure sorted by year descending
+const sortedPubs = [...pubs].sort((a, b) => b.year - a.year);
+
+// Group by year
+const grouped = sortedPubs.reduce((acc, p) => {
   const y = String(p.year);
   acc[y] = acc[y] || [];
   acc[y].push(p);
   return acc;
 }, {});
-const years = Object.keys(grouped).sort((a, b) => (a < b ? 1 : -1));
+
+const sortedYears = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+
+// Calculate continuous numbering
+let globalCount = 1;
+const yearGroups = sortedYears.map((year) => {
+  const list = grouped[year];
+  const start = globalCount;
+  globalCount += list.length;
+  return { year, list, start };
+});
 ---
 
 <section style="margin-bottom: 2.5rem;">
-  {years.map((year) => (
+  {yearGroups.map(({ year, list, start }) => (
     <div style="margin-bottom: 1.5rem;">
       <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem;">{year}</h2>
-      <ol style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
-        {grouped[year].map((p) => (
+      <ol start={start} style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+        {list.map((p) => (
           <li style="margin-bottom: 0.4rem;">
             <span>{p.authors}. </span>
             <span style="font-weight: 600;">{p.title}. </span>
@@ -23,7 +37,7 @@ const years = Object.keys(grouped).sort((a, b) => (a < b ? 1 : -1));
             {p.doi && (
               <span>
                 {" "}
-                <a href={p.doi}>DOI</a>
+                <a href={p.doi} target="_blank" rel="noopener noreferrer">DOI</a>
               </span>
             )}
             {p.note && <span> ({p.note})</span>}

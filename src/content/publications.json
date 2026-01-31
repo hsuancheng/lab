@@ -56,6 +56,14 @@
     "note": "IF: 7.5"
   },
   {
+    "year": 2025,
+    "title": "Transcriptional dynamics of CD8+ T-cell exhaustion in immune checkpoint inhibitor resistance at single-cell resolution",
+    "authors": "Tseng TY, Hsieh CH, Huang HC, Wu YC, Hsu C, Hsu CL, Ou DL, Juan HF",
+    "venue": "Mol. Cancer, 24, 306",
+    "doi": "",
+    "note": "IF: 33.9"
+  },
+  {
     "year": 2024,
     "title": "scDrug+: predicting drug-responses using single-cell transcriptomics and molecular structure",
     "authors": "Sun YY, Hsieh CY, Wen JH, Tseng TY, Huang JH, Oyang YJ, Huang HC, Juan HF",
@@ -1950,53 +1958,5 @@
     "venue": "Bioorg. Med. Chem. 1, 361-367 (1993)",
     "doi": "",
     "note": "IF: 2.185"
-  },
-  {
-    "year": 0,
-    "title": "Transcriptional dynamics of CD8+ T-cell exhaustion in immune checkpoint inhibitor resistance at single-cell resolution",
-    "authors": "Tseng TY, Hsieh CH, Huang HC, Wu YC, Hsu C, Hsu CL, Ou DL, Juan HF",
-    "venue": "Mol. Cancer, 24, 306",
-    "doi": "",
-    "note": "IF: 33.9"
-  },
-  {
-    "year": 0,
-    "title": "An Efficient Algorithm for Analysis of Protein Tertiary Subtructures",
-    "authors": "Y.J. Oyang, D.T.H. Chang, C.Y. Chen, S.C. Hwang, H.F. Juan, hch",
-    "venue": "submitted to Bioinformatics",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 0,
-    "title": "Inferring Genetic Regulatory Networks Using a Dynamic Bayesian Network Approach",
-    "authors": "C.C. Wu, H.C. Huang, H.F. Juan, S.T. Chen",
-    "venue": "in preparation",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 0,
-    "title": "J.-J. Li, H.-F. Juan, R.-S. Ko, I.-F. Chung, H.-C. Huang",
-    "authors": "Identification of RNA-Binding Protein Residues Using Machine Learning Approaches",
-    "venue": "submitted",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 0,
-    "title": "ProtExt: a system for protein-protein interaction extraction from PubMed abstracts",
-    "authors": "Y.C.~Lin, C.L.~Peng, C.Y.~Kao, H.F.~Juan, H.C.~Huang",
-    "venue": "submitted",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 0,
-    "title": "Comparative Analysis of Expression Profiles of Estrogen-Receptor Related Genes in Breast Cancer of Different Ethnic Origins Reveals Population-Unique SNPs",
-    "authors": "Hsiao-Wei Chen$^dagger$, Hsuan-Cheng Huang$^dagger$, Yi-Shing Lin, King-Jen Chang, Wen-Hung Kuo, Hsiao-Lin Hwa, Fon-Jou Hsieh, Hsueh-Fen Juan",
-    "venue": "submitted",
-    "doi": "",
-    "note": ""
   }
 ]

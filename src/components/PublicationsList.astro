@@ -1,0 +1,35 @@
+---
+import pubs from "../content/publications.json";
+
+const grouped = pubs.reduce((acc, p) => {
+  const y = String(p.year);
+  acc[y] = acc[y] || [];
+  acc[y].push(p);
+  return acc;
+}, {});
+const years = Object.keys(grouped).sort((a, b) => (a < b ? 1 : -1));
+---
+
+<section style="margin-bottom: 2.5rem;">
+  {years.map((year) => (
+    <div style="margin-bottom: 1.5rem;">
+      <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem;">{year}</h2>
+      <ol style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+        {grouped[year].map((p) => (
+          <li style="margin-bottom: 0.4rem;">
+            <span>{p.authors}. </span>
+            <span style="font-weight: 600;">{p.title}. </span>
+            <span>{p.venue}.</span>
+            {p.doi && (
+              <span>
+                {" "}
+                <a href={p.doi}>DOI</a>
+              </span>
+            )}
+            {p.note && <span> ({p.note})</span>}
+          </li>
+        ))}
+      </ol>
+    </div>
+  ))}
+</section>

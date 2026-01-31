@@ -1,0 +1,565 @@
+{
+  "pi": [
+    {
+      "name": "Hsuan-Cheng Huang",
+      "title": "Professor",
+      "affiliation": "Institute of Biomedical Informatics, NYCU",
+      "email": "hsuancheng@nycu.edu.tw",
+      "homepage": "http://www.hchuang.info/",
+      "interests": [
+        "Systems Biology",
+        "Bioinformatics",
+        "Computational Biology",
+        "Network Biology"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "name": "陳韻茹 Yun-Ru Chen",
+      "role": "Research Assistant",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "杜岳華 Yueh-Hua Tu",
+      "role": "PhD Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "Computational biology",
+      "role": "PhD Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "Systems biology",
+      "role": "PhD Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "Machine learning",
+      "role": "PhD Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳弈昕",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林靖雅 Ching-Ya Lin",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "溫建泓 Jian-Hung Wen",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "歐秉昀",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "蔡秉勳",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "董冠群",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "江辰霈",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "劉育伶",
+      "role": "MS Student",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    }
+  ],
+  "alumni": [
+    {
+      "name": "鐘偉哲",
+      "role": "Alumni",
+      "startYear": 2019,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "黃莉婷",
+      "role": "Alumni",
+      "startYear": 2018,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "陳應元 Ying-Yuan Chen",
+      "role": "Alumni",
+      "startYear": 2018,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳嘉穎 Chia-Ying Wu",
+      "role": "Alumni",
+      "startYear": 2017,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "葉家瑋 Chia-Wei Yeh",
+      "role": "Alumni",
+      "startYear": 2017,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "蔡孟芳 Meng-Fang Tsai",
+      "role": "Alumni",
+      "startYear": 2017,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "陳韻茹 Yun-Ru Chen",
+      "role": "Alumni",
+      "startYear": 2009,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "蔡宗軒 Tsung-Hsuan Ysai",
+      "role": "Alumni",
+      "startYear": 2016,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "鄭博營 Po-Ying Cheng",
+      "role": "Alumni",
+      "startYear": 2016,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "Divya Sahu",
+      "role": "Alumni",
+      "startYear": 2014,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "許家郎 Chia-Lang Hsu",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "李佳憲 Chia-Hsien Lee",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳致勳 Chih-Hsun Wu",
+      "role": "Alumni",
+      "startYear": 2010,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "戴珮瑄",
+      "role": "Alumni",
+      "startYear": 2015,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "杜岳華 Yeuh-Hua Tu",
+      "role": "Alumni",
+      "startYear": 2014,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "蔡青佑",
+      "role": "Alumni",
+      "startYear": 2014,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "游文萱 Wen-Hsuan Yu",
+      "role": "Alumni",
+      "startYear": 2015,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林玹墨 Xuan-Mo Lin",
+      "role": "Alumni",
+      "startYear": 2013,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "呂佩珺 Pei-Chun Lu",
+      "role": "Alumni",
+      "startYear": 2013,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林妍慧 Yen-Hui Lin",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "許嫚茹",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "黃丞駿",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "陳卓逸 Cho-Yi Chen @ DFCI, Harvard University",
+      "role": "Alumni",
+      "startYear": 2010,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "何亮融 Andy Ho",
+      "role": "Alumni",
+      "startYear": 2012,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "楊耕契",
+      "role": "Alumni",
+      "startYear": 2011,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "黃瑞蘭 Rui-Lan Huang @ 雙和醫院",
+      "role": "Alumni",
+      "startYear": 2005,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林振慶 Cheng-Chin Lin @ U Chicago",
+      "role": "Alumni",
+      "startYear": 2007,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "章人勻 Jen-Yun Chang",
+      "role": "Alumni",
+      "startYear": 2008,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "傅思縉 Szu-Chin Fu @ UTSW",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "郭姿祺",
+      "role": "Alumni",
+      "startYear": 2011,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "廖皓涵",
+      "role": "Alumni",
+      "startYear": 2010,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "葉騰文 @ IIS AS",
+      "role": "Alumni",
+      "startYear": 2009,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "陳亞任",
+      "role": "Alumni",
+      "startYear": 2009,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "謝佩君 Pei-Chun Hsieh",
+      "role": "Alumni",
+      "startYear": 2009,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳聿笙",
+      "role": "Alumni",
+      "startYear": 2008,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "梁詩屏",
+      "role": "Alumni",
+      "startYear": 2008,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳鴻中",
+      "role": "Alumni",
+      "startYear": 2007,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "白哲濬",
+      "role": "Alumni",
+      "startYear": 2008,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "李孟霜",
+      "role": "Alumni",
+      "startYear": 2008,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "李家璿 Chia-Shyuan Lee",
+      "role": "Alumni",
+      "startYear": 2007,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳家宜 Chia-Yi Wu",
+      "role": "Alumni",
+      "startYear": 2006,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "黃奕綺 Yih-Chii Hwang",
+      "role": "Alumni",
+      "startYear": 2007,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "方昱慶 Yu-Ching Fang",
+      "role": "Alumni",
+      "startYear": 2005,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳昇原",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "張智欽 Chi-Chin Chang",
+      "role": "Alumni",
+      "startYear": 2006,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "李嘉哲 Jia-Je Li",
+      "role": "Alumni",
+      "startYear": 2005,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "許俊威 Chun-Wei Hsu",
+      "role": "Alumni",
+      "startYear": 2006,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "丘祐緯 Yu-Wei Chiu",
+      "role": "Alumni",
+      "startYear": 2006,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "盧子彬 Tzu-Pin Lu",
+      "role": "Alumni",
+      "startYear": 2006,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "歐承翰 Chern-Han Ou",
+      "role": "Alumni",
+      "startYear": 2005,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "鮑岳洋 Yue-Yang Bow",
+      "role": "Alumni",
+      "startYear": 2004,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林南西 Nancy Lin",
+      "role": "Alumni",
+      "startYear": 2004,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "何家源 Chia-Yuan Ho",
+      "role": "Alumni",
+      "startYear": 2005,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "林永忠 Yung-Chung Lin",
+      "role": "Alumni",
+      "startYear": 2003,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳育勳",
+      "role": "Alumni",
+      "startYear": 2004,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    }
+  ]
+}

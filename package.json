@@ -1,14 +1,13 @@
 {
-  "name": "",
-  "type": "module",
+  "name": "huang-lab",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.17.1"
+    "astro": "^4.0.0"
   }
 }

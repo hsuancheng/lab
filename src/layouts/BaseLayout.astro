@@ -1,0 +1,144 @@
+---
+const { title = "Huang Lab" } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --font-body: 'Inter', system-ui, sans-serif;
+        --font-heading: 'Outfit', system-ui, sans-serif;
+        --color-bg: #f8fafc;
+        --color-text: #334155;
+        --color-text-dark: #0f172a;
+        --color-primary: #2563eb;
+        --color-accent: #06b6d4;
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        color: var(--color-text);
+        background-color: var(--color-bg);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        color: var(--color-text-dark);
+        margin-top: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+      }
+      .nav-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .nav-brand {
+        font-family: var(--font-heading);
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: -0.02em;
+        color: var(--color-text-dark);
+      }
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #475569;
+      }
+      .nav-links a:hover {
+        color: var(--color-primary);
+      }
+      .main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      .footer {
+        margin-top: 5rem;
+        padding: 3rem 1.5rem;
+        background: #fff;
+        border-top: 1px solid #f1f5f9;
+        font-size: 0.9rem;
+        color: #64748b;
+      }
+      .footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+      }
+      @media (min-width: 640px) {
+        .footer-inner {
+          flex-direction: row;
+          justify-content: space-between;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-inner">
+        <a href="/lab/" class="nav-brand">
+          Huang Lab
+        </a>
+        <nav class="nav-links">
+          <a href="/lab/">Home</a>
+          <a href="/lab/people">People</a>
+          <a href="/lab/publications">Publications</a>
+          <a href="/lab/contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <strong style="font-family: var(--font-heading); color: var(--color-text-dark); display: block; margin-bottom: 0.5rem;">Huang Lab</strong>
+          <span>© {new Date().getFullYear()} All rights reserved.</span>
+        </div>
+        <div>
+          Institute of Biomedical Informatics<br/>
+          National Yang Ming Chiao Tung University
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

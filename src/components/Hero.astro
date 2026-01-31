@@ -1,0 +1,105 @@
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">
+      Quantum Information & Biology
+    </p>
+    <h1>
+      Huang Lab
+    </h1>
+    <p class="tagline">
+      Research at the intersection of quantum computing, information theory, and biological data analysis.
+    </p>
+  </div>
+  <div class="mesh-gradient"></div>
+</section>
+
+<style>
+  .hero {
+    margin: 2rem 0 4rem;
+    padding: 6rem 2.5rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Animated Mesh Gradient Background */
+  .mesh-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-color: #0f172a;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+    background-size: 200% 200%;
+    animation: gradient-move 15s ease infinite;
+  }
+  
+  .mesh-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.2) 0%, transparent 40%);
+    filter: blur(40px);
+    animation: pulse 8s ease-in-out infinite alternate;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 720px;
+  }
+
+  .eyebrow {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  h1 {
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    margin: 0.5rem 0 1.5rem;
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+
+  .tagline {
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    line-height: 1.6;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+  @keyframes gradient-move {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.5; }
+    100% { transform: scale(1.1); opacity: 0.8; }
+  }
+</style>

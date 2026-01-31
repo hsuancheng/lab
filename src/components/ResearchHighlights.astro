@@ -1,0 +1,110 @@
+<section class="research-section">
+  <div class="section-header">
+    <h2>Research Highlights</h2>
+  </div>
+  
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-icon">🧬</div>
+      <h3>Quantum Error Correction</h3>
+      <p>
+        Theory and implementation of robust quantum information processing, focusing on topological codes and fault tolerance.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🦠</div>
+      <h3>Single-cell & Spatial Omics</h3>
+      <p>
+        Computational methods for high-dimensional biological data, extracting meaningful patterns from single-cell transcriptomics.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📡</div>
+      <h3>Coding & Communication</h3>
+      <p>
+        Error-correcting codes and information theory applied to modern communication systems and biological networks.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .research-section {
+    margin-bottom: 4rem;
+  }
+
+  .section-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-text-dark);
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .card:hover::before {
+    opacity: 1;
+  }
+
+  .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 0.5rem;
+    background: #f1f5f9;
+    border-radius: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-dark);
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+</style>

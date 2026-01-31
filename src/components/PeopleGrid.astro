@@ -1,0 +1,72 @@
+---
+import people from "../content/people.json";
+---
+
+<section style="margin-bottom: 2.5rem;">
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.75rem;">Principal Investigator</h2>
+  <div
+    style="
+      border-radius: 0.9rem;
+      border: 1px solid #e5e7eb;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    "
+  >
+    {people.pi.map((p) => (
+      <div>
+        <h3 style="margin: 0 0 0.2rem; font-size: 1.1rem;">{p.name}</h3>
+        <p style="margin: 0; font-size: 0.9rem; color: #4b5563;">
+          {p.title} · {p.affiliation}
+        </p>
+        {p.email && (
+          <p style="margin: 0.3rem 0 0; font-size: 0.9rem;">
+            Email: <a href={`mailto:${p.email}`}>{p.email}</a>
+          </p>
+        )}
+        {p.homepage && (
+          <p style="margin: 0.1rem 0 0; font-size: 0.9rem;">
+            Homepage: <a href={p.homepage}>{p.homepage}</a>
+          </p>
+        )}
+        {p.interests?.length && (
+          <p style="margin: 0.6rem 0 0; font-size: 0.9rem; color: #4b5563;">
+            Research interests: {p.interests.join(", ")}
+          </p>
+        )}
+      </div>
+    ))}
+  </div>
+
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.75rem;">Members</h2>
+  <div
+    style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    "
+  >
+    {people.members.map((m) => (
+      <div
+        style="
+          border-radius: 0.9rem;
+          border: 1px solid #e5e7eb;
+          padding: 0.9rem;
+          background: #f9fafb;
+        "
+      >
+        <div style="font-weight: 600;">{m.name}</div>
+        <div style="font-size: 0.9rem; color: #4b5563;">{m.role}</div>
+        {m.startYear && (
+          <div style="font-size: 0.8rem; color: #9ca3af; margin-top: 0.15rem;">
+            Since {m.startYear}
+          </div>
+        )}
+        {m.interests?.length && (
+          <div style="margin-top: 0.4rem; font-size: 0.85rem; color: #4b5563;">
+            {m.interests.join(", ")}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+</section>

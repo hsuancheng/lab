@@ -142,9 +142,10 @@ def clean_tex(text):
     text = re.sub(r'\\bf\s+', '', text)
     text = re.sub(r'\\it\s+', '', text)
     text = re.sub(r'\\textsl', '', text)
-    text = re.sub(r'\\dagger', '†', text) # Replace \dagger with symbol
+    # Order matters! Match most specific first.
     text = re.sub(r'\$\^\\dagger\$', '†', text) # Replace $^\dagger$ with symbol
     text = re.sub(r'\^\\dagger', '†', text) # Replace ^\dagger with symbol
+    text = re.sub(r'\\dagger', '†', text) # Replace leftover \dagger
     text = re.sub(r'[\{\}]', '', text) # Remove braces
     text = re.sub(r'\$\^(\*|\d+)\$', '', text) # Remove math superscripts like $^*$
     text = re.sub(r'\^(\*|\d+)', '', text) # Remove superscripts

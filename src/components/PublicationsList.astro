@@ -34,12 +34,7 @@ const yearGroups = sortedYears.map((year) => {
             <span>{p.authors}. </span>
             <span style="font-weight: 600;">{p.title}. </span>
             <span>{p.venue}.</span>
-            {p.doi && (
-              <span>
-                {" "}
-                <a href={p.doi} target="_blank" rel="noopener noreferrer">DOI</a>
-              </span>
-            )}
+
             {p.note && <span> ({p.note})</span>}
           </li>
         ))}

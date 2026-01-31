@@ -21,6 +21,10 @@ def parse_latex_publications(file_path):
         return []
 
     items_block = content[start_idx:end_idx]
+    
+    # Remove comments: % that is not escaped
+    items_block = re.sub(r'(?<!\\)%.*', '', items_block)
+    
     # Split by \item, but ignore the first empty part
     raw_items = re.split(r'\\item', items_block)[1:]
     
@@ -146,13 +150,13 @@ def clean_tex(text):
     return text.strip()
 
 if __name__ == "__main__":
-    latex_file = 'pub-260130.tex'
+    latex_file = 'pub-260131.tex'
     json_output = 'src/content/publications.json'
     
     pubs = parse_latex_publications(latex_file)
     
-    # Sort by year desc
-    pubs.sort(key=lambda x: x['year'], reverse=True)
+    # Do not sort, preserve order from LaTeX
+    # pubs.sort(key=lambda x: x['year'], reverse=True)
     
     print(f"Parsed {len(pubs)} publications.")
     

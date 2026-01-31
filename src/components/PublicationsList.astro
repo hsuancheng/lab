@@ -1,26 +1,27 @@
 ---
 import pubs from "../content/publications.json";
 
-// Ensure sorted by year descending
-const sortedPubs = [...pubs].sort((a, b) => b.year - a.year);
+// Use pubs directly to preserve order
+const sortedPubs = [...pubs];
 
-// Group by year
-const grouped = sortedPubs.reduce((acc, p) => {
+// Group by year preserving order (linear scan)
+const yearGroups = [];
+let currentGroup = null;
+
+sortedPubs.forEach((p) => {
   const y = String(p.year);
-  acc[y] = acc[y] || [];
-  acc[y].push(p);
-  return acc;
-}, {});
-
-const sortedYears = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+  if (!currentGroup || currentGroup.year !== y) {
+    currentGroup = { year: y, list: [] };
+    yearGroups.push(currentGroup);
+  }
+  currentGroup.list.push(p);
+});
 
 // Calculate continuous numbering
 let globalCount = 1;
-const yearGroups = sortedYears.map((year) => {
-  const list = grouped[year];
-  const start = globalCount;
-  globalCount += list.length;
-  return { year, list, start };
+yearGroups.forEach((g) => {
+  g.start = globalCount;
+  globalCount += g.list.length;
 });
 ---
 

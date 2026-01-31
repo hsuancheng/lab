@@ -28,6 +28,11 @@ import people from "../content/people.json";
             Homepage: <a href={p.homepage}>{p.homepage}</a>
           </p>
         )}
+        {p.googleScholar && (
+          <p style="margin: 0.1rem 0 0; font-size: 0.9rem;">
+            Google Scholar: <a href={p.googleScholar} target="_blank" rel="noopener noreferrer">Profile</a>
+          </p>
+        )}
         {p.interests?.length && (
           <p style="margin: 0.6rem 0 0; font-size: 0.9rem; color: #4b5563;">
             Research interests: {p.interests.join(", ")}

@@ -35,7 +35,6 @@ function groupPubs(list) {
 }
 
 const journalGroups = groupPubs(journals);
-const bookGroups = groupPubs(books);
 ---
 
 <section style="margin-bottom: 2.5rem;">
@@ -62,24 +61,21 @@ const bookGroups = groupPubs(books);
     </div>
   ))}
 
-  {bookGroups.length > 0 && (
+  {books.length > 0 && (
     <>
       <h1 style="font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Books & Chapters</h1>
-      {bookGroups.map(({ year, list, start }) => (
-        <div style="margin-bottom: 1.5rem;">
-          <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem;">{year}</h2>
-          <ol start={start} style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
-            {list.map((p) => (
-              <li style="margin-bottom: 0.4rem;">
-                <span>{p.authors}. </span>
-                <span style="font-weight: 600;">{p.title}. </span>
-                <span>{p.venue}.</span>
-                {p.note && <span> ({p.note})</span>}
-              </li>
-            ))}
-          </ol>
-        </div>
-      ))}
+      <div style="margin-bottom: 1.5rem;">
+        <ol start={1} style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+          {books.map((p) => (
+            <li style="margin-bottom: 0.4rem;">
+              <span>{p.authors}. </span>
+              <span style="font-weight: 600;">{p.title}. </span>
+              <span>{p.venue}.</span>
+              {p.note && <span> ({p.note})</span>}
+            </li>
+          ))}
+        </ol>
+      </div>
     </>
   )}
 </section>

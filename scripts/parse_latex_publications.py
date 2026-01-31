@@ -204,7 +204,7 @@ def clean_tex(text):
     return text.strip()
 
 if __name__ == "__main__":
-    latex_file = 'pub-260131.tex'
+    latex_file = 'pub-260201.tex'
     json_output = 'src/content/publications.json'
     
     pubs = parse_latex_publications(latex_file)

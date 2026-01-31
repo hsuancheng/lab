@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-    site: 'https://hchuang.github.io',
+    site: 'https://hsuancheng.github.io',
     base: '/lab',
     outDir: 'dist'
 });

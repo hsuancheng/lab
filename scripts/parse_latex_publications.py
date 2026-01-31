@@ -28,14 +28,46 @@ def parse_latex_publications(file_path):
     # Split by \item, but ignore the first empty part
     raw_items = re.split(r'\\item', items_block)[1:]
     
+        # Check for section markers in the *previous* item's tail or this item's start?
+        # Actually simplest is to check if the raw_item text CONTAINS the marker.
+        # But the marker is usually between items.
+        # My split matches `\item`. The text before the first `\item` is discarded.
+        # The text OF an item includes everything until the next `\item`.
+        # So: Item N's content includes Item N's text AND the header for Item N+1 if present.
+        
+        # Let's clean the current raw_item and check for markers at the END of it?
+        # Or check if we hit a marker that switches the "current type" for the *next* iterations?
+        # Wait, if "Books & Chapters" is at the end of Item X, then Item X is Journal, and Item X+1 is Book.
+        
+        # We need a state variable `current_type`.
+        # But we need to detect the switch.
+        
+        # Check if this raw_item contains the "Books & Chapters" header.
+        # If so, the header is likely at the END of this block (before the next \item).
+        # So THIS item is still the old type. The NEXT item will be the new type.
+        # HOWEVER, the string "Books & Chapters" needs to be removed from THIS item's text.
+        
+    current_type = "journal"
     publications = []
     
     for raw_item in raw_items:
+        # Check for section headers
+        if r"Books \& Chapters" in raw_item:
+            # This item marks the transition.
+            raw_item = raw_item.replace(r'{\bf Books \& Chapters:}', '')
+            # clean up artifacts
+            raw_item = raw_item.replace(r'\vspace{24pt}', '')
+            raw_item = raw_item.replace(r'\hspace{-0.4in}', '')
+            next_type = "book"
+        else:
+            next_type = current_type
+
         # cleanup newlines
         raw_item = raw_item.strip()
         
-        # We look for the pattern: \macro {Title} {Authors} {Journal}
-        # Macros are \mypub, \mybpub, \newpub, \pub
+        if not raw_item: continue
+
+        # We look for the pattern: \macro {Arg1} {Arg2} {Arg3}
         
         # Simple stack-based brace parser to extract 3 arguments
         args = []
@@ -47,12 +79,17 @@ def parse_latex_publications(file_path):
         # Find start of first brace
         scan_idx = 0
         
-        # Skip macro name
-        macro_match = re.match(r'\s*\\[a-zA-Z]+\s*', raw_item)
+        # Check macro name to handle parameter order
+        is_newpub = False
+        macro_match = re.search(r'\\(mypub|mybpub|newpub|pub)', raw_item)
         if macro_match:
+            macro_name = macro_match.group(1)
+            if macro_name == 'newpub':
+                is_newpub = True
+            # Scan past the macro
             scan_idx = macro_match.end()
         else:
-            # Maybe just braces directly?
+            # Should have found a macro, but if not, assumes standard start
             pass
             
         while scan_idx < len(raw_item) and arg_count < 3:
@@ -80,10 +117,19 @@ def parse_latex_publications(file_path):
             
         if len(args) < 3:
             print(f"Skipping malformed item: {raw_item[:50]}...")
+            current_type = next_type
             continue
             
-        title_tex = args[0]
-        authors_tex = args[1]
+        # Extract arguments based on macro type
+        if is_newpub:
+            # \newpub{Authors}{Title}{Journal}
+            authors_tex = args[0]
+            title_tex = args[1]
+        else:
+            # \mypub{Title}{Authors}{Journal}
+            title_tex = args[0]
+            authors_tex = args[1]
+            
         journal_tex = args[2]
         
         # Extract extra info like IF and DOI from the rest of the string
@@ -132,8 +178,12 @@ def parse_latex_publications(file_path):
             "authors": authors,
             "venue": journal_info,
             "doi": doi,
-            "note": note
+            "note": note,
+            "type": current_type
         })
+        
+        # Update type for next item
+        current_type = next_type
         
     return publications
 

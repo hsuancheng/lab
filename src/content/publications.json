@@ -5,7 +5,8 @@
     "authors": "Yang CC, LinCY, Yuan HY, Huang HC, Juan HF",
     "venue": "J. Biomed. Sci., accepted",
     "doi": "",
-    "note": "IF: 12.1"
+    "note": "IF: 12.1",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -13,7 +14,8 @@
     "authors": "Lee SC, Yu KH, Huang HC, Juan HF",
     "venue": "Drug Discovery Today, accepted",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -21,7 +23,8 @@
     "authors": "Tseng TY, Hsieh CH, Huang HC, Wu YC, Hsu C, Hsu CL, Ou DL, Juan HF",
     "venue": "Mol. Cancer, 24, 306 (2025)",
     "doi": "",
-    "note": "IF: 33.9"
+    "note": "IF: 33.9",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -29,7 +32,8 @@
     "authors": "Yu PC, Kao YC, Chang HY, Huang CH, Hsu WM, Huang HC, Juan HF",
     "venue": "J. Proteome. Res., 24, 3578−3596 (2025)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -37,7 +41,8 @@
     "authors": "Shih JC, Chen PY, Kuo CH, Hsieh CH, Chang HY, Lee HC, Huang CH, Hsu CH, Hsu WM, Huang HC, Juan HF",
     "venue": "Mol. Cell. Proteomics, 101014 (2025)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -45,7 +50,8 @@
     "authors": "Tseng TY, Hsieh CH, Liu JY, Huang HC, Juan HF",
     "venue": "Comput. Struct. Biotechnol. J., 27, 1719-1731 (2025)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -53,7 +59,8 @@
     "authors": "Hsieh CH, Chen YX, Tseng TY, Li A, Huang HC, Juan HF",
     "venue": "Neurotherapeutics, 22, e00575 (2025)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2025,
@@ -61,7 +68,8 @@
     "authors": "Su YY, Huang HC, Lin YT, Chuang YF, Sheu SY, Lin CC",
     "venue": "J. Transl. Med., 23, 57 (2025)",
     "doi": "",
-    "note": "IF: 7.5"
+    "note": "IF: 7.5",
+    "type": "journal"
   },
   {
     "year": 2024,
@@ -69,7 +77,8 @@
     "authors": "Sun YY, Hsieh CY, Wen JH, Tseng TY, Huang JH, Oyang YJ, Huang HC, Juan HF",
     "venue": "Biomed. Pharmacother. 177, 117070 (2024)",
     "doi": "",
-    "note": "IF: 7.5"
+    "note": "IF: 7.5",
+    "type": "journal"
   },
   {
     "year": 2024,
@@ -77,7 +86,8 @@
     "authors": "Lee SC, Huang CH, Oyang YJ, Huang HC, Juan HF",
     "venue": "J. Transl Med. 22, 600 (2024)",
     "doi": "",
-    "note": "IF: 7.5"
+    "note": "IF: 7.5",
+    "type": "journal"
   },
   {
     "year": 2024,
@@ -85,7 +95,8 @@
     "authors": "Wang WH, Kao YC, Hsieh CH, Tsai SY, Cheung CHY, Huang HC, Juan HF",
     "venue": "J. Proteome Res., 23, 301-315 (2024)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -93,7 +104,8 @@
     "authors": "Hsieh CH, Huang CT, Cheng YS, Hsu CH, Hsu WM, Chung YH, Liu YL, Yang TS, Chien CY, Lee YH, Huang HC, Juan HF",
     "venue": "Biomed. Pharmacother. 166, 115429 (2023)",
     "doi": "",
-    "note": "IF: 7.5"
+    "note": "IF: 7.5",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -101,7 +113,8 @@
     "authors": "Ho WL, Huang HC, Huang JR",
     "venue": "Protein Sci. 32, e4739 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -109,7 +122,8 @@
     "authors": "Su YY, Liu YL, Huang HC, Lin CC.",
     "venue": "J. Transl Med. 21, 485 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -117,7 +131,8 @@
     "authors": "Kao YC, Chang YW, Lai CP, Chang NW, Huang CH, Chen CS, Huang HC, Juan HF",
     "venue": "Commun. Biol. 6, 642 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -125,7 +140,8 @@
     "authors": "Chang YW, Tony Yang T, Chen MC, Liaw YG, Yin CF, Lin-Yan XQ, Huang TY, Hou JT, Hung YH, Hsu CL, Huang HC, Juan HF",
     "venue": "Commun. Biol. 6, 427 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -133,7 +149,8 @@
     "authors": "Tu YH, Juan HF, Huang HC",
     "venue": "Brief. Bioinform., 24, bbac633 (2023)",
     "doi": "",
-    "note": "IF: 7.7"
+    "note": "IF: 7.7",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -141,7 +158,8 @@
     "authors": "Juan HF, Huang HC",
     "venue": "WIREs Comput. Mol. Sci., 13, e1658 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -149,7 +167,8 @@
     "authors": "Chen CC, Huang YW, Huang HC, Lo WC, Lyu PC",
     "venue": "Comput. Struct. Biotechnol. J., 21, 185-201 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -157,7 +176,8 @@
     "authors": "Hsieh CY, Wen JH, Lin SM, Tseng TY, Huang JH Huang HC, Juan HF",
     "venue": "Comput. Struct. Biotechnol. J., 21, 150-157 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -165,7 +185,8 @@
     "authors": "Zhou TA, Hsu HP, Tu YH, Cheng HK, Lin CY, Chen NJ, Tsai JW, Robey EA, Huang HC, Hsu CL, Dzhagalov IL",
     "venue": "eLife, 11, e75148 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2023,
@@ -173,7 +194,8 @@
     "authors": "Chen KP, Hsu CL, Oyang YJ, Huang HC, Juan HF",
     "venue": "Nucleic Acids Res., 51, D1205-D1211 (2023)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -181,7 +203,8 @@
     "authors": "Hsu CL, Yin CF, Chang YW, Fan YC, Lin SH, Wu YC, Huang HC, Juan HF",
     "venue": "Cell Death & Disease, 13, 809 (2022)",
     "doi": "",
-    "note": "IF: 9.6"
+    "note": "IF: 9.6",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -189,7 +212,8 @@
     "authors": "Li A, Chen JY, Hsu CL, Oyang YJ, Huang HC, Juan HF",
     "venue": "Pharmaceutics, 14, 971 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -197,7 +221,8 @@
     "authors": "Chang YW, Wang CC, Yin CF, Wu CH, Huang HC, Juan HF",
     "venue": "Mol. Cell. Proteomics., 21, 100237 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -205,7 +230,8 @@
     "authors": "Yu WH, Hsu CL, Lin CC, Oyang YJ, Juan HF, Huang HC",
     "venue": "BMC Medical Genomics, 14(Suppl 3), 300 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -213,7 +239,8 @@
     "authors": "Yin CF, Chang YW, Huang HC, Juan HF",
     "venue": "Drug Discovery Today, 27, 1077-1087 (2022)",
     "doi": "",
-    "note": "IF: 7.5"
+    "note": "IF: 7.5",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -221,7 +248,8 @@
     "authors": "Ko KY, Chen CY, HF Juan, HC Huang",
     "venue": "Bioinformatics, 38, 763–769 (2022)",
     "doi": "",
-    "note": "IF: 7.1"
+    "note": "IF: 7.1",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -229,7 +257,8 @@
     "authors": "Chang CS, Yu WH, Su CC, Ruan JW, Lin CM, Huang CT, Tsai YT, Lin IJ, Lai CY, Chuang TH, Lin WJ, Tan TH, Huang HC, Juan HF, Kao CY",
     "venue": "iScience, 25, 103738 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2022,
@@ -237,7 +266,8 @@
     "authors": "Yu PC, Huang CH, Kuo CJ, Liang PH, Wang LH, Pan MY, Chang SY, Chao TL, Ieong SM, Fang JT, Huang HC, Juan HF",
     "venue": "Pharmaceutics, 14, 176 (2022)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -245,7 +275,8 @@
     "authors": "Hsieh CH, Yeh HN, Huang CT, Wang WH, Hsu WM, Huang HC, Juan HF",
     "venue": "Pharmaceuticals, 15, 37 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -253,7 +284,8 @@
     "authors": "Li A, Yu WH, Hsu CL, Huang HC, Juan HF",
     "venue": "BMC Medical Genomics, 14(Suppl 3), 290 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -261,7 +293,8 @@
     "authors": "Chang CS, Liao YC, Huang CT, Lin CM, Cheung CHY, Ruan JW, Yu WH, Tsai YT, Lin IJ, Huang CH, Liou JS, Chou YH, Chien HJ, Chuang HL, Juan HF, Huang HC, Chan HL, Liao YC, Tang SC, Su YW, Tan TH, Bäumler AJ, Kao CY",
     "venue": "Cell Reports, 37, 110016 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -269,7 +302,8 @@
     "authors": "Tu YH, Juan HF, Huang HC",
     "venue": "BMC Genomics, 22, 787 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -277,7 +311,8 @@
     "authors": "Li A, Huang HT, Huang HC, Juan HF",
     "venue": "Comput. Struct. Biotechnol. J., 19, 3990–4002 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -285,7 +320,8 @@
     "authors": "Wang WH, Chen SK, Huang HC, Juan HF",
     "venue": "ACS Omega, 6, 14208-14219 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2021,
@@ -293,7 +329,8 @@
     "authors": "Chen TF, Chang YC, Hsiao Y, Lee KH, Hsiao YC, Lin YH, Tu YE, Huang HC, Chen CY, Juan HF",
     "venue": "Nucleic Acids Res., 49, D1152-D1159 (2021)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -301,7 +338,8 @@
     "authors": "Huang CT, Chao TL, Kao HC, Pang YH, Lee WH, Hsieh CH, Chang SY, Huang HC, Juan HF",
     "venue": "Heliyon, 6, e05646 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -309,7 +347,8 @@
     "authors": "Chang YW, Hsu CL, Tang CW, Chen XJ, Huang HC, Juan HF",
     "venue": "Mol. Cell. Proteomics., 19, 1805-1825 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -317,7 +356,8 @@
     "authors": "Cheung CHY, Hsu CL, Lin TY, Chen WT, Wang YC, Huang HC, Juan HF",
     "venue": "J. Biomed. Sci., 27, 75 (2020)",
     "doi": "",
-    "note": "IF: 12.1"
+    "note": "IF: 12.1",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -325,7 +365,8 @@
     "authors": "Wang WH, Hsu CL, Huang HC, Juan HF",
     "venue": "Int. J. Mol. Sci., 21, 4074 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -333,7 +374,8 @@
     "authors": "Yin CF, Kao SC, Hsu CL, Chang YW, Cheung CHY, Huang HC, Juan HF",
     "venue": "J. Proteome Res., 19, 1620-1634 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -341,7 +383,8 @@
     "authors": "Ho TC, Wang EY, Yeh KH, Jeng YM, Horng JH, Wu LL, Chen YT, Huang HC, Hsu CL, Chen PJ, Yeh SH, Chen DS",
     "venue": "Proc. Natl. Acad. Sci. USA, 117, 6717-6725 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2020,
@@ -349,7 +392,8 @@
     "authors": "Lee WH, Chen KP, Wang K, Huang HC, Juan HF",
     "venue": "Biochem. Biophys. Res. Commun., 522, 776-782 (2020)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -357,7 +401,8 @@
     "authors": "Chang HC†, Huang HC†, Juan HF, Hsu CL",
     "venue": "BMC Genomics, 20(Suppl 10), 896 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -365,7 +410,8 @@
     "authors": "Cheung CHY, Hsu CL, Tsuei CY, Kuo TT, Huang CT, Hsu WM, Chung YH, Wu HY, Hsu CC, Huang HC, Juan HF",
     "venue": "Cell Death Dis., 10, 786 (2019)",
     "doi": "",
-    "note": "IF: 9.6"
+    "note": "IF: 9.6",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -373,7 +419,8 @@
     "authors": "Hsieh CH, Cheung CHY, Liu YL, Hou CL, Hsu CL, Huang CT, Yang TS, Chen SF, Chen CN, Hsu WM, Huang HC, Juan HF",
     "venue": "J. Proteome Res., 18, 3850-3866 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -381,7 +428,8 @@
     "authors": "Huang CT, Hsieh CH, Chung YH, Oyang YJ, Huang HC, Juan HF",
     "venue": "iScience, 15, 291-306 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -389,7 +437,8 @@
     "authors": "Huang CT, Hsieh CH, Lee WC, Liu YL, Yang TS, Hsu WM, Oyang YJ, Huang HC, Juan HF",
     "venue": "Clin. Cancer Res., 25, 4063-4078 (2019)",
     "doi": "",
-    "note": "IF: 10.2"
+    "note": "IF: 10.2",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -397,7 +446,8 @@
     "authors": "Sathipati SY, Sahu D, Huang HC, Lin Y, Ho SY",
     "venue": "Sci. Rep., 9, 5125 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -405,7 +455,8 @@
     "authors": "Yang TW, Sahu D, Chang YW, Hsu CL, Hsieh CH, Huang HC, Juan HF",
     "venue": "J. Proteome Res.,18, 406-416 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2019,
@@ -413,7 +464,8 @@
     "authors": "Chen YR, Huang HC, Lin CC",
     "venue": "Brief. Bioinform., 20, 976–984 (2019)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2018,
@@ -421,7 +473,8 @@
     "authors": "Huang CT, Hsieh CH, Oyang YJ, Huang HC, Juan HF",
     "venue": "iScience, 7, 40-52 (2018)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2018,
@@ -429,7 +482,8 @@
     "authors": "Chang JY, Yu WH, Juan HF, Huang HC",
     "venue": "Biochem. Biophys. Res. Commun., 504, 727-733 (2018)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2018,
@@ -437,7 +491,8 @@
     "authors": "Sahu D, Ho SY, Juan HF, Huang HC",
     "venue": "JNCI Cancer Spectrum, 2, pky015 (2018)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2017,
@@ -445,7 +500,8 @@
     "authors": "Cheung CHY, Hsu CL, Chen KP, Chong ST, Wu CH, Huang HC, Juan HF",
     "venue": "Sci. Rep., 7, 13302 (2017)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2017,
@@ -453,7 +509,8 @@
     "authors": "Hsu CL, Wang JK, Lu PC, Huang HC, Juan HF",
     "venue": "Bioinformatics, 33, 3664-3666 (2017)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2017,
@@ -461,7 +518,8 @@
     "authors": "Li SW, Watanabe K, Hsu CC, Chao SH, Yang ZH, Lin YJ, Chen CC, Cao YM, Huang HC, Chang CH, Tsai YC",
     "venue": "Front. Microbiol., 8, 965 (2017)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2016,
@@ -469,7 +527,8 @@
     "authors": "Wu CH, Hsu CL, Lu PC, Lin WC, Juan HF, Huang HC",
     "venue": "Sci. Rep., 6, 35939 (2016)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2016,
@@ -477,7 +536,8 @@
     "authors": "Sahu D, Hsu CL, Lin CC, Yang TW, Hsu WM, Ho SY, Juan HF, Huang HC",
     "venue": "Oncotarget, 7, 58022-58037 (2016)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2016,
@@ -485,7 +545,8 @@
     "authors": "Hsu CL, Chang HY, Chang JY, Hsu WM, Huang HC, Juan HF",
     "venue": "Oncotarget, 7, 36293-36310 (2016)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2016,
@@ -493,7 +554,8 @@
     "authors": "Kao CC, Yi G, Huang HC",
     "venue": "Curr. Opin. Virol., 17, 66-73 (2016)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2016,
@@ -501,7 +563,8 @@
     "authors": "Jen J, Lin LL, Chen HT, Liao SY, Lo FY, Tang YA, Su WC, Salgia R, Hsu CL, Huang HC, Juan HF, Wang YC",
     "venue": "Oncogene, 35, 2357-69 (2016)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -509,7 +572,8 @@
     "authors": "Hu CW, Hsu CL, Wang YC, Ishihama Y, Ku WC, Huang HC, Juan HF",
     "venue": "Mol. Cell. Proteomics, 14, 3284-98 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -517,7 +581,8 @@
     "authors": "Hsu CL, Juan HF, Huang HC",
     "venue": "Sci. Rep., 5, 13295 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -525,7 +590,8 @@
     "authors": "Lin LL, Hsu CL, Hu CW, Ko SY, Hsieh HL, Huang HC, Juan HF",
     "venue": "BMC Genomics, 16, 533 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -533,7 +599,8 @@
     "authors": "Lin LL, Huang HC, Juan HF",
     "venue": "Briefings in Bioinformatics, 16, 1008-24 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -541,7 +608,8 @@
     "authors": "Lin LL, Hsia CR, Hsu CL, Huang HC, Juan HF",
     "venue": "BMC Genomics, 16, 41 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2015,
@@ -549,7 +617,8 @@
     "authors": "Chang HY, Li MH, Huang TC, Hsu CL, Tsai SR, Lee SC, Huang HC, Juan HF",
     "venue": "J. Proteome Res., 14, 1250-62 (2015)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -557,7 +626,8 @@
     "authors": "Chang HY, Huang TC, Chen NN, Huang HC, Juan HF",
     "venue": "Cell Death Dis., 5, e1540 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -565,7 +635,8 @@
     "authors": "Chen CY, Ho A, Huang HY, Juan HF, Huang HC",
     "venue": "Sci. Rep., 4, 7153 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -573,7 +644,8 @@
     "authors": "Huang CT, Oyang YJ, Huang HC, Juan HF",
     "venue": "Sci. Rep., 4, 6495 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -581,7 +653,8 @@
     "authors": "Yang KC, Hsu CL, Lin CC, Juan HF, Huang HC",
     "venue": "Bioinformatics, 30, 2527-8 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -589,7 +662,8 @@
     "authors": "Lin LL, Huang HC, Juan HF",
     "venue": "Drug Discovery Today, 19, 1402-1409 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -597,7 +671,8 @@
     "authors": "Wu PY, Liao YF, Juan HF, Huang HC, Wang BJ, Lu YL, Yu IS, Shih YY, Jeng YM, Hsu WM, Lee H",
     "venue": "PLoS ONE, 9, e88795 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -605,7 +680,8 @@
     "authors": "Wu YH, Hu CW, Chien CW, Chen YJ, Huang HC, Juan HF",
     "venue": "PLoS ONE, 8, e70642 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -613,7 +689,8 @@
     "authors": "Hu CW, Tseng CW, Chien CW, Huang HC, Ku WC, Lee SJ, Chen YJ, Juan HF",
     "venue": "J. Proteome Res., 12, 3993-4004 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -621,7 +698,8 @@
     "authors": "Lin LL, Wu CC, Huang HC, Chen HJ, Hsieh HL, Juan HF",
     "venue": "Int. J. Mol. Sci., 14, 14270-86 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -629,7 +707,8 @@
     "authors": "Lin CC, Lee CH, Fuh CS, Juan HF, Huang HC",
     "venue": "PLoS ONE, 8, e67089 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -637,7 +716,8 @@
     "authors": "Huang RL, Gu F, Kirma NB, Ruan J, Chen CL, Wang HC, Liao YP, Chang CC, Yu MH, Pilrose JM, Thompson IM, Huang HC, Huang THM, Lai HC, Nephew KP",
     "venue": "Epigenetics, 8, 624-34 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -645,7 +725,8 @@
     "authors": "Lee CH, Kuo WH, Lin CC, Oyang YJ, Huang HC, Juan HF",
     "venue": "Int. J. Mol. Sci., 14, 11560-606 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -653,7 +734,8 @@
     "authors": "Liu WY, Chang YM, Chen SC, Lu CH, Wu YH, Lu MY, Chen DR, Shih AC, Sheue CR, Huang HC, Yu CP, Lin HH, Shiu SH, Ku MSB, Li WH",
     "venue": "Proc. Natl. Acad. Sci. USA, 110, 3979-84 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -661,7 +743,8 @@
     "authors": "Liao HH, CC Lin, Juan HF, Huang HC",
     "venue": "PLoS ONE, 8, e56958 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -669,7 +752,8 @@
     "authors": "Chang HY, Shih MH, Huang HC, Tsai SR, Juan HF, Lee SC",
     "venue": "PLoS ONE, 8, e54117 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2013,
@@ -677,7 +761,8 @@
     "authors": "Fu SC, Huang HC, Horton P, Juan HF",
     "venue": "Nucleic Acids Res., 41, D338-D343 (2013)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -685,7 +770,8 @@
     "authors": "Chen CY, Chen ST, Juan HF, Huang HC",
     "venue": "Bioinformatics, 28, 3178-81 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -693,7 +779,8 @@
     "authors": "Hu CW, Lin MH, Huang HC, Ku WC, Yi TH, Tsai CF, Chen YJ, Sugiyama N, Ishihama Y, Juan HF, Wu SH",
     "venue": "J. Proteome Res., 11, 5362-75 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -701,7 +788,8 @@
     "authors": "Lin LL, Huang HC, Juan HF",
     "venue": "PLoS ONE, 7, e44615 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -709,7 +797,8 @@
     "authors": "Lin LL, Huang HC, Ogihara S, Wang JT, Wu MC, McNeil PL, Chen CN, Juan HF",
     "venue": "Int. J. Mol. Sci., 13, 10176-92 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -717,7 +806,8 @@
     "authors": "Lu KY, Tao SC, Yang TC, Ho YH, Lee CH, Lin CC, Juan HF, Huang HC, Yang CY, Chen MS, Lin YY, Lu JY, Zhu H, Chen CS",
     "venue": "Mol. Cell. Proteomics, 11, 1177-90 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -725,7 +815,8 @@
     "authors": "Chang HY, Huang HC, Huang TC, Yang PC, Wang YC, Juan HF",
     "venue": "Cancer Res. 72, 4696-4706 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -733,7 +824,8 @@
     "authors": "Huang RL, Chang CC, Su PH, Chen YC, Liao YP, Wang HC, Yo YT, Chao TK, Huang HC, Lin CY, Chu TY, Lai HC",
     "venue": "PLoS ONE, 7, e41060 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -741,7 +833,8 @@
     "authors": "Tseng CW, Huang HC, Shih AC, Chang YY, Hsu CC, Chang JY, Juan HF, Li WH",
     "venue": "Int. J. Mol. Sci., 13, 6352-69 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -749,7 +842,8 @@
     "authors": "Lin LL, Huang HC, Juan HF",
     "venue": "J. Proteomics, 75, 3081-97 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -757,7 +851,8 @@
     "authors": "Lin CC, Chen YJ, Chen CY, Oyang YJ, Juan HF, Huang HC",
     "venue": "BMC Syst. Biol., 6, 18 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2012,
@@ -765,7 +860,8 @@
     "authors": "Chen PJ, Yeh SH, Liu WH, Lin CC, Huang HC, Chen CL, Chen DS, Chen PJ",
     "venue": "Hepatology, 56, 632-43 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -773,7 +869,8 @@
     "authors": "Hu CW, Chang YL, Chen SJ, Kuo-Huang LL, Liao JC, Huang HC, Juan HF",
     "venue": "PLoS ONE, 6, e28329 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -781,7 +878,8 @@
     "authors": "Huang TC, Chang HY, Chen CY, Wu PY, Lee H, Liao YF, Hsu WM, Huang HC, Juan HF",
     "venue": "FEBS Lett., 585, 3582-6 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -789,7 +887,8 @@
     "authors": "Tsai SR, Huang TC, Liang CM, Chang HY, Chang YT, Huang HC, Juan HF, Lee SC",
     "venue": "Appl. Phys. Lett., 99, 163704 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -797,7 +896,8 @@
     "authors": "Lee CH, Huang HC, Juan HF",
     "venue": "Int. J. Mol. Sci., 12, 5304-5318 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -805,7 +905,8 @@
     "authors": "Tseng CW, Lin CC, Chen CN, Huang HC, Juan HF",
     "venue": "BMC Syst. Biol., 5, 99 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -813,7 +914,8 @@
     "authors": "Tseng CW, Yang JC, Chen CN, Huang HC, Chuang KN, Lin CC, Lai HS, Lee PH, Chang KJ, Juan HF",
     "venue": "Proteomics, 11, 2423-39 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -821,7 +923,8 @@
     "authors": "Chen CY, Chen ST, Fuh CS, Juan HF, Huang HC",
     "venue": "BMC Bioinformatics, 12 (Suppl 1), S41 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2010,
@@ -829,7 +932,8 @@
     "authors": "Lin CC, Hsiang JT, Wu CY, Oyang YJ, Juan HF, Huang HC",
     "venue": "BMC Syst. Biol., 4, 138 (2010)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2010,
@@ -837,7 +941,8 @@
     "authors": "Wu TH, Chang IYF, Chu LCJ, Huang HC, Ng WV",
     "venue": "BMC Bioinformatics, 11 (Suppl 7), S11 (2010)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2011,
@@ -845,7 +950,8 @@
     "authors": "Hsu JW, Huang HC, Lee TY, Chen ST, Wong CH, Juan HF",
     "venue": "Evid.-based Complement Altern. Med., 2011, 358711 (2011)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2009,
@@ -853,7 +959,8 @@
     "authors": "Hwang YC, Lin CC, Chang JY, Mori H, Juan HF, Huang HC",
     "venue": "Mol. BioSyst., 5, 1672--1678 (2009)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2009,
@@ -861,7 +968,8 @@
     "authors": "Lin CC, Juan HF, Hsiang JT, Hwang YC, Mori H, Huang HC",
     "venue": "J. Proteome Res., 8, 1925--1931 (2009)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2008,
@@ -869,7 +977,8 @@
     "authors": "Hsu CW, Juan HF, Huang HC",
     "venue": "Proteomics, 8, 1975--1979 (2008)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2008,
@@ -877,7 +986,8 @@
     "authors": "Fang YC, Huang HC, Chen HH, Juan HF",
     "venue": "BMC Complement Altern Med, 8, 58 (2008)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2008,
@@ -885,7 +995,8 @@
     "authors": "Chen, H.-W.$^†$, Huang, H.-C.$^†$, Lin, Y.-S., Chang, K.-J., Kuo, W.-H., Hwa, H.-L., Hsieh, F.-J., Juan, H.-F.",
     "venue": "Breast Cancer: Basic and Clinical Research, 1, 35-49 (2008)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2008,
@@ -893,7 +1004,8 @@
     "authors": "Fang YC, Huang HC, Juan HF",
     "venue": "BMC Bioinformatics, 9, 22 (2008)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2007,
@@ -901,7 +1013,8 @@
     "authors": "Cheng KC$^†$, Huang HC$^†$, Chen JH, Hsu JW, Cheng HC, Ou CH, Yang WB, Chen ST, Wong CH, Juan HF",
     "venue": "BMC Genomics, 8, 411 (2007)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2007,
@@ -909,7 +1022,8 @@
     "authors": "Huang TC, Huang HC, Chang CC, Chang HY, Ou CH, Hsu CH, Chen ST, Juan HF",
     "venue": "FEBS Lett., 581, 3517-22 (2007)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2007,
@@ -917,7 +1031,8 @@
     "authors": "Leu JH†, Chang CC†, Wu JL, Hsu CW, Hirono I, Aoki T, Juan HF, Lo CF, Kou GH, Huang HC",
     "venue": "BMC Genomics, 8, 120 (2007)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2006,
@@ -925,7 +1040,8 @@
     "authors": "Tseng, H.-W. , Juan, H.-F., Huang, H.-C., Chen, C.-F., Chen, S.-T., Wang, G.-J.",
     "venue": "Proteomics, 6, 5915-5928 (2006)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2006,
@@ -933,7 +1049,8 @@
     "authors": "Chen YR, Juan HF, Huang HC, Huang HH, Lee YJ, Lio MY, Tseng CW, Lin LL, Chen JY, Wang MJ, Chen JH, Chen YJ",
     "venue": "J. Proteome Res. 5, 2727-2742 (2006)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2006,
@@ -941,7 +1058,8 @@
     "authors": "M. Arifuzzaman1, M. Maeda, A. Itoh, K. Nishikata, C. Takita, R. Saito, T. Ara, K. Nakahigashi, H.-C. Huang, A. Hirai, K. Tsuzuki, S. Nakamura, M. Altaf-Ul-Amin, T. Oshima, T. Baba, N. Yamamoto, T. Kawamura, T. Ioka-Nakamichi, M. Kitagawa, M. Tomita, S. Kanaya, C. Wada, H. Mori",
     "venue": "Genome Res. 16, 686-91 (2006)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2006,
@@ -949,7 +1067,8 @@
     "authors": "Juan, H.-F., Wang, I-H., Huang, T.-C., Li, J.-J., Chen, S.-T., Huang, H.-C.",
     "venue": "Proteomics, 11, 2991-3000 (2006)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2006,
@@ -957,7 +1076,8 @@
     "authors": "Lee, T.-Y., Horng, J.-T., Juan, H.-F., Huang, H.-D., Wu, L.-C., Lin, F.-M., Huang, H.-C.",
     "venue": "J. Comput. Chem, 27, 1020-32 (2006)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2005,
@@ -965,7 +1085,8 @@
     "authors": "Juan, H.-F., Chang, S.-C., Huang, H.-C., Chen, S.-T.",
     "venue": "Proteomics 5, 840-842 (2005)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -973,7 +1094,8 @@
     "authors": "C.C. Wu, H.C. Huang, H.F. Juan, S.T. Chen",
     "venue": "Bioinformatics 20, 3691-3693 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -981,7 +1103,8 @@
     "authors": "C.Y.~Wu, J.T.~Jan, S.H.~Ma, C.J.~Kuo, H.F.~Juan, Y.S.E.~Cheng, H.H.~Hsu, H.C.~Huang, D.~Wu, A.~Brik, F.S.~Liang, R.S.~Liu, J.M.~Fang, S.T.~Chen, P.H. Liang, C.H.~Wong",
     "venue": "Proc. Natl. Acad. Sci. USA 101, 10012-10017 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -989,7 +1112,8 @@
     "authors": "Chang DT, Chen CY, Chung WC, Oyang YJ, Juan HF, Huang HC",
     "venue": "Nucleic Acids Res. 32, W76-82 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -997,7 +1121,8 @@
     "authors": "Belle Collaboration, H.-C. Huang etal",
     "venue": "PRL 91, 241802 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1005,7 +1130,8 @@
     "authors": "Belle Collaboration, R.-S. Lu etal",
     "venue": "PRL 89, 191801 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2005,
@@ -1013,7 +1139,8 @@
     "authors": "Belle Collaboration, P.~Chang et al.",
     "venue": "Phys. Rev. D 71, 091106 (2005)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1021,7 +1148,8 @@
     "authors": "Belle Collaboration, M.-Z. Wang, etal",
     "venue": "PRL 92, 131801 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1029,7 +1157,8 @@
     "authors": "KEK-E246 Collaboration, V.V.~Anisimovsky etal",
     "venue": "PLB562, 166 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1037,7 +1166,8 @@
     "authors": "Belle Collaboration, A.~Abashian etal",
     "venue": "NIMA479, 117 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1045,7 +1175,8 @@
     "authors": "belle",
     "venue": "PRL 88, 181803 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1053,7 +1184,8 @@
     "authors": "belle",
     "venue": "PRL 88, 052002 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1061,7 +1193,8 @@
     "authors": "belle",
     "venue": "PLB517, 309 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2014,
@@ -1069,7 +1202,8 @@
     "authors": "A.J.~Bevan, etal",
     "venue": "Eur. Phys. J. C 74, 3026 (2014)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1077,7 +1211,8 @@
     "authors": "Belle Collaboration, Y.~Chao, etal",
     "venue": "PRL 93, 191802 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1085,7 +1220,8 @@
     "authors": "Belle Collaboration, C.~Schwanda, etal",
     "venue": "PRL 93, 131803 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1093,7 +1229,8 @@
     "authors": "Belle Collaboration, Y. Enari, etal",
     "venue": "PRL 93, 081803 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1101,7 +1238,8 @@
     "authors": "Belle Collaboration, R.~Chistov etal",
     "venue": "PRL 93, 051803 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1109,7 +1247,8 @@
     "authors": "belle",
     "venue": "PRL 93, 021601 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1117,7 +1256,8 @@
     "authors": "Belle Collaboration, K.~Abe etal",
     "venue": "PRD 69, 112002 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1125,7 +1265,8 @@
     "authors": "Belle Collaboration, Y.~Chao etal",
     "venue": "PRD 69, 111102(R) (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1133,7 +1274,8 @@
     "authors": "belle",
     "venue": "PRL 92, 171802 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1141,7 +1283,8 @@
     "authors": "Belle Collaboration, O. Tajima, etal",
     "venue": "PRL 92, 101803 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1149,7 +1292,8 @@
     "authors": "Belle Collaboration, H. Kakuno, etal",
     "venue": "PRL 92, 101801 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1157,7 +1301,8 @@
     "authors": "Belle Collaboration, A. Drutskoy, etal",
     "venue": "PRL 92, 051801 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1165,7 +1310,8 @@
     "authors": "Belle Collaboration, Y. Mikami, etal",
     "venue": "PRL b 92, 012002 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1173,7 +1319,8 @@
     "authors": "Belle Collaboration, S.L. Zang, etal",
     "venue": "PRD 69, 017101 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1181,7 +1328,8 @@
     "authors": "belle",
     "venue": "Eur. Phys. J. C 32, 323 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2004,
@@ -1189,7 +1337,8 @@
     "authors": "Belle Collaboration, A. Garmash, etal",
     "venue": "PRD 69, 012001 (2004)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1197,7 +1346,8 @@
     "authors": "Belle Collaboration, A. Ishikawa, etal",
     "venue": "PRL 91, 261601 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1205,7 +1355,8 @@
     "authors": "Belle Collaboration, S.-K. Choi, etal",
     "venue": "PRL 91, 262001 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1213,7 +1364,8 @@
     "authors": "Belle Collaboration, S.H. Lee, etal",
     "venue": "PRL 91 261801 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1221,7 +1373,8 @@
     "authors": "Belle Collaboration, M.-C. Chang, etal",
     "venue": "PRD 68, 111101(R) (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1229,7 +1382,8 @@
     "authors": "belle",
     "venue": "PRL 91, 261602 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1237,7 +1391,8 @@
     "authors": "Belle Collaboration, P. Krokovny, etal",
     "venue": "PRL 91, 262002 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1245,7 +1400,8 @@
     "authors": "Belle Collaboration, J. Zhang, etal",
     "venue": "PRL 91, 221801 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1253,7 +1409,8 @@
     "authors": "Belle Collaboration, K.-F. Chen, etal",
     "venue": "PRL 91, 201801 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1261,7 +1418,8 @@
     "authors": "Belle Collaboration, Y. Unno, K. Suzuki, etal",
     "venue": "PRD 68, 011103 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1269,7 +1427,8 @@
     "authors": "Belle Collaboration, S.K. Swain, T.E. Browder, etal",
     "venue": "PRD 68, 051101 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1277,7 +1436,8 @@
     "authors": "Belle Collaboration, M.-Z. Wang, etal",
     "venue": "PRL 90, 201802 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1285,7 +1445,8 @@
     "authors": "belle",
     "venue": "PRD 68, 012001 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1293,7 +1454,8 @@
     "authors": "Belle Collaboration, P. Krokovny etal",
     "venue": "PRL 90, 141802 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1301,7 +1463,8 @@
     "authors": "belle",
     "venue": "PRD 67, 031102(R) (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1309,7 +1472,8 @@
     "authors": "Belle Collaboration, N. C. Hastings etal",
     "venue": "PRD 67, 052004 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1317,7 +1481,8 @@
     "authors": "Belle Collaboration, N. Gabyshev etal",
     "venue": "PRL 90, 121802 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1325,7 +1490,8 @@
     "authors": "Belle Collaboration, Y. Zheng etal",
     "venue": "PRD 67, 092004 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1333,7 +1499,8 @@
     "authors": "belle",
     "venue": "PRD 67, 032003 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1341,7 +1508,8 @@
     "authors": "Belle Collaboration, A. Satpathy etal",
     "venue": "PLB553, 159 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1349,7 +1517,8 @@
     "authors": "Belle Collaboration, K. Inami etal",
     "venue": "PLB55, 16 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1357,7 +1526,8 @@
     "authors": "Belle Collaboration, F. Fang etal",
     "venue": "PRL 90, 071801 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1365,7 +1535,8 @@
     "authors": "Belle Collaboration, J. Kaneko etal",
     "venue": "PRL 90, 021801 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2003,
@@ -1373,7 +1544,8 @@
     "authors": "Belle Collaboration, K. Abe etal",
     "venue": "PRL 90, 131803 (2003)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1381,7 +1553,8 @@
     "authors": "Belle Collaboration, N. Gabyshev etal",
     "venue": "Phys. Rev. D 66, 091102(R) (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1389,7 +1562,8 @@
     "authors": "belle",
     "venue": "PLB547, 181 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1397,7 +1571,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. D 66, 071102(R) (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1405,7 +1580,8 @@
     "authors": "Belle Collaboration, B.C.K. Casey etal",
     "venue": "Phys. Rev. D 66, 092002 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1413,7 +1589,8 @@
     "authors": "Belle Collaboration, P. Krokovny etal",
     "venue": "PRL 89, 231804 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1421,7 +1598,8 @@
     "authors": "Belle Collaboration, K. Hara etal",
     "venue": "PRL 89, 251803 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1429,7 +1607,8 @@
     "authors": "Belle Collaboration, A. Drutskoy etal",
     "venue": "PLB542, 171 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1437,7 +1616,8 @@
     "authors": "Belle Collaboration, K.-F. Chen etal",
     "venue": "PLB546, 196 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1445,7 +1625,8 @@
     "authors": "belle",
     "venue": "PLB542, 207 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1453,7 +1634,8 @@
     "authors": "Belle Collaboration, A. Gordon etal",
     "venue": "PLB542, 183 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1461,7 +1643,8 @@
     "authors": "belle",
     "venue": "PRL 89, 122001 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1469,7 +1652,8 @@
     "authors": "Belle Collaboration, S.-K. Choi etal",
     "venue": "PRL 89, 102001 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1477,7 +1661,8 @@
     "authors": "belle",
     "venue": "PRL 89, 142001 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1485,7 +1670,8 @@
     "authors": "belle",
     "venue": "PLB540, 33 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1493,7 +1679,8 @@
     "authors": "belle",
     "venue": "PRL 89, 151802 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1501,7 +1688,8 @@
     "authors": "belle",
     "venue": "PRL 89, 231801 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1509,7 +1697,8 @@
     "authors": "belle",
     "venue": "PLB538, 11 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1517,7 +1706,8 @@
     "authors": "belle",
     "venue": "PRL 89, 071801 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1525,7 +1715,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. D 65, 091103(R) (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1533,7 +1724,8 @@
     "authors": "belle",
     "venue": "PRL 89, 011803 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1541,7 +1733,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. D 66, 032007 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1549,7 +1742,8 @@
     "authors": "belle",
     "venue": "PRL 88, 171801 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1557,7 +1751,8 @@
     "authors": "Belle Collaboration, A. Garmash etal",
     "venue": "Phys. Rev. D 65, 092005 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1565,7 +1760,8 @@
     "authors": "belle",
     "venue": "PLB526, 258 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1573,7 +1769,8 @@
     "authors": "belle",
     "venue": "PLB526, 247 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1581,7 +1778,8 @@
     "authors": "belle",
     "venue": "PRL 88, 162001 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1589,7 +1787,8 @@
     "authors": "belle",
     "venue": "PRL 88, 031802 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1597,7 +1796,8 @@
     "authors": "belle",
     "venue": "PRL 88, 052001 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1605,7 +1805,8 @@
     "authors": "belle",
     "venue": "PRL 88, 021801 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1613,7 +1814,8 @@
     "authors": "belle",
     "venue": "PLB524, 33 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1621,7 +1823,8 @@
     "authors": "belle",
     "venue": "PRL 87, 161601 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1629,7 +1832,8 @@
     "authors": "belle",
     "venue": "PRL 87, 091802 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1637,7 +1841,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. D 64, 071101(R) (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1645,7 +1850,8 @@
     "authors": "KEK-E246 Collaboration, K.~Horie etal",
     "venue": "PLB 513, 311 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1653,7 +1859,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. Lett. 87, 111801 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1661,7 +1868,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. Lett. 87, 101801 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1669,7 +1877,8 @@
     "authors": "belle",
     "venue": "Phys. Lett. B 511, 151 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1677,7 +1886,8 @@
     "authors": "belle",
     "venue": "Phys. Rev. D 64, 072001 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1685,7 +1895,8 @@
     "authors": "Belle Collaboration, A.~Abashian etal",
     "venue": "Phys. Rev. Lett. 86, 2509 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1693,7 +1904,8 @@
     "authors": "Belle Collaboration, K.~Abe, etal",
     "venue": "Phys. Rev. Lett. 86, 3228 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2002,
@@ -1701,7 +1913,8 @@
     "authors": "KEK-E246 Collaboration, A.~S.~Levchenko etal",
     "venue": "Phys. Atom. Nuclei, 65, 2232-2237 (2002)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2001,
@@ -1709,7 +1922,8 @@
     "authors": "KEK-E246 Collaboration, K.~Horie etal",
     "venue": "PLB513, 311 (2001)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2000,
@@ -1717,7 +1931,8 @@
     "authors": "KEK-E246 Collaboration, S.~Shimizu etal",
     "venue": "Phys. Lett. B 495, 33 (2000)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2000,
@@ -1725,7 +1940,8 @@
     "authors": "KEK-E246 Collaboration, Y.~H.~Shin etal",
     "venue": "Eur. Phys. J. C12, 627 (2000)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2000,
@@ -1733,7 +1949,8 @@
     "authors": "KEK-E246 Collaboration, S.~Shimizu etal",
     "venue": "Phys. Lett. B495, 33 (2000)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2000,
@@ -1741,7 +1958,8 @@
     "authors": "R.~Akhmetshin, etal",
     "venue": "NIM A455, 324 (2000)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2000,
@@ -1749,7 +1967,8 @@
     "authors": "M.Z.~Wang, H.C.~Huang, etal",
     "venue": "NIM A455, 319 (2000)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1999,
@@ -1757,7 +1976,8 @@
     "authors": "KEK-E246 Collaboration, M.~Abe etal",
     "venue": "Phys. Rev. Lett. 83, 4253 (1999)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1999,
@@ -1765,7 +1985,8 @@
     "authors": "K.~C.~Peng et al.",
     "venue": "NIM A427, 524 (1999)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1997,
@@ -1773,7 +1994,8 @@
     "authors": "S.~K.~Sahu etal",
     "venue": "NIM A388, 144 (1997)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1997,
@@ -1781,7 +2003,8 @@
     "authors": "H.C.~Huang, K.C.~Peng, S.K.~Sahu, K.~Ueno, Y.H.~Chang, C.H.~Wang, W.S.~Hou",
     "venue": "NIM A385, 559 (1997)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1997,
@@ -1789,7 +2012,8 @@
     "authors": "K.~C.~Peng etal",
     "venue": "NIM A384, 544 (1997)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1996,
@@ -1797,7 +2021,8 @@
     "authors": "T.~Iijima etal",
     "venue": "NIM A379, 457 (1996)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1995,
@@ -1805,7 +2030,8 @@
     "authors": "W.S.~Hou and hch",
     "venue": "Phys. Rev. D 51, 5285 (1995)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1995,
@@ -1813,7 +2039,8 @@
     "authors": "Chiou SH, Hung CC, Huang HC, Chen ST, Wang KT, Yang CC",
     "venue": "Biochem. Biophys. Res. Commun. 206, 22 (1995)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1995,
@@ -1821,7 +2048,8 @@
     "authors": "Chiou SH, Chuang MH, Hung CC, Huang HC, Chen ST, Wang KT, Ho CL",
     "venue": "Biochem. Mol. Biol. Int. 35, 1103 (1995)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1993,
@@ -1829,7 +2057,8 @@
     "authors": "Chen ST, Chen SY, Chen HJ, Huang HC, Wang KT",
     "venue": "Bioorg. Med. Chem. Lett. 3, 727-733 (1993)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 1993,
@@ -1837,38 +2066,43 @@
     "authors": "Chen ST, Tu CC, Chen SY, Huang HC, Wang KT",
     "venue": "Bioorg. Med. Chem. 1, 361-367 (1993)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "journal"
   },
   {
     "year": 2018,
-    "title": "Juan HF & Huang HC (ed.)",
-    "authors": "A Practical Guide to Cancer Systems Biology",
+    "title": "A Practical Guide to Cancer Systems Biology",
+    "authors": "Juan HF & Huang HC (ed.)",
     "venue": "World Scientific Publishing, ISBN: 9813229144 (2018)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "book"
   },
   {
     "year": 2012,
-    "title": "Juan HF & Huang HC (ed.)",
-    "authors": "Systems Biology: Applications in Cancer-related Research",
+    "title": "Systems Biology: Applications in Cancer-related Research",
+    "authors": "Juan HF & Huang HC (ed.)",
     "venue": "World Scientific Publishing, ISBN: 9814324450 (2012)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "book"
   },
   {
     "year": 2008,
-    "title": "Baba T, Huang HC, Datsenko K, Wanner BL, Mori H",
-    "authors": "The Applications of Systematic In-Frame, Single-Gene Knockout Mutant Collection of Escherichia coli K-12 (Chapter 12)",
+    "title": "The Applications of Systematic In-Frame, Single-Gene Knockout Mutant Collection of Escherichia coli K-12 (Chapter 12)",
+    "authors": "Baba T, Huang HC, Datsenko K, Wanner BL, Mori H",
     "venue": "in Microbial Gene Essentiality --- Protocols and Bioinformatics, ed. Osterman, Andrei L. & Gerdes, Svetlana, Humana Press, pp.~183-194, ISBN: 978-1-58829-378-7 (2008)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "book"
   },
   {
     "year": 2007,
-    "title": "Juan HF & Huang HC",
-    "authors": "Bioinformatics: Microarray Data Clustering and Functional Classification (Chapter 25)",
+    "title": "Bioinformatics: Microarray Data Clustering and Functional Classification (Chapter 25)",
+    "authors": "Juan HF & Huang HC",
     "venue": "in Microarrays (2nd ed.): Volume 2, Applications and Data Analysis, ed. Rampal, Jang B., Humana Press, pp.~405-416, ISBN: 978-1-58829-944-4 (2007)",
     "doi": "",
-    "note": ""
+    "note": "",
+    "type": "book"
   }
 ]

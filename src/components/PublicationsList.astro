@@ -1,32 +1,46 @@
 ---
 import pubs from "../content/publications.json";
 
-// Use pubs directly to preserve order
-const sortedPubs = [...pubs];
+// Separate journals and books
+const journals = [];
+const books = [];
 
-// Group by year preserving order (linear scan)
-const yearGroups = [];
-let currentGroup = null;
-
-sortedPubs.forEach((p) => {
-  const y = String(p.year);
-  if (!currentGroup || currentGroup.year !== y) {
-    currentGroup = { year: y, list: [] };
-    yearGroups.push(currentGroup);
+pubs.forEach((p) => {
+  if (p.type === 'book') {
+    books.push(p);
+  } else {
+    journals.push(p);
   }
-  currentGroup.list.push(p);
 });
 
-// Calculate continuous numbering
-let globalCount = 1;
-yearGroups.forEach((g) => {
-  g.start = globalCount;
-  globalCount += g.list.length;
-});
+function groupPubs(list) {
+  const groups = [];
+  let currentGroup = null;
+  list.forEach((p) => {
+    const y = String(p.year);
+    if (!currentGroup || currentGroup.year !== y) {
+      currentGroup = { year: y, list: [] };
+      groups.push(currentGroup);
+    }
+    currentGroup.list.push(p);
+  });
+  
+  let count = 1;
+  groups.forEach((g) => {
+    g.start = count;
+    count += g.list.length;
+  });
+  
+  return groups;
+}
+
+const journalGroups = groupPubs(journals);
+const bookGroups = groupPubs(books);
 ---
 
 <section style="margin-bottom: 2.5rem;">
-  {yearGroups.map(({ year, list, start }) => (
+  <h1 style="font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Journal Papers</h1>
+  {journalGroups.map(({ year, list, start }) => (
     <div style="margin-bottom: 1.5rem;">
       <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem;">{year}</h2>
       <ol start={start} style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
@@ -35,11 +49,37 @@ yearGroups.forEach((g) => {
             <span>{p.authors}. </span>
             <span style="font-weight: 600;">{p.title}. </span>
             <span>{p.venue}.</span>
-
+            {p.doi && (
+              <span>
+                {" "}
+                <a href={p.doi} target="_blank" rel="noopener noreferrer">DOI</a>
+              </span>
+            )}
             {p.note && <span> ({p.note})</span>}
           </li>
         ))}
       </ol>
     </div>
   ))}
+
+  {bookGroups.length > 0 && (
+    <>
+      <h1 style="font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem;">Books & Chapters</h1>
+      {bookGroups.map(({ year, list, start }) => (
+        <div style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.3rem; margin-bottom: 0.5rem;">{year}</h2>
+          <ol start={start} style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem;">
+            {list.map((p) => (
+              <li style="margin-bottom: 0.4rem;">
+                <span>{p.authors}. </span>
+                <span style="font-weight: 600;">{p.title}. </span>
+                <span>{p.venue}.</span>
+                {p.note && <span> ({p.note})</span>}
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </>
+  )}
 </section>

@@ -1,20 +1,31 @@
 ---
 import news from "../content/news.json";
+
+const { limit } = Astro.props;
 const sorted = [...news].sort((a, b) => (a.date < b.date ? 1 : -1));
+const displayNews = limit ? sorted.slice(0, limit) : sorted;
 ---
 
 <section id="news" style="margin-bottom: 2.5rem;">
-  <h2 style="font-size: 1.5rem; margin-bottom: 0.75rem;">News & Topics</h2>
+  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.75rem;">
+    <h2 style="font-size: 1.5rem; margin: 0;">News & Topics</h2>
+    {limit && (
+      <a href="/lab/news" style="font-size: 0.9rem; color: #2563eb; font-weight: 500;">
+        View All →
+      </a>
+    )}
+  </div>
+  
   <div style="border-top: 1px solid #e5e7eb;">
-    {sorted.map((item) => (
+    {displayNews.map((item) => (
       <article style="padding: 0.9rem 0; border-bottom: 1px solid #e5e7eb;">
         <div style="font-size: 0.85rem; color: #6b7280;">{item.date}</div>
         {item.link ? (
-          <a href={item.link} style="font-weight: 600; display: inline-block; margin-top: 0.15rem;">
+          <a href={item.link} style="font-weight: 600; display: inline-block; margin-top: 0.15rem; color: #1f2937; text-decoration: none;">
             {item.title}
           </a>
         ) : (
-          <div style="font-weight: 600; margin-top: 0.15rem;">{item.title}</div>
+          <div style="font-weight: 600; margin-top: 0.15rem; color: #1f2937;">{item.title}</div>
         )}
         {item.summary && (
           <p style="margin: 0.3rem 0 0; font-size: 0.9rem; color: #4b5563;">

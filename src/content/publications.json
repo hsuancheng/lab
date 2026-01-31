@@ -1,345 +1,2001 @@
 [
   {
-    "year": 0,
-    "authors": "Tseng CW, Yang JC, Chen CN*, Huang HC, Chuang KN, ...",
-    "title": "Identification of 14-3-3β in human gastric cancer cells and its potency as a diagnostic and prognostic biomarker.",
-    "venue": "Journal",
+    "year": 2025,
+    "title": "Mass spectrometry-based human spatial omics: fundamentals, innovations, and applications",
+    "authors": "Yang CC, LinCY, Yuan HY, Huang HC, Juan HF",
+    "venue": "J. Biomed. Sci., accepted",
+    "doi": "",
+    "note": "IF: 12.1"
+  },
+  {
+    "year": 2025,
+    "title": "Reactive oxygen species driven immune inflammation in systemic sclerosis: mechanisms and emerging therapeutics",
+    "authors": "Lee SC, Yu KH, Huang HC, Juan HF",
+    "venue": "Drug Discovery Today, accepted",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2025,
+    "title": "Quantitative proteomics unveils the synergistic effects of combination drugs on cytoskeleton composition and autophagy-mediated cell death in neuroblastoma",
+    "authors": "Yu PC, Kao YC, Chang HY, Huang CH, Hsu WM, Huang HC, Juan HF",
+    "venue": "J. Proteome. Res., 24, 3578−3596 (2025)",
+    "doi": "10.1021/acs.jproteome.5c00191.",
+    "note": ""
+  },
+  {
+    "year": 2025,
+    "title": "DHODH blockade induces ferroptosis in neuroblastoma by modulating the mevalonate pathway",
+    "authors": "Shih JC, Chen PY, Kuo CH, Hsieh CH, Chang HY, Lee HC, Huang CH, Hsu CH, Hsu WM, Huang HC, Juan HF",
+    "venue": "Mol. Cell. Proteomics, 101014 (2025)",
+    "doi": "10.1016/j.mcpro.2025.101014.",
+    "note": ""
+  },
+  {
+    "year": 2025,
+    "title": "Single-cell and multi-omics integration reveals cholesterol biosynthesis as a synergistic target with HER2 in aggressive breast cancer",
+    "authors": "Tseng TY, Hsieh CH, Liu JY, Huang HC, Juan HF",
+    "venue": "Comput. Struct. Biotechnol. J., 27, 1719-1731 (2025)",
+    "doi": "10.1016/j.csbj.2025.04.030.",
+    "note": ""
+  },
+  {
+    "year": 2025,
+    "title": "Transcriptionally distinct malignant neuroblastoma populations show selective response to adavosertib treatment",
+    "authors": "Hsieh CH, Chen YX, Tseng TY, Li A, Huang HC, Juan HF",
+    "venue": "Neurotherapeutics, 22, e00575 (2025)",
+    "doi": "10.1016/j.neurot.2025.e00575.",
+    "note": ""
+  },
+  {
+    "year": 2025,
+    "title": "HEDDI-Net: heterogeneous network embedding for drug-disease association prediction and drug repurposing, with application to Alzheimer's disease",
+    "authors": "Su YY, Huang HC, Lin YT, Chuang YF, Sheu SY, Lin CC",
+    "venue": "J. Transl. Med., 23, 57 (2025)",
+    "doi": "10.1186/s12967-024-05938-6.",
+    "note": "IF: 7.5"
+  },
+  {
+    "year": 2024,
+    "title": "scDrug+: predicting drug-responses using single-cell transcriptomics and molecular structure",
+    "authors": "Sun YY, Hsieh CY, Wen JH, Tseng TY, Huang JH, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Biomed. Pharmacother. 177, 117070 (2024)",
+    "doi": "",
+    "note": "IF: 7.5"
+  },
+  {
+    "year": 2024,
+    "title": "Macrophages as determinants and regulators of systemic sclerosis-related interstitial lung disease",
+    "authors": "Lee SC, Huang CH, Oyang YJ, Huang HC, Juan HF",
+    "venue": "J. Transl Med. 22, 600 (2024)",
+    "doi": "",
+    "note": "IF: 7.5"
+  },
+  {
+    "year": 2024,
+    "title": "Multiomics reveals induction of neuroblastoma SK-N-BE(2)C cell death by mitochondrial division inhibitor 1 through multiple effects",
+    "authors": "Wang WH, Kao YC, Hsieh CH, Tsai SY, Cheung CHY, Huang HC, Juan HF",
+    "venue": "J. Proteome Res., 23, 301-315 (2024)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "Homoharringtonine as a PHGDH inhibitor: Unraveling metabolic dependencies and developing a potent therapeutic strategy for high-risk neuroblastoma",
+    "authors": "Hsieh CH, Huang CT, Cheng YS, Hsu CH, Hsu WM, Chung YH, Liu YL, Yang TS, Chien CY, Lee YH, Huang HC, Juan HF",
+    "venue": "Biomed. Pharmacother. 166, 115429 (2023)",
+    "doi": "",
+    "note": "IF: 7.5"
+  },
+  {
+    "year": 2023,
+    "title": "IFF: Identifying key residues in intrinsically disordered regions of proteins using machine learning",
+    "authors": "Ho WL, Huang HC, Huang JR",
+    "venue": "Protein Sci. 32, e4739 (2023)",
+    "doi": "10.1002/pro.4739.",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "Ensemble learning model for identifying the hallmark genes of NFκB/TNF signaling pathway in cancers",
+    "authors": "Su YY, Liu YL, Huang HC, Lin CC.",
+    "venue": "J. Transl Med. 21, 485 (2023)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "Ectopic ATP synthase stimulates the secretion of extracellular vesicles in cancer cells",
+    "authors": "Kao YC, Chang YW, Lai CP, Chang NW, Huang CH, Chen CS, Huang HC, Juan HF",
+    "venue": "Commun. Biol. 6, 642 (2023)",
+    "doi": "",
+    "note": "IF: 5.2"
+  },
+  {
+    "year": 2023,
+    "title": "Spatial and temporal dynamics of ATP synthase from mitochondria toward the cell surface",
+    "authors": "Chang YW, Tony Yang T, Chen MC, Liaw YG, Yin CF, Lin-Yan XQ, Huang TY, Hou JT, Hung YH, Hsu CL, Huang HC, Juan HF",
+    "venue": "Commun. Biol. 6, 427 (2023)",
+    "doi": "",
+    "note": "IF: 5.2"
+  },
+  {
+    "year": 2023,
+    "title": "Context-dependent gene regulatory network reveals regulation dynamics and cell trajectories using unspliced transcripts",
+    "authors": "Tu YH, Juan HF, Huang HC",
+    "venue": "Brief. Bioinform., 24, bbac633 (2023)",
+    "doi": "",
+    "note": "IF: 7.7"
+  },
+  {
+    "year": 2023,
+    "title": "Quantitative analysis of high‐throughput biological data",
+    "authors": "Juan HF, Huang HC",
+    "venue": "WIREs Comput. Mol. Sci., 13, e1658 (2023)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "SeqCP: A sequence-based algorithm for searching circularly permuted proteins",
+    "authors": "Chen CC, Huang YW, Huang HC, Lo WC, Lyu PC",
+    "venue": "Comput. Struct. Biotechnol. J., 21, 185-201 (2023)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "scDrug: From single-cell RNA-seq to drug response prediction",
+    "authors": "Hsieh CY, Wen JH, Lin SM, Tseng TY, Huang JH Huang HC, Juan HF",
+    "venue": "Comput. Struct. Biotechnol. J., 21, 150-157 (2023)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2023,
+    "title": "BIC: a database for the transcriptional landscape of bacteria in cancer",
+    "authors": "Chen KP, Hsu CL, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Nucleic Acids Res., 51, D1205-D1211 (2023)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Thymic macrophages consist of two populations with distinct localization and origin",
+    "authors": "Zhou TA, Hsu HP, Tu YH, Cheng HK, Lin CY, Chen NJ, Tsai JW, Robey EA, Huang HC, Hsu CL, Dzhagalov IL",
+    "venue": "eLife, 11, e75148 (2022)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "LncRNA SNHG1 regulates neuroblastoma cell fate via interactions with HDAC1/2",
+    "authors": "Hsu CL, Yin CF, Chang YW, Fan YC, Lin SH, Wu YC, Huang HC, Juan HF",
+    "venue": "Cell Death & Disease, 13, 809 (2022)",
+    "doi": "",
+    "note": "IF: 9.6"
+  },
+  {
+    "year": 2022,
+    "title": "A single-cell network-based drug repositioning strategy for post-COVID-19 pulmonary fibrosis",
+    "authors": "Li A, Chen JY, Hsu CL, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Pharmaceutics, 14, 971 (2022)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Quantitative phosphoproteomics reveals ectopic ATP synthase on mesenchymal stem cells to promote tumor progression via ERK/c-Fos pathway activation",
+    "authors": "Chang YW, Wang CC, Yin CF, Wu CH, Huang HC, Juan HF",
+    "venue": "Mol. Cell. Proteomics., 21, 100237 (2022)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Stratification of lncRNA modulation networks in breast cancer",
+    "authors": "Yu WH, Hsu CL, Lin CC, Oyang YJ, Juan HF, Huang HC",
+    "venue": "BMC Medical Genomics, 14(Suppl 3), 300 (2022)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Targeting protein interaction networks in mitochondria dynamics for cancer therapy",
+    "authors": "Yin CF, Chang YW, Huang HC, Juan HF",
+    "venue": "Drug Discovery Today, 27, 1077-1087 (2022)",
+    "doi": "10.1016/j.drudis.2021.11.006",
+    "note": "IF: 7.5"
+  },
+  {
+    "year": 2022,
+    "title": "Phylotranscriptomic patterns of network stochasticity and pathway dynamics during embryogenesis",
+    "authors": "Ko KY, Chen CY, HF Juan, HC Huang",
+    "venue": "Bioinformatics, 38, 763–769 (2022)",
+    "doi": "10.1093/bioinformatics/btab735",
+    "note": "IF: 7.1"
+  },
+  {
+    "year": 2022,
+    "title": "Single-cell RNA sequencing uncovers the individual alteration of intestinal mucosal immunocytes in Dusp6 knockout mice",
+    "authors": "Chang CS, Yu WH, Su CC, Ruan JW, Lin CM, Huang CT, Tsai YT, Lin IJ, Lai CY, Chuang TH, Lin WJ, Tan TH, Huang HC, Juan HF, Kao CY",
+    "venue": "iScience, 25, 103738 (2022)",
+    "doi": "10.1016/j.isci.2022.103738.",
+    "note": ""
+  },
+  {
+    "year": 2022,
+    "title": "Drug Repurposing for the Identification of Compounds with Anti-SARS-CoV-2 Capability via Multiple Targets",
+    "authors": "Yu PC, Huang CH, Kuo CJ, Liang PH, Wang LH, Pan MY, Chang SY, Chao TL, Ieong SM, Fang JT, Huang HC, Juan HF",
+    "venue": "Pharmaceutics, 14, 176 (2022)",
+    "doi": "10.3390/pharmaceutics14010176",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "BI-2536 Promotes Neuroblastoma Cell Death via Minichromosome Maintenance Complex Components 2 and 10",
+    "authors": "Hsieh CH, Yeh HN, Huang CT, Wang WH, Hsu WM, Huang HC, Juan HF",
+    "venue": "Pharmaceuticals, 15, 37 (2021)",
+    "doi": "10.3390/ph15010037",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "Modular signature of long non-coding RNA association networks as a prognostic biomarker in lung cancer",
+    "authors": "Li A, Yu WH, Hsu CL, Huang HC, Juan HF",
+    "venue": "BMC Medical Genomics, 14(Suppl 3), 290 (2021)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "Identification of a gut microbiota member that ameliorates DSS-induced colitis in intestinal barrier enhanced Dusp6-deficient mice",
+    "authors": "Chang CS, Liao YC, Huang CT, Lin CM, Cheung CHY, Ruan JW, Yu WH, Tsai YT, Lin IJ, Huang CH, Liou JS, Chou YH, Chien HJ, Chuang HL, Juan HF, Huang HC, Chan HL, Liao YC, Tang SC, Su YW, Tan TH, Bäumler AJ, Kao CY",
+    "venue": "Cell Reports, 37, 110016 (2021)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "Identification of cell states using super-enhancer RNA",
+    "authors": "Tu YH, Juan HF, Huang HC",
+    "venue": "BMC Genomics, 22, 787 (2021)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "LncTx: A network-based method to repurpose drugs acting on the survival-related lncRNAs in lung cancer",
+    "authors": "Li A, Huang HT, Huang HC, Juan HF",
+    "venue": "Comput. Struct. Biotechnol. J., 19, 3990–4002 (2021)",
+    "doi": "10.1016/j.csbj.2021.07.007",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "Proteomic analysis reveals metformin suppresses PSMD2, STIP1 and CAP1 for anti-gastric cancer AGS cell proliferation and migration",
+    "authors": "Wang WH, Chen SK, Huang HC, Juan HF",
+    "venue": "ACS Omega, 6, 14208-14219 (2021)",
+    "doi": "10.1021/acsomega.1c00894.",
+    "note": ""
+  },
+  {
+    "year": 2021,
+    "title": "DockCoV2: a drug database against SARS-CoV-2",
+    "authors": "Chen TF, Chang YC, Hsiao Y, Lee KH, Hsiao YC, Lin YH, Tu YE, Huang HC, Chen CY, Juan HF",
+    "venue": "Nucleic Acids Res., 49, D1152-D1159 (2021)",
+    "doi": "10.1093/nar/gkaa861.",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "Enhancement of the IFN-β-induced host signature informs repurposed drugs for COVID-19",
+    "authors": "Huang CT, Chao TL, Kao HC, Pang YH, Lee WH, Hsieh CH, Chang SY, Huang HC, Juan HF",
+    "venue": "Heliyon, 6, e05646 (2020)",
+    "doi": "10.1016/j.heliyon.2020.e05646",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "Multiomics reveals ectopic ATP synthase blockade induces cancer cell death via a lncRNA-mediated phospho-signaling network",
+    "authors": "Chang YW, Hsu CL, Tang CW, Chen XJ, Huang HC, Juan HF",
+    "venue": "Mol. Cell. Proteomics., 19, 1805-1825 (2020)",
+    "doi": "10.1074/mcp.RA120.002219.",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "ZNF322A-mediated protein phosphorylation induces autophagosome formation through modulation of IRS1-AKT glucose uptake and HSP-elicited UPR in lung cancer",
+    "authors": "Cheung CHY, Hsu CL, Lin TY, Chen WT, Wang YC, Huang HC, Juan HF",
+    "venue": "J. Biomed. Sci., 27, 75 (2020)",
+    "doi": "10.1186/s12929-020-00668-5.",
+    "note": "IF: 12.1"
+  },
+  {
+    "year": 2020,
+    "title": "Quantitative phosphoproteomics reveals cell alignment and mitochondrial length change under cyclic stretching in lung cells",
+    "authors": "Wang WH, Hsu CL, Huang HC, Juan HF",
+    "venue": "Int. J. Mol. Sci., 21, 4074 (2020)",
+    "doi": "10.3390/ijms21114074.",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "Phosphoproteome analysis reveals dynamic heat shock protein 27 phosphorylation in tanshinone IIA-induced cell death",
+    "authors": "Yin CF, Kao SC, Hsu CL, Chang YW, Cheung CHY, Huang HC, Juan HF",
+    "venue": "J. Proteome Res., 19, 1620-1634 (2020)",
+    "doi": "10.1021/acs.jproteome.9b00836",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "Complement C1q mediates the expansion of periportal hepatic progenitor cells in senescence-associated inflammatory liver",
+    "authors": "Ho TC, Wang EY, Yeh KH, Jeng YM, Horng JH, Wu LL, Chen YT, Huang HC, Hsu CL, Chen PJ, Yeh SH, Chen DS",
+    "venue": "Proc. Natl. Acad. Sci. USA, 117, 6717-6725 (2020)",
+    "doi": "10.1073/pnas.1918028117",
+    "note": ""
+  },
+  {
+    "year": 2020,
+    "title": "Characterizing the cancer-associated microbiome with small RNA sequencing data",
+    "authors": "Lee WH, Chen KP, Wang K, Huang HC, Juan HF",
+    "venue": "Biochem. Biophys. Res. Commun., 522, 776-782 (2020)",
+    "doi": "10.1016/j.bbrc.2019.11.166",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Investigating the role of super-enhancer RNAs underlying embryonic stem cell differentiation",
+    "authors": "Chang HC$^dagger$, Huang HC$^dagger$, Juan HF, Hsu CL",
+    "venue": "BMC Genomics, 20(Suppl 10), 896 (2019)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Combinatorial targeting of MTHFD2 and PAICS in purine synthesis as a novel therapeutic strategy",
+    "authors": "Cheung CHY, Hsu CL, Tsuei CY, Kuo TT, Huang CT, Hsu WM, Chung YH, Wu HY, Hsu CC, Huang HC, Juan HF",
+    "venue": "Cell Death Dis., 10, 786 (2019)",
+    "doi": "",
+    "note": "IF: 9.6"
+  },
+  {
+    "year": 2019,
+    "title": "Quantitative proteomics of Th-MYCN transgenic mice reveals Aurora kinase inhibitor altered metabolic pathways and enhanced ACADM to suppress neuroblastoma progression",
+    "authors": "Hsieh CH, Cheung CHY, Liu YL, Hou CL, Hsu CL, Huang CT, Yang TS, Chen SF, Chen CN, Hsu WM, Huang HC, Juan HF",
+    "venue": "J. Proteome Res., 18, 3850-3866 (2019)",
+    "doi": "10.1021/acs.jproteome.9b00245",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Perturbational gene-expression signatures for combinatorial drug discovery",
+    "authors": "Huang CT, Hsieh CH, Chung YH, Oyang YJ, Huang HC, Juan HF",
+    "venue": "iScience, 15, 291-306 (2019)",
+    "doi": "10.1016/j.isci.2019.04.039",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Therapeutic targeting of non-oncogene dependencies in high-risk neuroblastoma",
+    "authors": "Huang CT, Hsieh CH, Lee WC, Liu YL, Yang TS, Hsu WM, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Clin. Cancer Res., 25, 4063-4078 (2019)",
+    "doi": "10.1158/1078-0432.CCR-18-4117",
+    "note": "IF: 10.2"
+  },
+  {
+    "year": 2019,
+    "title": "Identification and characterization of the lncRNA signature associated with overall survival in patients with neuroblastoma",
+    "authors": "Sathipati SY, Sahu D, Huang HC, Lin Y, Ho SY",
+    "venue": "Sci. Rep., 9, 5125 (2019)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "RNA-binding proteomics reveals MATR3 interacting with lncRNA SNHG1 to enhance neuroblastoma progression",
+    "authors": "Yang TW, Sahu D, Chang YW, Hsu CL, Hsieh CH, Huang HC, Juan HF",
+    "venue": "J. Proteome Res.,18, 406-416 (2019)",
+    "doi": "10.1021/acs.jproteome.8b00693",
+    "note": ""
+  },
+  {
+    "year": 2019,
+    "title": "Regulatory feedback loops bridge the human gene regulatory network and regulate carcinogenesis",
+    "authors": "Chen YR, Huang HC, Lin CC",
+    "venue": "Brief. Bioinform., 20, 976–984 (2019)",
+    "doi": "10.1093/bib/bbx166",
+    "note": ""
+  },
+  {
+    "year": 2018,
+    "title": "A large-scale gene expression intensity-based similarity metric for drug repositioning",
+    "authors": "Huang CT, Hsieh CH, Oyang YJ, Huang HC, Juan HF",
+    "venue": "iScience, 7, 40-52 (2018)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2018,
+    "title": "Dynamics of alternative polyadenylation in human preimplantation embryos",
+    "authors": "Chang JY, Yu WH, Juan HF, Huang HC",
+    "venue": "Biochem. Biophys. Res. Commun., 504, 727-733 (2018)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2018,
+    "title": "High-risk, expression-based prognostic long noncoding RNA signature in neuroblastoma",
+    "authors": "Sahu D, Ho SY, Juan HF, Huang HC",
+    "venue": "JNCI Cancer Spectrum, 2, pky015 (2018)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2018,
+    "title": "Juan HF & Huang HC (ed.)",
+    "authors": "A Practical Guide to Cancer Systems Biology",
+    "venue": "World Scientific Publishing, ISBN: 9813229144 (2018)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2017,
+    "title": "MCM2-regulated functional networks in lung cancer by multi-dimensional proteomic approach",
+    "authors": "Cheung CHY, Hsu CL, Chen KP, Chong ST, Wu CH, Huang HC, Juan HF",
+    "venue": "Sci. Rep., 7, 13302 (2017)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2017,
+    "title": "DynaPho: a web platform for inferring the dynamics of time-series phosphoproteomics",
+    "authors": "Hsu CL, Wang JK, Lu PC, Huang HC, Juan HF",
+    "venue": "Bioinformatics, 33, 3664-3666 (2017)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2017,
+    "title": "Bacterial composition and diversity in breast milk samples from mothers living in Taiwan and Mainland China",
+    "authors": "Li SW, Watanabe K, Hsu CC, Chao SH, Yang ZH, Lin YJ, Chen CC, Cao YM, Huang HC, Chang CH, Tsai YC",
+    "venue": "Front. Microbiol., 8, 965 (2017)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2016,
+    "title": "Identification of lncRNA functions in lung cancer based on associated protein-protein interaction modules",
+    "authors": "Wu CH, Hsu CL, Lu PC, Lin WC, Juan HF, Huang HC",
+    "venue": "Sci. Rep., 6, 35939 (2016)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2016,
+    "title": "Co-expression analysis identifies long noncoding RNA SNHG1 as a novel predictor for event-free survival in neuroblastoma",
+    "authors": "Sahu D, Hsu CL, Lin CC, Yang TW, Hsu WM, Ho SY, Juan HF, Huang HC",
+    "venue": "Oncotarget, 7, 58022-58037 (2016)",
+    "doi": "10.18632/oncotarget.11158",
+    "note": ""
+  },
+  {
+    "year": 2016,
+    "title": "Unveiling MYCN regulatory networks in neuroblastoma via integrative analysis of heterogeneous genomics data",
+    "authors": "Hsu CL, Chang HY, Chang JY, Hsu WM, Huang HC, Juan HF",
+    "venue": "Oncotarget, 7, 36293-36310 (2016)",
+    "doi": "10.18632/oncotarget.9202",
+    "note": ""
+  },
+  {
+    "year": 2016,
+    "title": "The core of hepatitis C virus pathogenesis",
+    "authors": "Kao CC, Yi G, Huang HC",
+    "venue": "Curr. Opin. Virol., 17, 66-73 (2016)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2016,
+    "title": "Oncoprotein ZNF322A transcriptionally deregulates alpha-adducin, cyclin D1 and p53 to promote tumor growth and metastasis in lung cancer",
+    "authors": "Jen J, Lin LL, Chen HT, Liao SY, Lo FY, Tang YA, Su WC, Salgia R, Hsu CL, Huang HC, Juan HF, Wang YC",
+    "venue": "Oncogene, 35, 2357-69 (2016)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Temporal phosphoproteome dynamics induced by an ATP synthase inhibitor citreoviridin",
+    "authors": "Hu CW, Hsu CL, Wang YC, Ishihama Y, Ku WC, Huang HC, Juan HF",
+    "venue": "Mol. Cell. Proteomics, 14, 3284-98 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Functional analysis and characterization of differential coexpression networks",
+    "authors": "Hsu CL, Juan HF, Huang HC",
+    "venue": "Sci. Rep., 5, 13295 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Integrating phosphoproteomics and bioinformatics to study brassinosteroid-regulated phosphorylation dynamics in Arabidopsis",
+    "authors": "Lin LL, Hsu CL, Hu CW, Ko SY, Hsieh HL, Huang HC, Juan HF",
+    "venue": "BMC Genomics, 16, 533 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Circadian systems biology in metazoa",
+    "authors": "Lin LL, Huang HC, Juan HF",
+    "venue": "Briefings in Bioinformatics, 16, 1008-24 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Integrating transcriptomics and proteomics to show that tanshinone IIA suppresses cell growth by blocking glucose metabolism in gastric cancer cells",
+    "authors": "Lin LL, Hsia CR, Hsu CL, Huang HC, Juan HF",
+    "venue": "BMC Genomics, 16, 41 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2015,
+    "title": "Quantitative proteomics reveals middle infrared radiation-interfered networks in breast cancer cells",
+    "authors": "Chang HY, Li MH, Huang TC, Hsu CL, Tsai SR, Lee SC, Huang HC, Juan HF",
+    "venue": "J. Proteome Res., 14, 1250-62 (2015)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "Combination therapy targeting ectopic ATP synthase and 26S proteasome induces ER stress in breast cancer cells",
+    "authors": "Chang HY, Huang TC, Chen NN, Huang HC, Juan HF",
+    "venue": "Cell Death Dis., 5, e1540 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "Dissecting the human protein-protein interaction network via phylogenetic decomposition",
+    "authors": "Chen CY, Ho A, Huang HY, Juan HF, Huang HC",
+    "venue": "Sci. Rep., 4, 7153 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "MicroRNA-mediated networks underlie immune response regulation in papillary thyroid carcinoma",
+    "authors": "Huang CT, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Sci. Rep., 4, 6495 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "Mirin: Identifying microRNA regulatory modules in protein-protein interaction network",
+    "authors": "Yang KC, Hsu CL, Lin CC, Juan HF, Huang HC",
+    "venue": "Bioinformatics, 30, 2527-8 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "Deciphering molecular determinants of chemotherapy in gastrointestinal malignancy using systems biology approaches",
+    "authors": "Lin LL, Huang HC, Juan HF",
+    "venue": "Drug Discovery Today, 19, 1402-1409 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "Aryl hydrocarbon receptor downregulates MYCN expression and promotes cell differentiation of neuroblastoma",
+    "authors": "Wu PY, Liao YF, Juan HF, Huang HC, Wang BJ, Lu YL, Yu IS, Shih YY, Jeng YM, Hsu WM, Lee H",
+    "venue": "PLoS ONE, 9, e88795 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "title": "The Physics of the B Factories",
+    "authors": "A.J.~Bevan, etal",
+    "venue": "Eur. Phys. J. C 74, 3026 (2014)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Quantitative proteomic analysis of human lung tumor xenografts treated with the ectopic ATP synthase inhibitor citreoviridin",
+    "authors": "Wu YH, Hu CW, Chien CW, Chen YJ, Huang HC, Juan HF",
+    "venue": "PLoS ONE, 8, e70642 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Quantitative Proteomics Reveals Diverse Roles of miR-148a from Gastric Cancer Progression to Neurological Development",
+    "authors": "Hu CW, Tseng CW, Chien CW, Huang HC, Ku WC, Lee SJ, Chen YJ, Juan HF",
+    "venue": "J. Proteome Res., 12, 3993-4004 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Identification of microRNA 395a in 24-epibrassinolide-regulated root growth of Arabidopsis thaliana using microRNA arrays",
+    "authors": "Lin LL, Wu CC, Huang HC, Chen HJ, Hsieh HL, Juan HF",
+    "venue": "Int. J. Mol. Sci., 14, 14270-86 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Link clustering reveals structural characteristics and biological contexts in signed molecular networks",
+    "authors": "Lin CC, Lee CH, Fuh CS, Juan HF, Huang HC",
+    "venue": "PLoS ONE, 8, e67089 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Comprehensive methylome analysis of ovarian tumors reveals hedgehog signaling pathway regulators as prognostic DNA methylation biomarkers",
+    "authors": "Huang RL, Gu F, Kirma NB, Ruan J, Chen CL, Wang HC, Liao YP, Chang CC, Yu MH, Pilrose JM, Thompson IM, Huang HC, Huang THM, Lai HC, Nephew KP",
+    "venue": "Epigenetics, 8, 624-34 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "MicroRNA-regulated protein-protein interaction networks and their functions in breast cancer",
+    "authors": "Lee CH, Kuo WH, Lin CC, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Int. J. Mol. Sci., 14, 11560-606 (2013)",
+    "doi": "10.3390/ijms140611560",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Anatomical and transcriptional dynamics of maize embryonic leaves during seed germination",
+    "authors": "Liu WY, Chang YM, Chen SC, Lu CH, Wu YH, Lu MY, Chen DR, Shih AC, Sheue CR, Huang HC, Yu CP, Lin HH, Shiu SH, Ku MSB, Li WH",
+    "venue": "Proc. Natl. Acad. Sci. USA, 110, 3979-84 (2013)",
+    "doi": "10.1073/pnas.1301009110",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Differential microRNA regulation correlates with alternative polyadenylation pattern between breast cancer and normal cells",
+    "authors": "Liao HH, CC Lin, Juan HF, Huang HC",
+    "venue": "PLoS ONE, 8, e56958 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "Middle infrared radiation induces G$_2$/M cell cycle arrest in A549 lung cancer cells",
+    "authors": "Chang HY, Shih MH, Huang HC, Tsai SR, Juan HF, Lee SC",
+    "venue": "PLoS ONE, 8, e54117 (2013)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "title": "ValidNESs: a database of validated leucine-rich nuclear export signals",
+    "authors": "Fu SC, Huang HC, Horton P, Juan HF",
+    "venue": "Nucleic Acids Res., 41, D338-D343 (2013)",
+    "doi": "10.1093/nar/gks936",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Lengthening of 3$^prime$UTR increases with morphological complexity in animal evolution",
+    "authors": "Chen CY, Chen ST, Juan HF, Huang HC",
+    "venue": "Bioinformatics, 28, 3178-81 (2012)",
+    "doi": "10.1093/bioinformatics/bts623",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Phosphoproteomic analysis of Rhodopseudomonas palustris reveals the role of pyruvate phosphate dikinase phosphorylation in lipid production",
+    "authors": "Hu CW, Lin MH, Huang HC, Ku WC, Yi TH, Tsai CF, Chen YJ, Sugiyama N, Ishihama Y, Juan HF, Wu SH",
+    "venue": "J. Proteome Res., 11, 5362-75 (2012)",
+    "doi": "10.1021/pr300582p",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Revealing the molecular mechanism of gastric cancer marker annexin A4 in cancer cell proliferation using exon arrays",
+    "authors": "Lin LL, Huang HC, Juan HF",
+    "venue": "PLoS ONE, 7, e44615 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Helicobacter pylori disrupts host cell membranes, initiating a repair response and cell proliferation",
+    "authors": "Lin LL, Huang HC, Ogihara S, Wang JT, Wu MC, McNeil PL, Chen CN, Juan HF",
+    "venue": "Int. J. Mol. Sci., 13, 10176-92 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Profiling lipid-protein interactions using non-quenched fluorescent liposomal nanovesicles and proteome microarrays",
+    "authors": "Lu KY, Tao SC, Yang TC, Ho YH, Lee CH, Lin CC, Juan HF, Huang HC, Yang CY, Chen MS, Lin YY, Lu JY, Zhu H, Chen CS",
+    "venue": "Mol. Cell. Proteomics, 11, 1177-90 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Ectopic ATP synthase blockade suppresses lung adenocarcinoma growth by activating the unfolded protein response",
+    "authors": "Chang HY, Huang HC, Huang TC, Yang PC, Wang YC, Juan HF",
+    "venue": "Cancer Res. 72, 4696-4706 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Methylomic Analysis Identifies Frequent DNA Methylation of Zinc Finger Protein 582 (ZNF582) in Cervical Neoplasms",
+    "authors": "Huang RL, Chang CC, Su PH, Chen YC, Liao YP, Wang HC, Yo YT, Chao TK, Huang HC, Lin CY, Chu TY, Lai HC",
+    "venue": "PLoS ONE, 7, e41060 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Revealing the anti-tumor effect of artificial miRNA p-27-5p on human breast carcinoma cell line T-47D",
+    "authors": "Tseng CW, Huang HC, Shih AC, Chang YY, Hsu CC, Chang JY, Juan HF, Li WH",
+    "venue": "Int. J. Mol. Sci., 13, 6352-69 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Discovery of biomarkers for gastric cancer: a proteomics approach",
+    "authors": "Lin LL, Huang HC, Juan HF",
+    "venue": "J. Proteomics, 75, 3081-97 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Crosstalk between transcription factors and microRNAs in human protein interaction network",
+    "authors": "Lin CC, Chen YJ, Chen CY, Oyang YJ, Juan HF, Huang HC",
+    "venue": "BMC Syst. Biol., 6, 18 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "The androgen pathway stimulates microRNA-216a transcription to suppress the TSLC1 tumor suppressor gene in early hepatocarcinogenesis",
+    "authors": "Chen PJ, Yeh SH, Liu WH, Lin CC, Huang HC, Chen CL, Chen DS, Chen PJ",
+    "venue": "Hepatology, 56, 632-43 (2012)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "title": "Juan HF & Huang HC (ed.)",
+    "authors": "Systems Biology: Applications in Cancer-related Research",
+    "venue": "World Scientific Publishing, ISBN: 9814324450 (2012)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2011,
-    "authors": "Chen CY, Chen ST, Fuh CS, Juan HF*, Huang HC*",
-    "title": "Coregulation of transcription factors and microRNAs in human transcriptional regulatory network.",
-    "venue": "Journal",
+    "title": "Revealing the Functions of the Transketolase Enzyme Isoforms in Rhodopseudomonas palustris Using a Systems Biology Approach",
+    "authors": "Hu CW, Chang YL, Chen SJ, Kuo-Huang LL, Liao JC, Huang HC, Juan HF",
+    "venue": "PLoS ONE, 6, e28329 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Silencing of miR-124 induces neuroblastoma SK-N-SH cell differentiation, cell cycle arrest and apoptosis through promoting AHR",
+    "authors": "Huang TC, Chang HY, Chen CY, Wu PY, Lee H, Liao YF, Hsu WM, Huang HC, Juan HF",
+    "venue": "FEBS Lett., 585, 3582-6 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "The effect of narrow bandwidth infrared radiation on the growth of Escherichia coli",
+    "authors": "Tsai SR, Huang TC, Liang CM, Chang HY, Chang YT, Huang HC, Juan HF, Lee SC",
+    "venue": "Appl. Phys. Lett., 99, 163704 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Reviewing ligand-based rational drug design: the search for an ATP synthase inhibitor",
+    "authors": "Lee CH, Huang HC, Juan HF",
+    "venue": "Int. J. Mol. Sci., 12, 5304-5318 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Integrative network analysis reveals active microRNAs and their functions in gastric cancer",
+    "authors": "Tseng CW, Lin CC, Chen CN, Huang HC, Juan HF",
+    "venue": "BMC Syst. Biol., 5, 99 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Identification of 14-3-3$beta$ in human gastric cancer cells and its potency as a diagnostic and prognostic biomarker",
+    "authors": "Tseng CW, Yang JC, Chen CN, Huang HC, Chuang KN, Lin CC, Lai HS, Lee PH, Chang KJ, Juan HF",
+    "venue": "Proteomics, 11, 2423-39 (2011)",
+    "doi": "10.1002/pmic.201000449)",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Coregulation of transcription factors and microRNAs in human transcriptional regulatory network",
+    "authors": "Chen CY, Chen ST, Fuh CS, Juan HF, Huang HC",
+    "venue": "BMC Bioinformatics, 12 (Suppl 1), S41 (2011)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "title": "Ganoderma lucidum polysaccharides induce macrophage-like differentiation in human leukemia THP-1 cells via caspase and p53 activation",
+    "authors": "Hsu JW, Huang HC, Lee TY, Chen ST, Wong CH, Juan HF",
+    "venue": "Evid.-based Complement Altern. Med., 2011, 358711 (2011)",
+    "doi": "10.1093/ecam/nep107",
+    "note": ""
+  },
+  {
+    "year": 2010,
+    "title": "Dynamic functional modules in co-expressed protein interaction networks of dilated cardiomyopathy",
+    "authors": "Lin CC, Hsiang JT, Wu CY, Oyang YJ, Juan HF, Huang HC",
+    "venue": "BMC Syst. Biol., 4, 138 (2010)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2010,
-    "authors": "Lin CC, Hsiang JT, Wu CY, Oyang YJ, Juan HF*, Huan...",
-    "title": "Dynamic functional modules in co-expressed protein interaction networks of dilated cardiomyopathy.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2010,
-    "authors": "Wu TH, Chang IYF, Huang HC*, Ng WV*",
-    "title": "Modularity of Escherichia coli sRNA regulation revealed by sRNA-targets and protein network analysis.",
-    "venue": "Journal",
+    "title": "Modularity of Escherichia coli sRNA regulation revealed by sRNA-targets and protein network analysis",
+    "authors": "Wu TH, Chang IYF, Chu LCJ, Huang HC, Ng WV",
+    "venue": "BMC Bioinformatics, 11 (Suppl 7), S11 (2010)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2009,
-    "authors": "Hsu JW, Huang HC, Lee TY, Chen ST, Wong CH, Juan H...",
-    "title": "Ganoderma lucidum polysaccharides induce macrophage-like differentiation in human leukemia THP-1 cells via caspase and p53 activation.",
-    "venue": "Journal",
-    "doi": "",
+    "title": "Predicting essential genes based on network and sequence analysis",
+    "authors": "Hwang YC, Lin CC, Chang JY, Mori H, Juan HF, Huang HC",
+    "venue": "Molecular BioSystems in press",
+    "doi": "10.1039/b900611g",
     "note": ""
   },
   {
     "year": 2009,
-    "authors": "Hwang YC, Lin CC, Chang JY, Mori H, Juan HF*, Huan...",
-    "title": "Predicting essential genes based on network and sequence analysis.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2009,
-    "authors": "Lin CC, Juan HF, Hsiang JT, Hwang YC, Mori H*, Hua...",
-    "title": "Essential core of protein-protein interaction network in Escherichia coli.",
-    "venue": "Journal",
+    "title": "Essential core of protein-protein interaction network in Escherichia coli",
+    "authors": "Lin CC, Juan HF, Hsiang JT, Hwang YC, Mori H, Huang HC",
+    "venue": "J. Proteome Res., 8, 1925--1931 (2009)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2008,
-    "authors": "Hsu CW, Juan HF*, Huang HC*",
-    "title": "Characterization of microRNA-regulated protein-protein interaction network.",
-    "venue": "Journal",
+    "title": "Characterization of microRNA-regulated protein-protein interaction network",
+    "authors": "Hsu CW, Juan HF, Huang HC",
+    "venue": "Chun-Wei Hsu, Hsueh-Fen Juan, Hsuan-Cheng Huang",
     "doi": "",
     "note": ""
   },
   {
     "year": 2008,
-    "authors": "Chen HW†, Huang HC†, Lin YS, Chang KJ, Kuo WH, Hwa...",
-    "title": "Comparison and identification of estrogen-receptor related gene expression profiles in breast cancer of different ethnic origins.",
-    "venue": "Journal",
+    "title": "TCMGeneDIT: a database for associated traditional Chinese medicine, gene and disease information using text mining",
+    "authors": "Fang YC, Huang HC, Chen HH, Juan HF",
+    "venue": "BMC Complement Altern Med, 8, 58 (2008)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2008,
-    "authors": "Fang YC, Huang HC*, Juan HF*",
+    "title": "Comparison and Identification of Estrogen-Receptor Related Gene Expression Profiles in Breast Cancer of Different Ethnic Origins",
+    "authors": "Chen, H.-W.$^dagger$, Huang, H.-C.$^dagger$, Lin, Y.-S., Chang, K.-J., Kuo, W.-H., Hwa, H.-L., Hsieh, F.-J., Juan, H.-F.",
+    "venue": "Breast Cancer: Basic and Clinical Research, 1, 35-49 (2008)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2008,
     "title": "MeInfoText: associated gene methylation and cancer information from text mining",
-    "venue": "Journal",
+    "authors": "Fang YC, Huang HC, Juan HF",
+    "venue": "BMC Bioinformatics, 9, 22 (2008)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2008,
+    "title": "Baba T, Huang HC, Datsenko K, Wanner BL, Mori H",
+    "authors": "The Applications of Systematic In-Frame, Single-Gene Knockout Mutant Collection of Escherichia coli K-12 (Chapter 12)",
+    "venue": "in Microbial Gene Essentiality --- Protocols and Bioinformatics, ed. Osterman, Andrei L. & Gerdes, Svetlana, Humana Press, pp.~183-194, ISBN: 978-1-58829-378-7 (2008)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2007,
-    "authors": "Cheng KC†, Huang HC†, Chen JH, Hsu JW, Cheng HC, O...",
-    "title": "Ganoderma lucidum polysaccharides in human monocytic leukemia cells: from gene expression to network construction.",
-    "venue": "Journal",
+    "title": "Ganoderma lucidum polysaccharides in human monocytic leukemia cells: from gene expression to network construction",
+    "authors": "Cheng KC$^dagger$, Huang HC$^dagger$, Chen JH, Hsu JW, Cheng HC, Ou CH, Yang WB, Chen ST, Wong CH, Juan HF",
+    "venue": "BMC Genomics, 8, 411 (2007)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2007,
-    "authors": "Huang TC, Huang HC, Chang CC, Chang HY, Ou CH, Hsu...",
-    "title": "An apoptosis-related gene network induced by novel compound-cRGD in human breast cancer cells.",
-    "venue": "Journal",
+    "title": "An apoptosis-related gene network induced by novel compound -- cRGD in human breast cancer cells",
+    "authors": "Huang TC, Huang HC, Chang CC, Chang HY, Ou CH, Hsu CH, Chen ST, Juan HF",
+    "venue": "FEBS Lett., 581, 3517-22 (2007)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2007,
-    "authors": "Leu JH, Chang CC, Wu JL, Hsu CW, Hirono I, Aoki T,...",
-    "title": "Comparative analysis of differentially expressed genes in normal and white spot syndrome virus infected Penaeus monodon.",
-    "venue": "Journal",
+    "title": "Comparative analysis of differentially expressed genes in normal and white spot syndrome virus infected Penaeus monodon",
+    "authors": "Leu JH$^dagger$, Chang CC$^dagger$, Wu JL, Hsu CW, Hirono I, Aoki T, Juan HF, Lo CF, Kou GH, Huang HC",
+    "venue": "BMC Genomics, 8, 120 (2007)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2007,
+    "title": "Juan HF & Huang HC",
+    "authors": "Bioinformatics: Microarray Data Clustering and Functional Classification (Chapter 25)",
+    "venue": "in Microarrays (2nd ed.): Volume 2, Applications and Data Analysis, ed. Rampal, Jang B., Humana Press, pp.~405-416, ISBN: 978-1-58829-944-4 (2007)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2006,
-    "authors": "Tseng HW, Juan HF, Huang HC, Lin JY, Sinchaikul S,...",
-    "title": "Lipopolysaccharide-stimulated responses in rat aortic endothelial cells by a systems biology approach.",
-    "venue": "Journal",
+    "title": "Lipopolysaccharide-stimulated responses in rat aortic endothelial cells by a systems biology approach",
+    "authors": "Tseng, H.-W. , Juan, H.-F., Huang, H.-C., Chen, C.-F., Chen, S.-T., Wang, G.-J.",
+    "venue": "Proteomics, 6, 5915-5928 (2006)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2006,
-    "authors": "Chen YR, Juan HF, Huang HC, Huang HH, Lee YJ, Liao...",
-    "title": "Quantitative proteomic and genomic profiling reveals metastasis-related protein expression patterns in gastric cancer cells.",
-    "venue": "Journal",
+    "title": "Quantitative proteomic and genomic profiling reveals metastasis-related protein expression patterns in gastric cancer cells",
+    "authors": "Chen YR, Juan HF, Huang HC, Huang HH, Lee YJ, Lio MY, Tseng CW, Lin LL, Chen JY, Wang MJ, Chen JH, Chen YJ",
+    "venue": "J. Proteome Res. 5, 2727-2742 (2006)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2006,
-    "authors": "Lee TY, Horng JT, Juan HF, Huang HD, Wu LC, Tsai M...",
-    "title": "An agent-based system to discover protein-protein interactions, identify protein complexes and proteins with multiple peptide mass fingerprints.",
-    "venue": "Journal",
+    "title": "Large-scale identification of protein-protein interaction of Escherichia coli K-12",
+    "authors": "M. Arifuzzaman1, M. Maeda, A. Itoh, K. Nishikata, C. Takita, R. Saito, T. Ara, K. Nakahigashi, H.-C. Huang, A. Hirai, K. Tsuzuki, S. Nakamura, M. Altaf-Ul-Amin, T. Oshima, T. Baba, N. Yamamoto, T. Kawamura, T. Ioka-Nakamichi, M. Kitagawa, M. Tomita, S. Kanaya, C. Wada, H. Mori",
+    "venue": "Genome Res. 16, 686-91 (2006)",
+    "doi": "10.1101/gr.4527806,",
+    "note": ""
+  },
+  {
+    "year": 2006,
+    "title": "Proteomics analysis of a novel compound: cyclic RGD in breast carcinoma cell line MCF-7",
+    "authors": "Juan, H.-F., Wang, I-H., Huang, T.-C., Li, J.-J., Chen, S.-T., Huang, H.-C.",
+    "venue": "Proteomics, 11, 2991-3000 (2006)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2006,
-    "authors": "Juan HF, Wang IH, Huang TC, Li JJ, Chen ST, Huang ...",
-    "title": "Proteomics analysis of a novel compound: cyclic RGD in breast carcinoma cell line MCF-7.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2006,
-    "authors": "Arifuzzaman M, Maeda M, Itoh A, Nishikata K, Takit...",
-    "title": "Large-scale identification of protein-protein interaction of Escherichia coli K-12.",
-    "venue": "Journal",
+    "title": "An agent-based system to discover protein-protein interactions, identify protein complexes and proteins with multiple peptide mass fingerprints",
+    "authors": "Lee, T.-Y., Horng, J.-T., Juan, H.-F., Huang, H.-D., Wu, L.-C., Lin, F.-M., Huang, H.-C.",
+    "venue": "J. Comput. Chem, 27, 1020-32 (2006)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2005,
-    "authors": "Juan HF, Chang SC, Huang HC, Chen ST",
-    "title": "A new application of microwave technology to proteomics.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2004,
-    "authors": "Wu CC, Huang HC*, Juan HF, Chen ST*",
-    "title": "GeneNetwork: an interactive tool for reconstruction of genetic networks using microarray data.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2004,
-    "authors": "Wu CY, Jan JT, Ma SH, Kuo CJ, Juan HF, Cheng YS, H...",
-    "title": "Small molecules targeting severe acute respiratory syndrome human coronavirus.",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2004,
-    "authors": "Chang DT, Chen CY, Chung WC, Oyang YJ, Juan HF, Hu...",
-    "title": "ProteMiner-SSM: a web server for efficient analysis of similar protein tertiary substructures.",
-    "venue": "Journal",
+    "title": "A new application of microwave technology to proteomics",
+    "authors": "Juan, H.-F., Chang, S.-C., Huang, H.-C., Chen, S.-T.",
+    "venue": "Proteomics 5, 840-842 (2005)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2005,
-    "authors": "P. Chang, et al. (Belle Collaboration)",
-    "title": "Measurements of branching fractions and CP asymmetries in B → eta h decays",
-    "venue": "Journal",
+    "title": "Measurements of branching fractions and CP asymmetries in $B to eta h$ decays",
+    "authors": "Belle Collaboration, P.~Chang et al.",
+    "venue": "Phys. Rev. D 71, 091106 (2005)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2004,
-    "authors": "M.-Z. Wang, et al. (Belle Collaboration)",
-    "title": "Observation of B+ → pppi+, B0 → ppK0, and B+ → ppK*+",
-    "venue": "Journal",
+    "title": "GeneNetwork: an interactive interface for reconstructing genetic network based on microarray data",
+    "authors": "C.C. Wu, H.C. Huang, H.F. Juan, S.T. Chen",
+    "venue": "Bioinformatics 20, 3691-3693 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Small molecules targeting severe acute respiratory syndrome human coronavirus",
+    "authors": "C.Y.~Wu, J.T.~Jan, S.H.~Ma, C.J.~Kuo, H.F.~Juan, Y.S.E.~Cheng, H.H.~Hsu, H.C.~Huang, D.~Wu, A.~Brik, F.S.~Liang, R.S.~Liu, J.M.~Fang, S.T.~Chen, P.H. Liang, C.H.~Wong",
+    "venue": "Proc. Natl. Acad. Sci. USA 101, 10012-10017 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "ProteMiner-SSM: a web server for efficient analysis of similar protein tertiary substructures",
+    "authors": "Chang DT, Chen CY, Chung WC, Oyang YJ, Juan HF, Huang HC",
+    "venue": "Nucleic Acids Res. 32, W76-82 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of $B^+ to p overlinep pi^+$, $B to p overlinep K$, and $B^+ to p overlinep K+$",
+    "authors": "Belle Collaboration, M.-Z. Wang, etal",
+    "venue": "PRL 92, 131801 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of $B^+ to p overlinep pi^+$, $B to p overlinep K$, and $B^+ to p overlinep K+$",
+    "authors": "Belle Collaboration, M.-Z. Wang, etal",
+    "venue": "PRL 92, 131801 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Evidence for direct $CP$ violation in $B to K^+ pi^-$ decays",
+    "authors": "Belle Collaboration, Y.~Chao, etal",
+    "venue": "PRL 93, 191802 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Evidence for $B^+ to omega ell^+ nu$",
+    "authors": "Belle Collaboration, C.~Schwanda, etal",
+    "venue": "PRL 93, 131803 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Search for the Lepton-Flavor-Violating Decay $tau^- to mu^- eta$ at Belle",
+    "authors": "Belle Collaboration, Y. Enari, etal",
+    "venue": "PRL 93, 081803 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of $B^+ to psi(3770) K^+$",
+    "authors": "Belle Collaboration, R.~Chistov etal",
+    "venue": "PRL 93, 051803 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of Large CP Violation and Evidence for Direct CP Violation in $B to pi^+ pi^Ã$ Decays",
+    "authors": "belle",
+    "venue": "PRL 93, 021601 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Study of $B^- to D*0pi^- (D*0 to D^(*)+pi^-)$ decays",
+    "authors": "Belle Collaboration, K.~Abe etal",
+    "venue": "PRD 69, 112002 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Improved measurements of the branching fractions for $B to Kpi$, $pipi$, and $K overlineK$ decays",
+    "authors": "Belle Collaboration, Y.~Chao etal",
+    "venue": "PRD 69, 111102(R) (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Upper Bound on the Decay $tau to mu gamma$ from the Belle Detector",
+    "authors": "belle",
+    "venue": "PRL 92, 171802 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of Radiative Decay $D to phi gamma$",
+    "authors": "Belle Collaboration, O. Tajima, etal",
+    "venue": "PRL 92, 101803 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Measurement of $|V_ub|$ using inclusive $B to X_u ell nu$ decays with a novel $X_u$-reconstruction method",
+    "authors": "Belle Collaboration, H. Kakuno, etal",
+    "venue": "PRL 92, 101801 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Observation of radiative $B to phi K gamma$ decays",
+    "authors": "Belle Collaboration, A. Drutskoy, etal",
+    "venue": "PRL 92, 051801 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Measurements of the $D_sJ$ resonance properties",
+    "authors": "Belle Collaboration, Y. Mikami, etal",
+    "venue": "PRL b 92, 012002 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Search for $B^- to J/psi Lambda overlinep$ decay",
+    "authors": "Belle Collaboration, S.L. Zang, etal",
+    "venue": "PRD 69, 017101 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Measurement of $K^+ K^-$ production in two-photon collisions in the resonant-mass region",
+    "authors": "belle",
+    "venue": "Eur. Phys. J. C 32, 323 (2004)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2004,
+    "title": "Study of B meson decays to three-body charmless hadronic final states",
+    "authors": "Belle Collaboration, A. Garmash, etal",
+    "venue": "PRD 69, 012001 (2004)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2003,
-    "authors": "H.-C. Huang*, et al. (Belle Collaboration)",
-    "title": "Evidence for B→phi phi K",
-    "venue": "Journal",
+    "title": "Evidence for $B to phi phi K$",
+    "authors": "Belle Collaboration, H.-C. Huang etal",
+    "venue": "PRL 91, 241802 (2003)",
+    "doi": "",
+    "note": "IF: 7.489"
+  },
+  {
+    "year": 2003,
+    "title": "First measurement of the $T$-violating muon polarization in the decay $K^+ to mu^+ nu gamma$",
+    "authors": "KEK-E246 Collaboration, V.V.~Anisimovsky etal",
+    "venue": "PLB562, 166 (2003)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2003,
-    "authors": "M.-Z. Wang, et al. (Belle Collaboration)",
-    "title": "Observation of B0 → p Lambda(pi)(-)",
-    "venue": "Journal",
+    "title": "Observation of $B to K ell^+ ell^-$",
+    "authors": "Belle Collaboration, A. Ishikawa, etal",
+    "venue": "PRL 91, 261601 (2003)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2003,
-    "authors": "KEK-E246 Collaboration, V.V. Anisimovsky, et al",
-    "title": "First measurement of the T -violating muon polarization in the decay K+ →μ+ nu gamma ",
-    "venue": "Journal",
+    "title": "Observation of a narrow charmonium-like state in exclusive $B^+ to K^+ pi^+ pi^- J/psi$ decays",
+    "authors": "Belle Collaboration, S.-K. Choi, etal",
+    "venue": "PRL 91, 262001 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Evidence for $B to pi pi$",
+    "authors": "Belle Collaboration, S.H. Lee, etal",
+    "venue": "PRL 91 261801 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Search for $B to ell^+ ell^-$ at Belle",
+    "authors": "Belle Collaboration, M.-C. Chang, etal",
+    "venue": "PRD 68, 111101(R) (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of Time-Dependent $CP$-Violating Asymmetries in $B to phi K_S$, $K^+ K^- K_S$, and $eta^prime K_S$ Decays",
+    "authors": "belle",
+    "venue": "PRL 91, 261602 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Observation of the $D_sJ(2317)$ and $D_sJ(2457)$ in $B$ decays",
+    "authors": "Belle Collaboration, P. Krokovny, etal",
+    "venue": "PRL 91, 262002 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Observation of $B^+ to rho^+ rho$",
+    "authors": "Belle Collaboration, J. Zhang, etal",
+    "venue": "PRL 91, 221801 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of Branching Fractions and Polarization in $B to phi K^(*)$ Decays",
+    "authors": "Belle Collaboration, K.-F. Chen, etal",
+    "venue": "PRL 91, 201801 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Improved Measurement of the Partial-Rate $CP$ Asymmetry in $B^+ to Kpi^+$ and $B^- to overlineK pi^-$ Decays",
+    "authors": "Belle Collaboration, Y. Unno, K. Suzuki, etal",
+    "venue": "PRD 68, 011103 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of Branching Fraction Ratios and $CP$ Asymmetries in $B^pm to D_CPK^pm$",
+    "authors": "Belle Collaboration, S.K. Swain, T.E. Browder, etal",
+    "venue": "PRD 68, 051101 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Observation of $B to p overlineLambda pi^-$",
+    "authors": "Belle Collaboration, M.-Z. Wang, etal",
+    "venue": "PRL 90, 201802 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Evidence for $CP$-Violating Asymmetries in $B to pi^+pi^-$ Decays and Constraints on the CKM Angle $phi_2$",
+    "authors": "belle",
+    "venue": "PRD 68, 012001 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Observation of $overlineB to D overlineK$ and $overlineB to D overlineK0$ Decays",
+    "authors": "Belle Collaboration, P. Krokovny etal",
+    "venue": "PRL 90, 141802 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Study of Time-Dependent $CP$-Violating Asymmetries in $b to s q overlineq$ Decays",
+    "authors": "belle",
+    "venue": "PRD 67, 031102(R) (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Studies of $B$-$overlineB$ Mixing Properties with Inclusive Dilepton Events",
+    "authors": "Belle Collaboration, N. C. Hastings etal",
+    "venue": "PRD 67, 052004 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Observation of $overlineB to Lambda_c overlinep$ Decay",
+    "authors": "Belle Collaboration, N. Gabyshev etal",
+    "venue": "PRL 90, 121802 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of the $B$-$overlineB$ Mixing Rate with $B(overlineB) to Dmp pi^pm$ Partial Reconstruction",
+    "authors": "Belle Collaboration, Y. Zheng etal",
+    "venue": "PRD 67, 092004 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of Branching Fractions and Charge Asymmetries for Two-Body $B$ Meson Decays with Charmonium",
+    "authors": "belle",
+    "venue": "PRD 67, 032003 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Study of $overlineB to D^(*)0 pi^+ pi^-$ Decays",
+    "authors": "Belle Collaboration, A. Satpathy etal",
+    "venue": "PLB553, 159 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Search for the Electric Dipole Moment of the $tau$ Lepton",
+    "authors": "Belle Collaboration, K. Inami etal",
+    "venue": "PLB55, 16 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of Branching Fractions for $Bto eta_c K^(*)$ Decays",
+    "authors": "Belle Collaboration, F. Fang etal",
+    "venue": "PRL 90, 071801 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Measurement of the Electroweak Penguin Process $B to X_s ell^+ ell^-$",
+    "authors": "Belle Collaboration, J. Kaneko etal",
+    "venue": "PRL 90, 021801 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "Studies of the Decay $B^pm to D_CP K^pm$",
+    "authors": "Belle Collaboration, K. Abe etal",
+    "venue": "PRL 90, 131803 (2003)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2003,
+    "title": "First measurement of the $T$-violating muon polarization in the decay $K^+ to mu^+ nu gamma$",
+    "authors": "KEK-E246 Collaboration, V.V.~Anisimovsky etal",
+    "venue": "PLB562, 166 (2003)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2002,
-    "authors": "R.-S. Lu, ..., H.-C. Huang*, et al. (Belle Collabo...",
-    "title": "Observation of B→omega K Decay",
-    "venue": "Journal",
+    "title": "Observation of $B^pm to omega K^pm$ Decay",
+    "authors": "Belle Collaboration, R.-S. Lu etal",
+    "venue": "PRL 89, 191801 (2002)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2002,
-    "authors": "K. Abe, et al. (Belle Collaboration)",
-    "title": "Observation of B→p pbar K",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2002,
-    "authors": "K. Abe, et al. (Belle Collaboration)",
-    "title": "Observation of the Color-Suppressed Decay B→D0 pi0",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 2002,
-    "authors": "Belle Collaboration, A. Abashian et al",
     "title": "The Belle detector",
-    "venue": "Journal",
+    "authors": "Belle Collaboration, A.~Abashian etal",
+    "venue": "NIMA479, 117 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $B^pmto p overlinep K^pm$",
+    "authors": "belle",
+    "venue": "PRL 88, 181803 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of the Color-Suppressed Decay $overlineB to D pi$",
+    "authors": "Observation of color-suppressed $overlineB to D pi$, %$D0 pi$, $D eta$ and $D omega$ decays",
+    "venue": "belle",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $B^pm to omega K^pm$ Decay",
+    "authors": "Belle Collaboration, R.-S. Lu etal",
+    "venue": "PRL 89, 191801 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Study of Exclusive $B$ decays to Charmed Baryons at Belle",
+    "authors": "Belle Collaboration, N. Gabyshev etal",
+    "venue": "Phys. Rev. D 66, 091102(R) (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of the Inclusive Semileptonic Branching Fraction of $B$ Mesons and $|V_cb|$",
+    "authors": "belle",
+    "venue": "PLB547, 181 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Improved Measurement of Mixing-induced $CP$ Violation in the Neutral $B$ Meson System",
+    "authors": "belle",
+    "venue": "Phys. Rev. D 66, 071102(R) (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Charmless Hadronic Two-Body $B$ Meson Decays",
+    "authors": "Belle Collaboration, B.C.K. Casey etal",
+    "venue": "Phys. Rev. D 66, 092002 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $D_s^+ K^-$ and Evidence for $D_s^+ pi^-$ Final States in Neutral $B$ Decays",
+    "authors": "Belle Collaboration, P. Krokovny etal",
+    "venue": "PRL 89, 231804 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Mesurement of the $B - overlineB$ Mixing Parameter $Delta m_d$ using Semileptonic $B$ Decays",
+    "authors": "Belle Collaboration, K. Hara etal",
+    "venue": "PRL 89, 251803 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $B to D^(*) K^- K(*)$ Decays",
+    "authors": "Belle Collaboration, A. Drutskoy etal",
+    "venue": "PLB542, 171 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of $CP$-Violating Parameters in $B to eta^prime K$ Decays",
+    "authors": "Belle Collaboration, K.-F. Chen etal",
+    "venue": "PLB546, 196 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of the Oscillation Frequency for $B-overlineB$ Mixing using Hadronic $B$ Decays",
+    "authors": "belle",
+    "venue": "PLB542, 207 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Study of $B to rho pi$ Decays at Belle",
+    "authors": "Belle Collaboration, A. Gordon etal",
+    "venue": "PLB542, 183 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of the Decay $B to D^+ D-$",
+    "authors": "belle",
+    "venue": "PRL 89, 122001 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of the $eta_c(2S)$ in Exclusive $B to K K_S K^- pi^+$ Decays",
+    "authors": "Belle Collaboration, S.-K. Choi etal",
+    "venue": "PRL 89, 102001 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of Double $c overlinec$ Production at $e^+e^-$ Annihilation at $sqrts approx 10.6$ GeV",
+    "authors": "belle",
+    "venue": "PRL 89, 142001 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of $chi_c2$ Production in Two-Photon Collisions",
+    "authors": "belle",
+    "venue": "PLB540, 33 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $overlineB to D^(*)0 p overlinep$",
+    "authors": "belle",
+    "venue": "PRL 89, 151802 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Radiative $B$ Meson Decays into $K pi gamma$ and $K pi pi gamma$ Final States",
+    "authors": "belle",
+    "venue": "PRL 89, 231801 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurements of Branching Fractions and Decay Amplitudes in $ B to J/psi K$ Decays",
+    "authors": "belle",
+    "venue": "PLB538, 11 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Study of $CP$-Violating Asymmetries in $B to pi^+ pi^-$ Decays",
+    "authors": "belle",
+    "venue": "PRL 89, 071801 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Search for Charmless Two-body Baryonic Decays of $B$ Mesons",
+    "authors": "belle",
+    "venue": "Phys. Rev. D 65, 091103(R) (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $chi_c2$ Production in $B$-meson Decay",
+    "authors": "belle",
+    "venue": "PRL 89, 011803 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of Mixing-induced $CP$ Violation in the Neutral $B$ Meson System",
+    "authors": "belle",
+    "venue": "Phys. Rev. D 66, 032007 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Precise Measurement of $B$ Meson Lifetimes with Hadronic Final States",
+    "authors": "belle",
+    "venue": "PRL 88, 171801 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Study of Three-body Charmless $B$ Decays",
+    "authors": "Belle Collaboration, A. Garmash etal",
+    "venue": "Phys. Rev. D 65, 092005 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of $mathcalB( barB to D^+ l^- barnu)$ and Determination of $|V_cb|$",
+    "authors": "belle",
+    "venue": "PLB526, 258 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Determination of $|V_cb|$ using the semileptonic decay $barB to D+e^-barnu$",
+    "authors": "belle",
+    "venue": "PLB526, 247 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Measurement of the Lifetime Difference in $D$ Meson Decays",
+    "authors": "belle",
+    "venue": "PRL 88, 162001 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of $B^+ to chi_c0 K^+$",
+    "authors": "belle",
+    "venue": "PRL 88, 031802 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Production of Prompt Charmonia in $e^+e^-$ Annihilation at $sqrts approx 10.6$ GeV",
+    "authors": "belle",
+    "venue": "PRL 88, 052001 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of the Decay $B to K l^+ l^-$",
+    "authors": "Observation of the decay $B to K mu^+ mu^-$",
+    "venue": "belle",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Observation of Cabibbo-suppressed and $W$-exchange $Lambda_c^+$ baryon decays",
+    "authors": "belle",
+    "venue": "PLB524, 33 (2002)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2002,
+    "title": "Test of exotic scalar and tensor interactions in $K_e3$ decay using stopped positive kaons",
+    "authors": "KEK-E246 Collaboration, A.~S.~Levchenko etal",
+    "venue": "Phys. Atom. Nuclei, 65, 2232-2237 (2002)",
+    "doi": "",
+    "note": "IF: 0.616"
+  },
+  {
+    "year": 2002,
+    "title": "The Belle detector",
+    "authors": "Belle Collaboration, A.~Abashian etal",
+    "venue": "NIMA479, 117 (2002)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2001,
-    "authors": "K. Abe, et al., (Belle Collaboration)",
-    "title": "Measurement of the branching fraction for B→η'K and search for B→η'π+",
-    "venue": "Journal",
+    "title": "Measurement of the branching fraction for $B to eta' K$ and search for $B to eta' pi^+$",
+    "authors": "belle",
+    "venue": "PLB517, 309 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of the branching fraction for $B to eta' K$ and %search for $B to eta' pi^+$",
+    "authors": "belle",
+    "venue": "PLB517, 309 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Observation of $B to J/psi K_1(1270)$",
+    "authors": "belle",
+    "venue": "PRL 87, 161601 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Observation of large CP violation in the neutral $B$ meson system",
+    "authors": "belle",
+    "venue": "PRL 87, 091802 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Search for direct CP violation in $B to K pi$ decays",
+    "authors": "belle",
+    "venue": "Phys. Rev. D 64, 071101(R) (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Meaasurement of $Gamma(K_mu3))/Gamma(K_e3)$ ratio using stopped positive kaons",
+    "authors": "KEK-E246 Collaboration, K.~Horie etal",
+    "venue": "PLB 513, 311 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Observation of Cabibbo suppressed $B to D^(*) K^-$ decays at Belle",
+    "authors": "belle",
+    "venue": "Phys. Rev. Lett. 87, 111801 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of branching fractions for $B to pi pi$, $K pi$ and $K K$ decays",
+    "authors": "belle",
+    "venue": "Phys. Rev. Lett. 87, 101801 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "A measurement of the branching fraction for the inclusive $B to X_s gamma$ decays with Belle",
+    "authors": "belle",
+    "venue": "Phys. Lett. B 511, 151 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of inclusive production of neutral pions from $Upsilon(4S)$ decays",
+    "authors": "belle",
+    "venue": "Phys. Rev. D 64, 072001 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of the $CP$ violation parameter $sin 2phi_1$ in $B_d$ meson decays",
+    "authors": "Belle Collaboration, A.~Abashian etal",
+    "venue": "Phys. Rev. Lett. 86, 2509 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of $B_d$-$bar B_d$ mixing rate from the time evolution of dilepton events at the $Upsilon(4S)$",
+    "authors": "Belle Collaboration, K.~Abe, etal",
+    "venue": "Phys. Rev. Lett. 86, 3228 (2001)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2001,
+    "title": "Measurement of $Gamma(K_mu 3)/Gamma(K_e3)$ ratio using stopped positive kaons",
+    "authors": "KEK-E246 Collaboration, K.~Horie etal",
+    "venue": "PLB513, 311 (2001)",
     "doi": "",
     "note": ""
   },
   {
     "year": 2000,
-    "authors": "M.Z. Wang, H.C. Huang, et al",
+    "title": "Test of exotic scalar and tensor couplings in $K^+ to pi e^+ nu$ decay",
+    "authors": "KEK-E246 Collaboration, S.~Shimizu etal",
+    "venue": "Phys. Lett. B 495, 33 (2000)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2000,
+    "title": "A kinematically complete measurement of $K^+ to pi^+ pi pi$ decays",
+    "authors": "KEK-E246 Collaboration, Y.~H.~Shin etal",
+    "venue": "Eur. Phys. J. C12, 627 (2000)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2000,
+    "title": "Test of exotic scalar and tensor couplings in $K^+ to pi e^+ nu$ decay",
+    "authors": "KEK-E246 Collaboration, S.~Shimizu etal",
+    "venue": "Phys. Lett. B495, 33 (2000)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2000,
     "title": "Beam test of the BELLE extreme forward calorimeter at KEK",
-    "venue": "Journal",
+    "authors": "M.~Z.~Wang, H.~C.~Huang, etal",
+    "venue": "NIM A455, 319 (2000)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2000,
+    "title": "Survey of the properties of BGO crystals for the extreme forward calorimeter at BELLE",
+    "authors": "R.~Akhmetshin, etal",
+    "venue": "NIM A455, 324 (2000)",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 2000,
+    "title": "Beam test of the BELLE extreme forward calorimeter at KEK",
+    "authors": "M.Z.~Wang, H.C.~Huang, etal",
+    "venue": "NIM A455, 319 (2000)",
+    "doi": "",
+    "note": "IF: 1.166"
+  },
+  {
+    "year": 1999,
+    "title": "Performance of undoped BGO crystals under extremely high %dose conditions",
+    "authors": "K.~C.~Peng et al.",
+    "venue": "NIM A427, 524 (1999)",
     "doi": "",
     "note": ""
   },
   {
     "year": 1999,
-    "authors": "M. Abe, et al. (KEK-E246 Collaboration)",
-    "title": "Search for T-Violating Transverse Muon Polarization in K+ → π0 μ+ ν Decay Using Stopped Kaons",
-    "venue": "Journal",
+    "title": "Search for $T$-Violating Transverse Muon Polarization in $K^+ to pi mu^+ nu$ Decay Using Stopped Kaons",
+    "authors": "KEK-E246 Collaboration, M.~Abe etal",
+    "venue": "Phys. Rev. Lett. 83, 4253 (1999)",
     "doi": "",
     "note": ""
   },
   {
     "year": 1999,
-    "authors": "K. C. Peng, et al",
     "title": "Performance of undoped BGO crystals under extremely high dose conditions",
-    "venue": "Journal",
+    "authors": "K.~C.~Peng et al.",
+    "venue": "NIM A427, 524 (1999)",
     "doi": "",
     "note": ""
   },
   {
     "year": 1997,
-    "authors": "H.C. Huang, K.C. Peng, S.K. Sahu, K. Ueno, Y.H. Ch...",
-    "title": "Measurement of radiation damage on an epoxy based optical glue",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 1997,
-    "authors": "S. K. Sahu, et al",
     "title": "Radiation hardness of undoped BGO crystals",
-    "venue": "Journal",
+    "authors": "S.~K.~Sahu etal",
+    "venue": "S.~K.~Sahu, K.~C.~Peng, H.~C.~Huang, C.~H.~Wang, Y.~H.~Chang, %%W.~S.~Hou and K.~Ueno",
     "doi": "",
     "note": ""
   },
   {
     "year": 1997,
-    "authors": "K. C. Peng, et al",
+    "title": "Measurement of radiation damage on an epoxy based optical glue",
+    "authors": "H.C.~Huang etal",
+    "venue": "H.C.~Huang, K.C.~Peng, S.K.~Sahu, K.~Ueno, Y.H.~Chang, %C.H.~Wang, W.S.~Hou",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 1997,
     "title": "Measurement of radiation damage on an optical reflector",
-    "venue": "Journal",
+    "authors": "K.~C.~Peng etal",
+    "venue": "K.~C.~Peng, S.~K.~Sahu, H.~C.~Huang, K.~Ueno, Y.~H.~Chang, %%C.~H.~Wang and W.~S.~Hou",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 1997,
+    "title": "Radiation hardness of undoped BGO crystals",
+    "authors": "S.~K.~Sahu etal",
+    "venue": "S.~K.~Sahu, K.~C.~Peng, H.~C.~Huang, C.~H.~Wang, Y.~H.~Chang, %W.~S.~Hou and K.~Ueno",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 1997,
+    "title": "Measurement of radiation damage on an epoxy based optical glue",
+    "authors": "H.C.~Huang etal",
+    "venue": "H.~C.~Huang, K.~C.~Peng, S.~K.~Sahu, K.~Ueno, Y.~H.~Chang, %%C.~H.~Wang and W.~S.~Hou",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 1997,
+    "title": "Measurement of radiation damage on an epoxy based optical glue",
+    "authors": "H.C.~Huang, K.C.~Peng, S.K.~Sahu, K.~Ueno, Y.H.~Chang, C.H.~Wang, W.S.~Hou",
+    "venue": "NIM A385, 559 (1997)",
+    "doi": "",
+    "note": "IF: 1.166"
+  },
+  {
+    "year": 1997,
+    "title": "Measurement of radiation damage on an optical reflector",
+    "authors": "K.~C.~Peng etal",
+    "venue": "K.~C.~Peng, S.~K.~Sahu, H.~C.~Huang, K.~Ueno, Y.~H.~Chang, %C.~H.~Wang and W.~S.~Hou",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 1996,
+    "title": "Aerogel Cerenkov counter for the BELLE experiment",
+    "authors": "T.~Iijima etal",
+    "venue": "NIM A379, 457 (1996)",
     "doi": "",
     "note": ""
   },
   {
     "year": 1995,
-    "authors": "W.S. Hou and H.C. Huang",
     "title": "Singlet charge 2/3 quark hiding the top: Tevatron and LEP implications",
-    "venue": "Journal",
+    "authors": "W.S.~Hou and hch",
+    "venue": "Phys. Rev. D 51, 5285 (1995)",
     "doi": "",
-    "note": ""
+    "note": "IF: 4.599"
   },
   {
     "year": 1995,
-    "authors": "S.-H. Chiou, M.-H. Chuang, C.-C. Hung, H.-C. Huang...",
-    "title": "Inhibition of Protein Kinase C by Snake Venom Toxins: Comparison of Enzyme Inhibition, Lethality and Hemolysis among Different Cardiotoxin Isoforms",
-    "venue": "Journal",
-    "doi": "",
-    "note": ""
-  },
-  {
-    "year": 1995,
-    "authors": "S.-H. Chiou, Hung CC, Huang HC, Chen ST, Wang KT, ...",
     "title": "Sequence Comparison and Computer Modeling of Cardiotoxins and Cobratoxin Isolated from Taiwan Cobra",
-    "venue": "Journal",
+    "authors": "S.-H.~Chiou etal",
+    "venue": "Chiou SH, Hung CC, Huang HC, Chen ST, Wang KT, Yang CC",
+    "doi": "",
+    "note": "IF: 3.161"
+  },
+  {
+    "year": 1995,
+    "title": "Inhibition of Protein Kinase C by Snake Venom Toxins: Comparison of Enzyme Inhibition, Lethality and Hemolysis among Different Cardiotoxin Isoforms",
+    "authors": "S.-H.~Chiou etal",
+    "venue": "Chiou SH, Chuang MH, Hung CC, Huang HC, Chen ST, Wang KT, Ho CL",
     "doi": "",
     "note": ""
   },
   {
     "year": 1993,
-    "authors": "S.-T. Chen, et al",
-    "title": "Probing the S-1’ Subsite Selectivity of an Industrial Alkaline Protease in Anhydrous t-Butanol",
-    "venue": "Journal",
+    "title": "Probing the S-1$^prime$ Subsite Selectivity of an Industrial Alkaline Protease in Anhydrous t-Butanol",
+    "authors": "Chen ST, Chen SY, Chen HJ, Huang HC, Wang KT",
+    "venue": "Bioorg. Med. Chem. Lett. 3, 727-733 (1993)",
+    "doi": "",
+    "note": "IF: 2.182"
+  },
+  {
+    "year": 1993,
+    "title": "Investigating the s-2 subsite selectivity of alkaline proteases in hydrolysis of diastereo-peptide esters and molecular-modeling interpretation",
+    "authors": "Chen ST, Tu CC, Chen SY, Huang HC, Wang KT",
+    "venue": "Bioorg. Med. Chem. 1, 361-367 (1993)",
+    "doi": "",
+    "note": "IF: 2.185"
+  },
+  {
+    "year": 0,
+    "title": "Transcriptional dynamics of CD8+ T-cell exhaustion in immune checkpoint inhibitor resistance at single-cell resolution",
+    "authors": "Tseng TY, Hsieh CH, Huang HC, Wu YC, Hsu C, Hsu CL, Ou DL, Juan HF",
+    "venue": "Mol. Cancer, 24, 306",
+    "doi": "",
+    "note": "IF: 33.9"
+  },
+  {
+    "year": 0,
+    "title": "An Efficient Algorithm for Analysis of Protein Tertiary Subtructures",
+    "authors": "Y.J. Oyang, D.T.H. Chang, C.Y. Chen, S.C. Hwang, H.F. Juan, hch",
+    "venue": "submitted to Bioinformatics",
     "doi": "",
     "note": ""
   },
   {
-    "year": 1993,
-    "authors": "S.T. Chen, C.C. Tu, S.Y. Chen, H.C. Huang, K.T. Wa...",
-    "title": "Investigating the S-2 Subsite Selectivity of Alkaline Proteases in Hydrolysis of Diastereo-Peptide Esters and Molecular-Modeling Interpretation",
-    "venue": "Journal",
+    "year": 0,
+    "title": "Inferring Genetic Regulatory Networks Using a Dynamic Bayesian Network Approach",
+    "authors": "C.C. Wu, H.C. Huang, H.F. Juan, S.T. Chen",
+    "venue": "in preparation",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 0,
+    "title": "J.-J. Li, H.-F. Juan, R.-S. Ko, I.-F. Chung, H.-C. Huang",
+    "authors": "Identification of RNA-Binding Protein Residues Using Machine Learning Approaches",
+    "venue": "submitted",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 0,
+    "title": "ProtExt: a system for protein-protein interaction extraction from PubMed abstracts",
+    "authors": "Y.C.~Lin, C.L.~Peng, C.Y.~Kao, H.F.~Juan, H.C.~Huang",
+    "venue": "submitted",
+    "doi": "",
+    "note": ""
+  },
+  {
+    "year": 0,
+    "title": "Comparative Analysis of Expression Profiles of Estrogen-Receptor Related Genes in Breast Cancer of Different Ethnic Origins Reveals Population-Unique SNPs",
+    "authors": "Hsiao-Wei Chen$^dagger$, Hsuan-Cheng Huang$^dagger$, Yi-Shing Lin, King-Jen Chang, Wen-Hung Kuo, Hsiao-Lin Hwa, Fon-Jou Hsieh, Hsueh-Fen Juan",
+    "venue": "submitted",
     "doi": "",
     "note": ""
   }

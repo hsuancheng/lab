@@ -13,6 +13,13 @@ pubs.forEach((p) => {
   }
 });
 
+// Hybrid sorting for journals:
+// 1. Keep order for first 20
+// 2. Sort the rest by year descending
+const top20 = journals.slice(0, 20);
+const others = journals.slice(20).sort((a, b) => b.year - a.year);
+const sortedJournals = [...top20, ...others];
+
 function groupPubs(list) {
   const groups = [];
   let currentGroup = null;
@@ -34,7 +41,7 @@ function groupPubs(list) {
   return groups;
 }
 
-const journalGroups = groupPubs(journals);
+const journalGroups = groupPubs(sortedJournals);
 ---
 
 <section style="margin-bottom: 2.5rem;">

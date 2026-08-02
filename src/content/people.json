@@ -8,10 +8,10 @@
       "homepage": "http://www.hchuang.info/",
       "googleScholar": "https://scholar.google.com/citations?user=K-h6CjIAAAAJ",
       "interests": [
-        "Systems Biology",
         "Bioinformatics",
         "Computational Biology",
-        "Network Biology"
+        "Systems Biology",
+        "Biomedical Data Science"
       ]
     }
   ],

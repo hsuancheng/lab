@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# CV kept local: this repo is public and the .tex carries commented-out personal
+# details (birth date, family) that are invisible in the PDF but not in source.
+sources/cv.tex

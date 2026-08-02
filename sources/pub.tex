@@ -1,0 +1,2435 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+
+\nofiles
+
+\showboxdepth=0
+
+%\pagestyle{empty}
+
+\tolerance=2000      %use tolerance=10000 for 2 column format
+\hbadness=1000       %use hbadness=10000 for 2 column format
+
+% Text Sizes
+%\textwidth  6.2 in
+%\textheight 9.2 in
+%\topmargin  -0.50 in
+%\oddsidemargin  0.0 in
+%\evensidemargin 0.0 in
+% Text Sizes
+
+\usepackage{fontspec}
+\usepackage{mathpazo}
+\setmainfont[Mapping=tex-text,Ligatures=TeX,Numbers=OldStyle]{TeX Gyre Pagella}
+%\setsansfont{Futura}
+\setsansfont{futura.ttf}
+
+% \pub{Title}{Author}{Journal} determines the format
+%
+\def\pub#1#2#3{{\it #1.}\newline #2, #3.}
+%\def\mypub#1#2#3{{\boldmath \bf #1.}\newline #2, #3.}
+\def\mypub#1#2#3{{#1.}\newline #2, #3.}
+\def\mybpub#1#2#3{{\boldmath \bf #1.}\newline #2, #3.}
+\def\newpub#1#2#3{{\boldmath \bf #2.}\newline #1, #3.}
+\def\cited#1{Cited $\ge$ #1}
+
+% A useful Journal macro - Phys. Rev. style
+% Arguments are: \Journal\NAME&vol&page(year)  (if \NAME is defined below) or
+%                \Journal Name&vol&page(year)  (if you must type Name yourself)
+% year is the year WITH the 19, e.g., 1993
+%
+\def\Journal#1&#2&#3(#4){#1{\bf #2}, #3 (#4)}
+%
+% A useful Journal macro - Phys. Rev. style
+
+% A useful Journal macro - Phys. Lett. style
+% Uses the same arguments in the same order as above, this macro puts
+% them in the right order and format for Phys. Lett.
+%
+%\def\Journal#1&#2&#3(#4){#1{\bf #2} (#4) #3}
+%
+% A useful Journal macro - Phys. Lett. style
+
+% For CLNS and CLEO preprints use the following:
+% Arguments are: \Preprint\NAME&clns&cleo(year) (if \NAME is defined below) or
+%                \Preprint Name&clns&cleo(year) (if you must type Name yourself)%   clns is the actual clns number,  e.g., 1200
+%   cleo is the actual cleo number,  e.g.,    5
+%   year is the year WITHOUT the 19, e.g.,   93
+%
+\newcount\Year
+\def\Preprint#1&#2&#3(#4){\Year=#4 \ifnum\Year>100 \advance\Year by -1900 \fi
+CLNS \number\Year/#2, CLEO \number\Year--#3\newline
+     (submitted to #1\unskip)}
+%
+% For CLNS and CLEO preprints
+
+% Some useful journal names
+%\def\NIM{Nuclear Instruments and Methods in Physics Research}
+\def\NIM{Nucl. Instr. and Meth. }
+%\def\NIMA{Nuclear Instruments and Methods in Physics Research Section A}
+\def\NIMA#1{Nucl. Instr. and Meth. \textbf{A#1}}
+\def\NPB{Nuclear Physics B }
+%\def\PLB{Physics Letters B }
+\def\PLB#1{Phys. Lett. {\bf B#1}}
+%\def\PLB#1{Phys. Lett. B #1}
+%\def\PRL{Physical Review Letters }
+\def\PRL{Phys.\ Rev.\ Lett.\ }
+%\def\PRD{Physical Review D }
+\def\PRD{Phys.\ Rev.\ D }
+% Some useful journal names
+
+\def\etal{{\it et al.}}
+\def\belle{Belle Collaboration, K.~Abe \etal }
+
+\newcommand{\hch}{{\bf H.C.~Huang}}
+
+% Impact factors and percentages of ranking
+\def\impf#1#2{\def\tempa{}\def\tempb{#2}\ifx\tempa\tempb%
+IF: #1% no #2
+\else
+IF: #1, #2\%%
+\fi
+}
+\def\ibmcgenomics{\impf{3.926}{16.67}}
+\def\ibmcbioinfo{\impf{3.493}{11.1}}
+\def\iproteomics{\impf{4.586}{12.31}}
+\def\ifebslett{\impf{3.263}{27.5}}
+\def\ijpr{\impf{5.684}{}} % 8.3%
+\def\igenomeres{\impf{11.224}{}}
+\def\ibioinfo{\impf{5.039}{1.1}}
+\def\ipnas{\impf{9.598}{}}
+\def\ijcompchem{\impf{4.297}{13.3}}
+\def\inar{\impf{6.954}{}}
+\def\iprd{\impf{4.696}{16.7}}
+\def\iprl{\impf{6.944}{}}
+\def\imbs{\impf{4.12}{}}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+
+\centerline{\Large\bf Publication List}
+\bigskip
+\centerline{\large\today~~~~~~~~~~~~~~~~Hsuan-Cheng Huang}
+%\centerline{\large December 9, 2004~~~~~~~~~~~~~~~~Hsuan-Cheng Huang}
+
+% 2008.5.19
+% h-index: 33
+%
+% 2007.4.27
+% Sum of total citations: 3215
+% h-index: 31
+%
+% 2004-2006 papers 
+% 29-1, sum = 493, h-index=11
+% 2002-2006 papers
+% 88-1, sum = 2426, h-index=27
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bio Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{16pt}
+\hspace{-0.2in}{\bf Journal Papers:}~~~($h$-index: {\bf 78}, total citations: {\bf 27277}, Google Scholar) % [Google], 44 [WoS])
+
+\begin{enumerate}
+\item
+\mypub{
+scDock:\ Streamlining drug discovery targeting cell-cell communication via scRNA-seq analysis and molecular docking}
+{Huang CH, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Bioinformatics, {\bf 42}, btag103 (2026)}
+%{bioRxiv, 2025.11.20.689638}
+% 2026 Feb 28;42(3):btag103. doi: 10.1093/bioinformatics/btag103.
+
+\item \mypub{
+Mass spectrometry-based human spatial omics: fundamentals, innovations, and applications}
+{Yang CC, Lin CY, Yuan HY, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Biomed.\ Sci., {\bf 33}, 16 (2026)}
+[IF: 12.1]
+% 2026 Feb 6;33(1):16. doi: 10.1186/s12929-026-01219-0.
+
+\item \mypub{
+Reactive oxygen species driven immune inflammation in systemic sclerosis: mechanisms and emerging therapeutics}
+{Lee SC, Yu KH, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Drug Discovery Today, {\bf 31}, 104620 (2026)}
+[IF:~7.5]
+% 2026 Mar;31(2):104620. doi: 10.1016/j.drudis.2026.104620. Epub 2026 Feb 5.
+
+\item \mypub{
+Transcriptional dynamics of CD8+ T-cell exhaustion in immune checkpoint inhibitor resistance at single-cell resolution}
+{Tseng TY, Hsieh CH, {\bf Huang HC}, Wu YC, Hsu C, Hsu CL, Ou DL, Juan HF}
+{Mol.\ Cancer, {\bf 24}, 306 (2025)}
+[IF:33.9]
+
+\item \mypub{
+Quantitative proteomics unveils the synergistic effects of combination drugs on cytoskeleton composition and autophagy-mediated cell death in neuroblastoma}
+{Yu PC, Kao YC, Chang HY, Huang CH, Hsu WM, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome.\ Res.,  {\bf 24}, 3578−3596 (2025)}
+% 2025 Jun 17. doi: 10.1021/acs.jproteome.5c00191. Online ahead of print. PMID: 40526398
+
+\item \mypub{
+DHODH blockade induces ferroptosis in neuroblastoma by modulating the mevalonate pathway}
+{Shih JC, Chen PY, Kuo CH, Hsieh CH, Chang HY, Lee HC, Huang CH, Hsu CH, Hsu WM, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Mol.\ Cell.\ Proteomics, {\bf 24}, 101014 (2025)}
+% 2025 Jul;24(7):101014. doi: 10.1016/j.mcpro.2025.101014. Epub 2025 Jun 11.
+
+\item \mypub{
+Single-cell and multi-omics integration reveals cholesterol biosynthesis as a synergistic target with HER2 in aggressive breast cancer}
+{Tseng TY, Hsieh CH, Liu JY, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Comput.\ Struct.\ Biotechnol.\ J., {\bf 27}, 1719-1731 (2025)}
+% 2025 Apr 24;27:1719-1731. doi: 10.1016/j.csbj.2025.04.030. eCollection 2025. PMID: 40391299
+
+\item \mypub{
+Transcriptionally distinct malignant neuroblastoma populations show selective response to adavosertib treatment}
+{Hsieh CH, Chen YX, Tseng TY, Li A, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Neurotherapeutics, {\bf 22}, e00575 (2025)}
+[IF:~6.9]
+% 2025 Apr;22(3):e00575. doi: 10.1016/j.neurot.2025.e00575. Epub 2025 Mar 20. PMID: 40118716; PMCID: PMC12047484.
+
+\item \mypub{
+HEDDI-Net: heterogeneous network embedding for drug-disease association prediction and drug repurposing, with application to Alzheimer's disease}
+{Su YY, {\bf Huang HC}, Lin YT, Chuang YF, Sheu SY, Lin CC}
+{J.\ Transl.\ Med., {\bf 23}, 57 (2025)}
+[IF: 7.5]
+%  2025 Feb 1;23(1):57. doi: 10.1186/s12967-024-05938-6.
+
+\item \mybpub{
+scDrug+: predicting drug-responses using single-cell transcriptomics and molecular structure}
+{Sun YY, Hsieh CY, Wen JH, Tseng TY, Huang JH, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Biomed.\ Pharmacother. {\bf 177}, 117070 (2024)}
+[IF: 7.5]
+
+\item \mypub{
+Macrophages as determinants and regulators of systemic sclerosis-related interstitial lung disease}
+{Lee SC, Huang CH, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Transl.\ Med. {\bf 22}, 600 (2024)}
+[IF: 7.5]
+
+\item \mypub{
+Multiomics reveals induction of neuroblastoma SK-N-BE(2)C cell death by mitochondrial division inhibitor 1 through multiple effects}
+{Wang WH, Kao YC, Hsieh CH, Tsai SY, Cheung CHY, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome Res., {\bf 23}, 301-315 (2024)}
+
+\item \mypub{
+Homoharringtonine as a PHGDH inhibitor: Unraveling metabolic dependencies and developing a potent therapeutic strategy for high-risk neuroblastoma}
+{Hsieh CH, Huang CT, Cheng YS, Hsu CH, Hsu WM, Chung YH, Liu YL, Yang TS, Chien CY, Lee YH, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Biomed.\ Pharmacother. {\bf 166}, 115429 (2023)}
+[IF: 7.5]
+
+\item \mypub{
+IFF: Identifying key residues in intrinsically disordered regions of proteins using machine learning}
+{Ho WL, {\bf Huang HC}, Huang JR}
+{Protein Sci.\ {\bf 32}, e4739 (2023)}
+% 2023 Sep;32(9):e4739. doi: 10.1002/pro.4739.
+
+\item \mypub{
+Ensemble learning model for identifying the hallmark genes of NFκB/TNF signaling pathway in cancers}
+{Su YY, Liu YL, {\bf Huang HC}, Lin CC}
+{J.\ Transl.\ Med. {\bf 21}, 485 (2023)}
+
+\item \mypub
+{Ectopic ATP synthase stimulates the secretion of extracellular vesicles in cancer cells}
+{Kao YC, Chang YW, Lai CP, Chang NW, Huang CH, Chen CS, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Commun.\ Biol. {\bf 6}, 642 (2023)}
+%[IF: 5.2]
+
+\item \mypub
+{Spatial and temporal dynamics of ATP synthase from mitochondria toward the cell surface}
+{Chang YW, Tony Yang T, Chen MC, Liaw YG, Yin CF, Lin-Yan XQ, Huang TY, Hou JT, Hung YH, Hsu CL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Commun.\ Biol. {\bf 6}, 427 (2023)}
+%[IF: 5.2]
+
+\item
+\mybpub{Context-dependent gene regulatory network reveals regulation dynamics and cell trajectories using unspliced transcripts}
+{Tu YH, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Brief.\ Bioinform., {\bf 24}, bbac633 (2023)}
+[IF: 7.7]
+%[IF: 13.994]
+
+\item
+\mybpub{Quantitative analysis of high‐throughput biological data}
+{Juan HF$^*$, {\bf Huang HC$^*$}}
+{WIREs Comput.\ Mol.\ Sci., {\bf 13}, e1658 (2023)}
+[IF: {\bf 27.0}]
+
+\item
+\mypub{SeqCP: A sequence-based algorithm for searching circularly permuted proteins}
+{Chen CC, Huang YW, {\bf Huang HC}, Lo WC, Lyu PC}
+{Comput.\ Struct.\ Biotechnol.\ J., {\bf 21}, 185-201 (2023)}
+% 10.1016/j.csbj.2022.11.024
+
+\item
+\mybpub{scDrug: From single-cell RNA-seq to drug response prediction}
+{Hsieh CY, Wen JH, Lin SM, Tseng TY, Huang JH$^*$, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Comput.\ Struct.\ Biotechnol.\ J., {\bf 21}, 150-157 (2023)}
+
+\item
+\mybpub{BIC: a database for the transcriptional landscape of bacteria in cancer}
+{Chen KP, Hsu CL, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Nucleic Acids Res., {\bf 51}, D1205-D1211 (2023)}
+[IF:~13.1]
+% gkac891 (2022)}
+% 20 October 2022
+
+\item
+\mypub{Thymic macrophages consist of two populations with distinct localization and origin}
+{Zhou TA, Hsu HP, Tu YH, Cheng HK, Lin CY, Chen NJ, Tsai JW, Robey EA, {\bf Huang HC}, Hsu CL,  Dzhagalov IL}
+{eLife, {\bf 11}, e75148 (2022)}
+% bioRxiv 2021.11.04.467238
+
+\item
+\mypub{LncRNA SNHG1 regulates neuroblastoma cell fate via interactions with HDAC1/2}
+{Hsu CL, Yin CF, Chang YW, Fan YC, Lin SH, Wu YC, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Cell Death Dis., {\bf 13}, 809 (2022)}
+[IF: 9.6]
+%{Cell Death Dis.\ {\bf 13}, 809 (2022)}
+% 21 September 2022
+
+\item
+\mypub{A single-cell network-based drug repositioning strategy for post-COVID-19 pulmonary fibrosis}
+{Li A, Chen JY, Hsu CL, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Pharmaceutics, {\bf 14}, 971 (2022)}
+% 2022 Apr 30; 14(5):971
+
+\item
+\mypub{Quantitative phosphoproteomics reveals ectopic ATP synthase on mesenchymal stem cells to promote tumor progression via ERK/c-Fos pathway activation}
+{Chang YW, Wang CC, Yin CF, Wu CH, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Mol.\ Cell.\ Proteomics., {\bf 21}, 100237 (2022)}
+
+\item
+\mypub{Stratification of lncRNA modulation networks in breast cancer}
+{Yu WH, Hsu CL, Lin CC, Oyang YJ, Juan HF$^*$, {\bf Huang HC$^*$}}
+{BMC Medical Genomics, {\bf 14}(Suppl 3), 300 (2022)}
+
+\item
+\mypub{Targeting protein interaction networks in mitochondria dynamics for cancer therapy}
+{Yin CF, Chang YW, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Drug Discovery Today, {\bf 27}, 1077-1087 (2022)}
+[IF: 7.5]
+% doi:10.1016/j.drudis.2021.11.006}
+
+\item
+\mybpub{Phylotranscriptomic patterns of network stochasticity and pathway dynamics during embryogenesis}
+{Ko KY, Chen CY, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Bioinformatics, {\bf 38}, 763–769 (2022)}
+% doi:10.1093/bioinformatics/btab735 (2021)}
+[5y-IF: 7.1]
+
+\item
+\mypub{Single-cell RNA sequencing uncovers the individual alteration of intestinal mucosal immunocytes in Dusp6 knockout mice}
+{Chang CS, Yu WH, Su CC, Ruan JW, Lin CM, Huang CT, Tsai YT, Lin IJ, Lai CY, Chuang TH, Lin WJ, Tan TH, Huang HC, Juan HF, Kao CY}
+{iScience, {\bf 25}, 103738 (2022)}
+%doi: 10.1016/j.isci.2022.103738. eCollection 2022 Feb 18.
+
+\item
+\mypub{Drug Repurposing for the Identification of Compounds with Anti-SARS-CoV-2 Capability via Multiple Targets}
+{Yu PC, Huang CH, Kuo CJ, Liang PH, Wang LH, Pan MY, Chang SY, Chao TL, Ieong SM, Fang JT, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Pharmaceutics, {\bf 14}, 176 (2022)}
+%doi: 10.3390/pharmaceutics14010176 2022 Jan 12
+
+\item
+\mypub{BI-2536 Promotes Neuroblastoma Cell Death via Minichromosome Maintenance Complex Components 2 and 10}
+{Hsieh CH, Yeh HN, Huang CT, Wang WH, Hsu WM, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Pharmaceuticals, {\bf 15}, 37 (2022)}
+%doi: 10.3390/ph15010037
+
+\item
+\mypub{Modular signature of long non-coding RNA association networks as a prognostic biomarker in lung cancer}
+{Li A, Yu WH, Hsu CL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{BMC Medical Genomics, {\bf 14}(Suppl 3), 290 (2021)}
+
+\item
+\mypub{Identification of a gut microbiota member that ameliorates DSS-induced colitis in intestinal barrier enhanced Dusp6-deficient mice}
+{Chang CS, Liao YC, Huang CT, Lin CM, Cheung CHY, Ruan JW, Yu WH, Tsai YT, Lin IJ, Huang CH, Liou JS, Chou YH, Chien HJ, Chuang HL, Juan HF, {\bf Huang HC}, Chan HL, Liao YC, Tang SC, Su YW, Tan TH, Bäumler AJ, Kao CY}
+{Cell Rep., {\bf 37}, 110016 (2021)}
+
+\item
+\mybpub{Identification of cell states using super-enhancer RNA}
+{Tu YH, Juan HF$^*$, {\bf Huang HC$^*$}}
+{BMC Genomics, {\bf 22}(Suppl 3), 787 (2021)}
+%{bioRxiv 209387 (2017)}
+
+\item
+\mybpub{LncTx: A network-based method to repurpose drugs acting on the survival-related lncRNAs in lung cancer}
+{Li A, Huang HT, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Comput.\ Struct.\ Biotechnol.\ J., {\bf 19}, 3990–4002 (2021)}
+% doi:10.1016/j.csbj.2021.07.007
+
+\item
+\mypub{Proteomic analysis reveals metformin suppresses PSMD2, STIP1 and CAP1 for anti-gastric cancer AGS cell proliferation and migration}
+{Wang WH, Chen SK, {\bf Huang HC$^*$}, Juan HF$^*$}
+{ACS Omega, {\bf 6}, 14208-14219 (2021)}
+%2021 May 26;6(22):14208-14219. doi: 10.1021/acsomega.1c00894. eCollection 2021 Jun 8.
+
+\item
+\mypub{DockCoV2: a drug database against SARS-CoV-2}
+{Chen TF, Chang YC, Hsiao Y, Lee KH, Hsiao YC, Lin YH, Tu YE, {\bf Huang HC}, Chen CY, Juan HF}
+{Nucleic\ Acids\ Res.,  {\bf 49}, D1152-D1159 (2021)}
+% 2021 Jan 8;49(D1):D1152-D1159. doi: 10.1093/nar/gkaa861.
+
+\item
+\mypub{Enhancement of the IFN-β-induced host signature informs repurposed drugs for COVID-19}
+{Huang CT, Chao TL, Kao HC, Pang YH, Lee WH, Hsieh CH, Chang SY$^*$, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Heliyon, {\bf 6}, e05646 (2020)}
+% 2020 Dec;6(12):e05646. doi:10.1016/j.heliyon.2020.e05646}
+
+\item
+\mypub{Multiomics reveals ectopic ATP synthase blockade induces cancer cell death via a lncRNA-mediated phospho-signaling network}
+{Chang YW, Hsu CL, Tang CW, Chen XJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Mol.\ Cell.\ Proteomics., {\bf 19}, 1805-1825 (2020)}
+% 2020 Nov;19(11):1805-1825. doi: 10.1074/mcp.RA120.002219. 
+
+\item
+\mypub{ZNF322A-mediated protein phosphorylation induces autophagosome formation through modulation of IRS1-AKT glucose uptake and HSP-elicited UPR in lung cancer}
+{Cheung CHY, Hsu CL, Lin TY,  Chen WT, Wang YC, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Biomed.\ Sci., {\bf 27}, 75 (2020)}
+[IF: 12.1]
+% J Biomed Sci. 2020 Jun 23;27(1):75. doi: 10.1186/s12929-020-00668-5.
+
+\item
+\mypub{Quantitative phosphoproteomics reveals cell alignment and 
+mitochondrial length change under cyclic stretching in lung cells}
+{Wang WH, Hsu CL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Int.\ J.\ Mol.\ Sci., {\bf 21}, 4074 (2020)}
+% Int J Mol Sci. 2020 Jun 7;21(11):4074. doi: 10.3390/ijms21114074.
+
+\item
+\mypub{Phosphoproteome analysis reveals dynamic heat shock protein 27 phosphorylation in tanshinone IIA-induced cell death}
+{Yin CF, Kao SC, Hsu CL, Chang YW, Cheung CHY, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome Res., {\bf 19}, 1620-1634 (2020)}
+% 2020 Apr 3;19(4):1620-1634. 
+% doi:10.1021/acs.jproteome.9b00836}
+
+\item
+\mypub{Complement C1q mediates the expansion of periportal hepatic progenitor cells in senescence-associated inflammatory liver}
+{Ho TC, Wang EY, Yeh KH, Jeng YM, Horng JH, Wu LL, Chen YT, {\bf Huang HC}, Hsu CL, Chen PJ, Yeh SH, Chen DS}
+{Proc.\ Natl.\ Acad.\ Sci.\ USA, {\bf 117}, 6717-6725 (2020)}
+% 2020 Mar 24;117(12):6717-6725
+% doi:10.1073/pnas.1918028117}
+
+\item
+\mypub{Characterizing the cancer-associated microbiome with small RNA sequencing data}
+{Lee WH, Chen KP, Wang K, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Biochem.\ Biophys.\ Res.\ Commun., {\bf 522}, 776-782 (2020)}
+% 2020 Feb 12;522(3):776-782.
+% doi: 10.1016/j.bbrc.2019.11.166}
+%{bioRxiv 807586} 
+% doi: https://doi.org/10.1101/807586}
+
+\item
+\mypub{Investigating the role of super-enhancer RNAs underlying embryonic stem cell differentiation}
+{Chang HC$^\dagger$, {\bf Huang HC$^\dagger$}, Juan HF, Hsu CL}
+{BMC Genomics, {\bf 20}(Suppl 10), 896 (2019)}
+% GIW2019
+
+\item
+\mypub{Combinatorial targeting of MTHFD2 and PAICS in purine synthesis as a novel therapeutic strategy}
+{Cheung CHY, Hsu CL, Tsuei CY, Kuo TT, Huang CT, Hsu WM, Chung YH, Wu HY, Hsu CC, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Cell Death Dis., {\bf 10}, 786 (2019)} 
+[IF: 9.6]
+
+\item
+\mypub{Quantitative proteomics of Th-MYCN transgenic mice reveals Aurora kinase inhibitor altered metabolic pathways and enhanced ACADM to suppress neuroblastoma progression}
+{Hsieh CH, Cheung CHY, Liu YL, Hou CL, Hsu CL, Huang CT, Yang TS, Chen SF, Chen CN, Hsu WM$^*$, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome Res., {\bf 18}, 3850-3866 (2019)}
+% 18 (11), 3850-3866  2019 Nov 1
+% doi: 10.1021/acs.jproteome.9b00245}
+
+\item
+\mybpub{Perturbational gene-expression signatures for combinatorial drug discovery}
+{Huang CT, Hsieh CH, Chung YH, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{iScience, {\bf 15}, 291-306 (2019)}
+% doi: 10.1016/j.isci.2019.04.039
+
+\item
+\mybpub{Therapeutic targeting of non-oncogene dependencies in high-risk neuroblastoma}
+{Huang CT, Hsieh CH, Lee WC, Liu YL, Yang TS, Hsu WM, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Clin.\ Cancer Res., {\bf 25}, 4063-4078 (2019)}
+[IF: 10.2]
+% doi: 10.1158/1078-0432.CCR-18-4117 (2019)}
+
+\item
+\mypub{Identification and characterization of the lncRNA signature associated with overall survival in patients with neuroblastoma}
+{Sathipati SY, Sahu D, {\bf Huang HC}, Lin Y, Ho SY}
+{Sci.\ Rep., {\bf 9}, 5125 (2019)}
+
+\item 
+\mypub{RNA-binding proteomics reveals MATR3 interacting with lncRNA SNHG1 to enhance neuroblastoma progression}
+{Yang TW, Sahu D, Chang YW, Hsu CL, Hsieh CH, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome Res.,{\bf 18}, 406-416 (2019)}
+% doi: 10.1021/acs.jproteome.8b00693 (2018)
+
+\item
+\mypub{Regulatory feedback loops bridge the human gene regulatory network and regulate carcinogenesis}
+{Chen YR, {\bf Huang HC}, Lin CC}
+{Brief.\ Bioinform., {\bf 20}, 976–984 (2019)}
+% doi: 10.1093/bib/bbx166 (2017)}
+
+\item 
+\mybpub{A large-scale gene expression intensity-based similarity metric for drug repositioning}
+{Huang CT, Hsieh CH, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{iScience, {\bf 7}, 40-52 (2018)}
+
+\item 
+\mypub{Dynamics of alternative polyadenylation in human preimplantation embryos}
+{Chang JY, Yu WH, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Biochem.\ Biophys.\ Res.\ Commun., {\bf 504}, 727-733 (2018)}
+
+\item
+\mypub{High-risk, expression-based prognostic long noncoding RNA signature in neuroblastoma}
+{Sahu D, Ho SY, Juan HF$^*$, {\bf Huang HC$^*$}}
+{JNCI Cancer Spectrum, {\bf 2}, pky015 (2018)}
+
+
+\item
+\mypub{MCM2-regulated functional networks in lung cancer by multi-dimensional proteomic approach}
+{Cheung CHY, Hsu CL, Chen KP, Chong ST, Wu CH, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Sci.\ Rep., {\bf 7}, 13302 (2017)}
+
+\item
+\mybpub{DynaPho: a web platform for inferring the dynamics of time-series phosphoproteomics}
+{Hsu CL, Wang JK, Lu PC, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Bioinformatics, {\bf 33}, 3664-3666  (2017)}
+
+\item
+\mypub{Bacterial composition and diversity in breast milk samples from mothers living in Taiwan and Mainland China}
+{Li SW, Watanabe K, Hsu CC, Chao SH, Yang ZH, Lin YJ, Chen CC, Cao YM, {\bf Huang HC}, Chang CH, Tsai YC}
+{Front.\ Microbiol., {\bf 8}, 965 (2017)}
+
+\item
+\mypub{Identification of lncRNA functions in lung cancer based on associated protein-protein interaction modules}
+{Wu CH, Hsu CL, Lu PC, Lin WC, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Sci.\ Rep., {\bf 6}, 35939 (2016)}
+
+\item
+\mybpub{Co-expression analysis identifies long noncoding RNA SNHG1 as a novel predictor for event-free survival in neuroblastoma}
+{Sahu D, Hsu CL, Lin CC, Yang TW, Hsu WM, Ho SY, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Oncotarget, {\bf 7}, 58022-58037 (2016)}
+%doi: 10.18632/oncotarget.11158
+%[\cited{42}]
+
+\item
+\mypub{Unveiling MYCN regulatory networks in neuroblastoma via integrative analysis of heterogeneous genomics data}
+{Hsu CL, Chang HY, Chang JY, Hsu WM, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Oncotarget, {\bf 7}, 36293-36310 (2016)}
+%doi:10.18632/oncotarget.9202
+
+\item
+\mypub{The core of hepatitis C virus pathogenesis}
+{Kao CC, Yi G, {\bf Huang HC}}
+{Curr.\ Opin.\ Virol., {\bf 17}, 66-73 (2016)}
+
+\item
+\mypub{Oncoprotein ZNF322A transcriptionally deregulates alpha-adducin, cyclin D1 and p53 to promote tumor growth and metastasis in lung cancer}
+{Jen J, Lin LL, Chen HT, Liao SY, Lo FY, Tang YA, Su WC, Salgia R, Hsu CL, {\bf Huang HC},  Juan HF, Wang YC}
+{Oncogene, {\bf 35}, 2357-69 (2016)}
+
+\item
+\mypub{Temporal phosphoproteome dynamics induced by an ATP
+synthase inhibitor citreoviridin}
+{Hu CW, Hsu CL, Wang YC, Ishihama Y, Ku WC, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Mol.\ Cell.\ Proteomics, {\bf 14}, 3284-98 (2015)}
+
+\item
+\mypub{Functional analysis and characterization of differential coexpression networks}
+{Hsu CL, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Sci.\ Rep., {\bf 5}, 13295 (2015)}
+%[\cited{34}]
+
+\item
+\mypub{Integrating phosphoproteomics and bioinformatics to study brassinosteroid-regulated phosphorylation dynamics in Arabidopsis}
+{Lin LL, Hsu CL, Hu CW, Ko SY, Hsieh HL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{BMC Genomics, {\bf 16}, 533 (2015)}
+%[Highly accessed]
+
+\item
+\mypub{Circadian systems biology in metazoa}
+{Lin LL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Briefings in Bioinformatics, {\bf 16}, 1008-24 (2015)}
+
+\item
+\mypub{Integrating transcriptomics and proteomics to show that tanshinone IIA suppresses cell growth by blocking glucose metabolism in gastric cancer cells}
+{Lin LL, Hsia CR, Hsu CL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{BMC Genomics, {\bf 16}, 41 (2015)}
+%[\cited{29}]
+
+\item
+\mypub{Quantitative proteomics reveals middle infrared radiation-interfered networks in breast cancer cells}
+{Chang HY, Li MH, Huang TC, Hsu CL, Tsai SR, Lee SC$^*$, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteome\ Res., {\bf 14}, 1250-62 (2015)}
+
+\item
+\mypub{Combination therapy targeting ectopic ATP synthase and 26S proteasome induces ER stress in breast cancer cells}
+{Chang HY, Huang TC, Chen NN, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Cell Death Dis., {\bf 5}, e1540 (2014)}
+
+\item
+\mypub{Dissecting the human protein-protein interaction network via phylogenetic decomposition}
+{Chen CY, Ho A, Huang HY, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Sci.\ Rep., {\bf 4}, 7153 (2014)}
+
+\item
+\mypub{MicroRNA-mediated networks underlie immune response regulation in papillary thyroid carcinoma}
+{Huang CT, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Sci.\ Rep., {\bf 4}, 6495 (2014)}
+
+\item
+\mybpub{Mirin: Identifying microRNA regulatory modules in protein-protein interaction network}
+{Yang KC, Hsu CL, Lin CC, Juan HF$^*$, {\bf Huang HC$^*$}}
+{Bioinformatics, {\bf 30}, 2527-8 (2014)}
+
+\item
+\mypub{Deciphering molecular determinants of chemotherapy in gastrointestinal malignancy using systems biology approaches}
+{Lin LL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Drug Discovery Today, {\bf 19}, 1402-1409 (2014)}
+
+\item
+\mypub{Aryl hydrocarbon receptor downregulates MYCN expression and promotes cell differentiation of neuroblastoma}
+{Wu PY, Liao YF, Juan HF, {\bf Huang HC}, Wang BJ, Lu YL, Yu IS, Shih YY, Jeng YM, Hsu WM, Lee H}
+{PLoS ONE, {\bf 9}, e88795 (2014)}
+
+\item
+\mypub{Quantitative proteomic analysis of human lung tumor xenografts treated with the ectopic ATP synthase inhibitor citreoviridin}
+{Wu YH, Hu CW, Chien CW, Chen YJ, {\bf Huang HC$^*$}, Juan HF}
+{PLoS ONE, {\bf 8}, e70642 (2013)}
+
+\item
+\mypub{Quantitative Proteomics Reveals Diverse Roles of miR-148a from Gastric Cancer Progression to Neurological Development}
+{Hu CW, Tseng CW, Chien CW, {\bf Huang HC}, Ku WC, Lee SJ, Chen YJ, Juan HF}
+{J.\ Proteome\ Res., {\bf 12}, 3993-4004 (2013)}
+
+\item
+\mypub{Identification of microRNA 395a in 24-epibrassinolide-regulated
+root growth of \textsl{Arabidopsis thaliana} using microRNA arrays}
+{Lin LL, Wu CC, {\bf Huang HC$^*$}, Chen HJ, Hsieh HL$^*$, Juan HF$^*$}
+{Int.\ J.\ Mol.\ Sci., {\bf 14}, 14270-86 (2013)}
+
+\item
+\mypub{Link clustering reveals structural characteristics and biological contexts in signed molecular networks}
+{Lin CC, Lee CH, Fuh CS, Juan HF$^*$, {\bf Huang HC$^*$}}
+{PLoS\ ONE, {\bf 8}, e67089 (2013)}
+
+\item
+\mypub{Comprehensive methylome analysis of ovarian tumors reveals hedgehog signaling pathway regulators as prognostic DNA methylation biomarkers}
+{Huang RL, Gu F, Kirma NB, Ruan J, Chen CL, Wang HC, Liao YP, Chang CC, Yu MH, Pilrose JM, Thompson IM, {\bf Huang HC}, Huang THM, Lai HC, Nephew KP}
+{Epigenetics, {\bf 8}, 624-34 (2013)}
+% 2013 May 10;8(6). [Epub ahead of print]
+
+\item
+\mypub{MicroRNA-regulated protein-protein interaction networks and their
+functions in breast cancer}
+{Lee CH, Kuo WH, Lin CC, Oyang YJ, {\bf Huang HC$^*$}, Juan HF$^*$}
+{Int.\ J.\ Mol.\ Sci., {\bf 14}, 11560-606 (2013)}
+% 2013 May 30;14(6):11560-606. doi: 10.3390/ijms140611560
+
+\item
+\mypub{Anatomical and transcriptional dynamics of maize embryonic leaves during seed germination}
+{Liu WY, Chang YM, Chen SC, Lu CH, Wu YH, Lu MY, Chen DR, Shih AC, Sheue CR, {\bf Huang HC}, Yu CP, Lin HH, Shiu SH, Ku MSB, Li WH}
+{Proc.\ Natl.\ Acad.\ Sci.\ USA, {\bf 110}, 3979-84 (2013)}
+%doi:10.1073/pnas.1301009110}
+
+\item
+\mypub{Differential microRNA regulation correlates with alternative polyadenylation pattern between breast cancer and normal cells}
+{Liao HH, CC Lin, Juan HF$^*$, {\bf Huang HC$^*$}}
+{PLoS\ ONE, {\bf 8}, e56958 (2013)}
+
+\item
+\mypub{Middle infrared radiation induces G$_2$/M cell cycle arrest in A549 lung cancer cells}
+{Chang HY, Shih MH, {\bf Huang HC}, Tsai SR, Juan HF, Lee SC}
+{PLoS\ ONE, {\bf 8}, e54117 (2013)}
+
+\item
+\mypub{ValidNESs: a database of validated leucine-rich nuclear export signals}
+{Fu SC, {\bf Huang HC}, Horton P, Juan HF}
+{Nucleic\ Acids\ Res., {\bf 41}, D338-D343 (2013)}
+%doi:10.1093/nar/gks936		41(D1):D338-D343
+
+\item
+\mybpub{Lengthening of 3$^\prime$UTR increases with morphological complexity in animal evolution}
+{Chen CY, Chen ST, Juan HF$^{*}$, {\bf Huang HC$^{*}$}}
+{Bioinformatics, {\bf 28}, 3178-81 (2012)} [ESI 2013 {Highly Cited Papers}]
+%\cited{5}
+% doi:10.1093/bioinformatics/bts623	28(24):3178-81
+
+\item
+\mypub{Phosphoproteomic analysis of \textsl{Rhodopseudomonas palustris} reveals the role of pyruvate phosphate dikinase phosphorylation in lipid production}
+{Hu CW, Lin MH, {\bf Huang HC}, Ku WC, Yi TH, Tsai CF, Chen YJ, Sugiyama N, Ishihama Y, Juan HF, Wu SH}
+{J.\ Proteome\ Res., {\bf 11}, 5362-75 (2012)}
+%doi:10.1021/pr300582p
+
+\item
+\mypub{Revealing the molecular mechanism of gastric cancer marker annexin A4 in cancer cell proliferation using exon arrays}
+{Lin LL, {\bf Huang HC$^{*}$,} Juan HF$^{*}$}
+{PLoS\ ONE, {\bf 7}, e44615 (2012)}
+
+\item
+\mypub{\textsl{Helicobacter pylori}  disrupts  host  cell  membranes,  initiating a repair response and cell proliferation}
+{Lin LL, {\bf Huang HC}, Ogihara S, Wang JT, Wu MC, McNeil PL, Chen CN, Juan HF}
+{Int.\ J.\ Mol.\ Sci., {\bf 13}, 10176-92 (2012)}
+
+\item
+\mypub{Profiling lipid-protein interactions using non-quenched fluorescent liposomal nanovesicles and proteome microarrays}
+{Lu KY, Tao SC, Yang TC, Ho YH, Lee CH, Lin CC, Juan HF, {\bf Huang HC}, Yang CY, Chen MS, Lin YY, Lu JY, Zhu H, Chen CS}
+{Mol.\ Cell.\ Proteomics, {\bf 11}, 1177-90 (2012)}
+
+\item
+\mypub{Ectopic ATP synthase blockade suppresses lung adenocarcinoma growth by activating the unfolded protein response}
+{Chang HY, {\bf Huang HC}, Huang TC, Yang PC, Wang YC, Juan HF}
+{Cancer Res. {\bf 72}, 4696-4706 (2012)}
+
+\item
+\mypub{Methylomic Analysis Identifies Frequent DNA Methylation of Zinc Finger Protein 582 (ZNF582) in Cervical Neoplasms}
+{Huang RL, Chang CC, Su PH, Chen YC, Liao YP, Wang HC, Yo YT, Chao TK, {\bf Huang HC}, Lin CY, Chu TY, Lai HC}
+{PLoS ONE, {\bf 7}, e41060 (2012)}
+
+\item
+\mypub{Revealing the anti-tumor effect of artificial miRNA p-27-5p on
+human breast carcinoma cell line T-47D}
+{Tseng CW, {\bf Huang HC}, Shih AC, Chang YY, Hsu CC, Chang JY, Juan HF, Li WH}
+{Int.\ J.\ Mol.\ Sci., {\bf 13}, 6352-69 (2012)}
+
+\item
+\mypub{Discovery of biomarkers for gastric cancer: a proteomics approach}
+{Lin LL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{J.\ Proteomics, {\bf 75}, 3081-97 (2012)}
+
+\item
+\mybpub{Crosstalk between transcription factors and microRNAs in human protein interaction network}
+{Lin CC, Chen YJ, Chen CY, Oyang YJ, Juan HF$^{*}$, {\bf Huang HC$^{*}$}}
+{BMC\ Syst.\ Biol., {\bf 6}, 18 (2012)}
+%[Highly aaccessed]
+%\cited{48}]
+
+\item
+\mypub{The androgen pathway stimulates microRNA-216a transcription to suppress
+the TSLC1 tumor suppressor gene in early hepatocarcinogenesis}
+{Chen PJ, Yeh SH, Liu WH, Lin CC, {\bf Huang HC}, Chen CL, Chen DS, Chen PJ}
+{Hepatology, {\bf 56}, 632-43 (2012)}
+
+\item
+\mypub{Revealing the Functions of the Transketolase Enzyme Isoforms in \textsl{Rhodopseudomonas palustris} Using a Systems Biology Approach}
+{Hu CW, Chang YL, Chen SJ, Kuo-Huang LL, Liao JC, {\bf Huang HC$^{*}$}, Juan HF$^{*}$}
+{PLoS ONE, {\bf 6}, e28329 (2011)}
+
+\item
+\mypub{Silencing of miR-124 induces neuroblastoma SK-N-SH cell differentiation, cell cycle arrest and apoptosis through promoting AHR}
+{Huang TC, Chang HY, Chen CY, Wu PY, Lee H, Liao YF, Hsu WM$^{*}$, {\bf Huang HC$^{*}$}, Juan HF$^{*}$}
+{FEBS Lett., {\bf 585}, 3582-6 (2011)}
+%c: 4
+
+\item
+\mypub{The effect of narrow bandwidth infrared radiation on the growth of \textsl{Escherichia coli}}
+{Tsai SR, Huang TC, Liang CM, Chang HY, Chang YT, {\bf Huang HC}, Juan HF$^{*}$, Lee SC$^{*}$}
+{Appl.\ Phys.\ Lett., {\bf 99}, 163704 (2011)}
+%c: 1
+
+\item
+\mypub{Reviewing ligand-based rational drug design: the search for an ATP synthase inhibitor}
+{Lee CH, {\bf Huang HC$^{*}$}, Juan HF$^{*}$}
+{Int.\ J.\ Mol.\ Sci., {\bf 12}, 5304-5318 (2011)}
+%c: 2
+
+\item
+\mybpub{Integrative network analysis reveals active microRNAs and their functions in gastric cancer}
+{Tseng CW, Lin CC, Chen CN, {\bf Huang HC$^{*}$}, Juan HF$^{*}$}
+{BMC Syst.\ Biol., {\bf 5}, 99 (2011)}
+%[Highly accessed; 
+%[\cited{84}]
+%c: 13
+
+\item
+\mypub
+{Identification of 14-3-3$\beta$ in human gastric cancer cells and its potency as a diagnostic and prognostic biomarker}
+{Tseng CW, Yang JC, Chen CN$^{*}$, {\bf Huang HC}, Chuang KN, Lin CC, Lai HS, Lee PH, Chang KJ, Juan HF$^{*}$}
+{Proteomics, {\bf 11}, 2423-39 (2011)} 
+%(DOI: 10.1002/pmic.201000449)}
+%c: 7
+
+\item
+\mybpub{Coregulation of transcription factors and microRNAs in human transcriptional regulatory network}
+{Chen CY, Chen ST, Fuh CS, Juan HF$^{*}$, {\bf Huang HC$^{*}$}}
+{BMC Bioinformatics, {\bf 12 (Suppl 1)}, S41 (2011)} 
+[ESI 2013 {Highly Cited Papers}]
+%\cited{79}]
+%c: 7
+
+\item
+\mypub{\textsl{Ganoderma lucidum} polysaccharides induce macrophage-like differentiation in human leukemia THP-1 cells via caspase and p53 activation}
+{Hsu JW, {\bf Huang HC}, Lee TY, Chen ST, Wong CH, Juan HF}
+{Evid.-based\ Complement\ Altern.\ Med., {\bf 2011}, 358711 (2011)}
+%{Evid.-based\ Complement\ Altern.\ Med., doi:10.1093/ecam/nep107 (2009)}
+%c: 3
+
+\item
+\mypub{Dynamic functional modules in co-expressed protein interaction networks of dilated cardiomyopathy}
+{Lin CC, Hsiang JT, Wu CY, Oyang YJ, Juan HF$^{*}$, {\bf Huang HC$^{*}$}}
+{BMC Syst.\ Biol., {\bf 4}, 138 (2010)}
+%[\cited{13}]
+%c: 8
+
+\item
+\mypub{Modularity of \textsl{Escherichia coli} sRNA regulation revealed by sRNA-targets and protein network analysis}
+{Wu TH, Chang IYF, Chu LCJ, {\bf Huang HC$^{*}$}, Ng WV$^{*}$}
+{BMC Bioinformatics, {\bf 11 (Suppl 7)}, S11 (2010)}
+
+\item
+\mybpub{Predicting essential genes based on network and sequence analysis}
+{Hwang YC, Lin CC, Chang JY, Mori H, Juan HF$^{*}$, {\bf Huang HC$^{*}$}}
+%{Molecular BioSystems {\it in press}}
+%{Mol. BioSyst., 2009, DOI: 10.1039/b900611g}
+{Mol.\ BioSyst., {\bf 5}, 1672--1678 (2009)}
+%[\cited{91}]
+%[\imbs]
+% c: 6
+
+\item
+\mybpub{Essential core of protein-protein interaction network in \textsl{Escherichia coli}}
+{Lin CC, Juan HF, Hsiang JT, Hwang YC, Mori H$^{*}$, {\bf Huang HC$^{*}$}}
+{J. Proteome Res., {\bf 8}, 1925--1931 (2009)}
+%[\cited{11}]
+%[\ijpr]
+%{Lin, Chen-Ching; Juan, Hsueh-Fen; Hsiang, Jen-Tsung; Hwang, Yih-Chii; Mori, Hirotada; Huang, Hsuan-Cheng}
+% 2009 Feb 21. [Epub ahead of print]
+% PMID: 19231892
+% c: 6
+
+\item
+\mybpub{Characterization of microRNA-regulated protein-protein interaction network}
+{Hsu CW, Juan HF$^{*}$, {\bf Huang HC$^*$}}
+%{Chun-Wei Hsu, Hsueh-Fen Juan$^{*}$, {\bf Hsuan-Cheng Huang$^*$}}
+{Proteomics, {\bf 8}, 1975--1979 (2008)}
+%[\cited{113}]
+%[\iproteomics]
+% Proteomics. 2008 May 19;8(10):1975-1979.
+
+
+\item
+\mypub{TCMGeneDIT: a database for associated traditional Chinese medicine, gene and disease information using text mining}
+{Fang YC, {\bf Huang HC}, Chen HH, Juan HF}
+{BMC Complement Altern Med, {\bf 8}, 58 (2008)}
+%[\cited{127}]
+% 2008 Oct 14
+% c: 16
+
+\item
+\mypub{Comparison and Identification of Estrogen-Receptor Related Gene Expression Profiles in Breast Cancer of Different Ethnic Origins}
+{Chen, H.-W.$^{\dagger}$, {\bf Huang, H.-C.$^{\dagger}$}, Lin, Y.-S., Chang, K.-J., Kuo, W.-H., Hwa, H.-L., Hsieh, F.-J.$^{*}$, Juan, H.-F.$^{*}$}
+{Breast Cancer: Basic and Clinical Research, {\bf 1}, 35-49 (2008)}
+% 25 Mar 2008
+
+\item
+\mypub{MeInfoText: associated gene methylation and cancer information from text mining}
+{Fang YC, {\bf Huang HC$^{*}$}, Juan HF$^{*}$}
+{BMC Bioinformatics, {\bf 9}, 22 (2008)} 
+%[Highly accessed]%; \cited{11}]
+%[\ibmcbioinfo; Highly accessed]
+%{Yu-Ching Fang, {\bf Hsuan-Cheng Huang$^{*}$}, Hsueh-Fen Juan$^*$}
+% 2008 Jan 14
+%c: 11
+
+\item
+\mypub{{Ganoderma lucidum} polysaccharides in human monocytic leukemia cells: from gene expression to network construction}
+{Cheng KC$^{\dagger}$, {\bf Huang HC$^{\dagger}$}, Chen JH, Hsu JW, Cheng HC, Ou CH, Yang WB, Chen ST, Wong CH, Juan HF$^{*}$}
+{BMC Genomics, {\bf 8}, 411 (2007)}
+%[Highly accessed; 
+%[\cited{76}]
+%[\ibmcgenomics; Highly accessed]
+%{Kun-Chieh Cheng$^\dagger$, {\bf Hsuan-Cheng Huang$^\dagger$}, Jenn-Han Chen, Jia-Wei Hsu, Hsu-Chieh Cheng, Chern-Han Ou, Wen-Bin Yang, Shui-Tein Chen, Chi-Huey Wong, Hsueh-Fen Juan$^*$}
+% c: 18
+
+\item
+\mypub{An apoptosis-related gene network induced by novel compound -- cRGD in human breast cancer cells}
+{Huang TC, {\bf Huang HC}, Chang CC, Chang HY, Ou CH, Hsu CH, Chen ST, Juan HF$^*$}
+{FEBS Lett., {\bf 581}, 3517-22 (2007)}
+%[\ifebslett]
+% Tsui-Chin Huang, Hsuan-Cheng Huang, Chih-Chin Chang, Hsin-Yi Chang, Chern-Han Ou, Chun-Hua Hsu, Shui-Tein Chen, and Hsueh-Fen Juan
+% 3.372 (2005), 3.415 (2004)
+% c: 5
+
+\item
+\mypub{Comparative analysis of differentially expressed genes in normal and white spot syndrome virus infected Penaeus monodon}
+{Leu JH$^\dagger$, Chang CC$^\dagger$, Wu JL, Hsu CW, Hirono I, Aoki T, Juan HF, Lo CF, Kou GH$^*$, {\bf Huang HC$^*$}}
+{BMC Genomics, {\bf 8}, 120 (2007)}
+%[Highly accessed; 
+%[\cited{125}]
+%\ibmcgenomics
+% Jiann-Horng Leu, Chih-Chin Chang, Jin-Lu Wu, Chun-Wei Hsu, Ikuo Hirono, Takashi Aoki, Hsueh-Fen Juan, Chu-Fang Lo, Guang-Hsiung Kou, Hsuan-Cheng Huang
+% BIOTECHNOLOGY & APPLIED MICROBIOLOGY    17/139
+% GENETICS & HEREDITY     29/124
+
+\item
+\mypub{Lipopolysaccharide-stimulated responses in rat aortic endothelial cells by a systems biology approach}
+{Tseng, H.-W. , Juan, H.-F., {\bf Huang, H.-C.}, Chen, C.-F., Chen, S.-T.$^*$, Wang, G.-J.$^*$}
+{Proteomics, {\bf 6}, 5915-5928 (2006)} 
+%[\iproteomics]
+% c: 10
+
+\item
+\mypub
+{Quantitative proteomic and genomic profiling reveals metastasis-related protein expression patterns in gastric cancer cells}
+{Chen YR, Juan HF, {\bf Huang HC}, Huang HH, Lee YJ, Lio MY, Tseng CW, Lin LL, Chen JY, Wang MJ, Chen JH$^*$, Chen YJ$^*$}
+{J. Proteome Res. {\bf 5}, 2727-2742 (2006)}
+%[\cited{88}]
+%[\ijpr]
+
+\item
+\mypub{Large-scale identification of protein-protein interaction of Escherichia coli K-12}
+{M. Arifuzzaman1, M. Maeda, A. Itoh, K. Nishikata, C. Takita, R. Saito, T. Ara, K. Nakahigashi, {\bf H.-C. Huang}, A. Hirai, K. Tsuzuki, S. Nakamura, M. Altaf-Ul-Amin, T. Oshima, T. Baba, N. Yamamoto, T. Kawamura, T. Ioka-Nakamichi, M. Kitagawa, M. Tomita, S. Kanaya, C. Wada, H. Mori$^*$}
+{Genome Res. {\bf 16}, 686-91 (2006)}
+[\cited{500}]
+%\igenomeres
+%doi:10.1101/gr.4527806, {\it Epub ahead of print} (2006)}
+
+\item
+\mypub{Proteomics analysis of a novel compound: cyclic RGD in breast carcinoma cell line MCF-7}
+{Juan, H.-F.$^*$, Wang, I-H., Huang, T.-C., Li, J.-J., Chen, S.-T., {\bf Huang, H.-C.$^*$}}
+{Proteomics, {\bf 11}, 2991-3000 (2006)}
+[Cover picture]
+%\iproteomics
+
+\item
+\mypub
+{An agent-based system to discover protein-protein interactions, identify protein complexes and proteins with multiple peptide mass fingerprints}
+{Lee, T.-Y., Horng, J.-T.$^*$, Juan, H.-F., Huang, H.-D., Wu, L.-C., Lin, F.-M., {\bf Huang, H.-C.}}
+{J.\ Comput.\ Chem, {\bf 27}, 1020-32 (2006)}
+%[\ijcompchem]
+
+\item
+\mypub
+{A new application of microwave technology to proteomics}
+{Juan, H.-F.$^*$, Chang, S.-C., {\bf Huang, H.-C.}, Chen, S.-T.}
+{Proteomics {\bf 5}, 840-842 (2005)}
+%[\cited{108}]
+%\iproteomics
+
+\item 
+\mybpub{GeneNetwork: an interactive interface for reconstructing genetic network based on microarray data}
+{C.C. Wu, {\bf H.C. Huang$^*$}, H.F. Juan, S.T. Chen$^*$}
+{Bioinformatics {\bf 20}, 3691-3693 (2004)}
+%\newline
+%[\cited{76}]
+%\ibioinfo
+% 2004 Jul 22 [Epub ahead of print]
+% Bioinformatics 2004 20(18):3691-3693
+% PMID: 15271782
+
+\item
+\mypub
+{Small molecules targeting severe acute respiratory syndrome human coronavirus}
+{C.Y.~Wu, J.T.~Jan$^{*}$, S.H.~Ma, C.J.~Kuo, H.F.~Juan, Y.S.E.~Cheng, H.H.~Hsu, {\bf H.C.~Huang}, D.~Wu, A.~Brik, F.S.~Liang, R.S.~Liu, J.M.~Fang, S.T.~Chen, P.H. Liang, C.H.~Wong$^{*}$}
+{Proc.\ Natl.\ Acad.\ Sci.\ USA\ {\bf 101}, 10012-10017 (2004)}
+%\newline
+[\cited{1800}]
+%[\ipnas]
+% 2004 Jul 6
+% PMID: 15226499
+
+\item
+\mypub{ProteMiner-SSM: a web server for efficient analysis of similar protein tertiary substructures}
+{Chang DT, Chen CY, Chung WC, Oyang YJ$^{*}$, Juan HF, {\bf Huang HC}}
+{Nucleic Acids Res.\ {\bf 32}, W76-82 (2004)}
+%[\inar; \cited{13}]
+% 2004 Jul 1
+% PMID: 15215355
+
+%\item
+%\mypub{An Efficient Algorithm for Analysis of Protein Tertiary Subtructures}
+%{Y.J. Oyang, D.T.H. Chang, C.Y. Chen, S.C. Hwang, H.F. Juan, \hch}
+%{submitted to Bioinformatics}
+
+%\item
+%\mypub{Inferring Genetic Regulatory Networks Using a Dynamic Bayesian Network Approach}
+%{C.C. Wu, {\bf H.C. Huang}, H.F. Juan, S.T. Chen}
+%{{\it in preparation}}
+
+
+
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% My HEP Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\vspace{18pt}
+%\hspace{-0.4in} {\bf Representative Journal Papers on High-Energy Physics:}
+
+\item
+\mypub{Evidence for $B \to \phi \phi K$}
+{Belle Collaboration, {\bf H.-C. Huang$^*$} \etal}
+{\PRL {\bf 91}, 241802 (2003)}
+%[\cited{30}]
+%{hep-ex/0303068, accepted for publication in \PRL}
+% #60: B -> phi phi K
+% \newline [first and corresponding author; IF: 7.489, top of physics]
+
+\item
+\mypub{Observation of $B^{\pm} \to \omega K^{\pm}$ Decay}
+{Belle Collaboration, R.-S. Lu \etal}
+{\PRL {\bf 89}, 191801 (2002)}
+%\newline 
+[{corresponding author}]
+% hep-ex/0207019
+% #36: B --> omega K
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item
+\mypub{Measurements of branching fractions and CP asymmetries in $B \to \eta h$ decays}
+{Belle Collaboration, P.~Chang {\it et al.}}
+{Phys.\ Rev.\ D {\bf 71}, 091106 (2005)}
+%[\iprd; \cited{13}]
+% hep-ex/0412043
+  
+\item
+\mypub{Observation of $B^+ \to p \overline{p} \pi^+$, $B^0 \to p \overline{p} K^0$, and $B^+ \to p \overline{p} K^{*+}$}
+{Belle Collaboration, M.-Z. Wang, \etal}
+{\PRL {\bf 92}, 131801 (2004)}
+%[\cited{50}]
+% 2 April 2004
+% PMID: 15089596
+% hep-ex/0310018
+% #75: B -> p pbar h(*)
+
+\item
+\mypub{First measurement of the $T$-violating muon polarization in the decay $K^+ \to \mu^+ \nu \gamma$}
+{KEK-E246 Collaboration, V.V.~Anisimovsky \etal}
+{\PLB{562}, 166 (2003)}
+% hep-ex/0304027 
+
+\item 
+\mypub{The Belle detector}
+{Belle Collaboration, A.~Abashian \etal}
+{\NIMA{479}, 117 (2002)}
+%[\cited{1942}]
+% 21 February 2002
+% KEK Progress Report 2000-4 
+
+\item
+\mypub{Observation of $B^{\pm}\to p \overline{p} K^{\pm}$}
+{\belle}
+{\PRL {\bf 88}, 181803 (2002)}
+\newline [{\it Equal contribution} to the corresponding author]
+%; \cited{74}]
+% hep-ex/0202017
+% #23: B --> p pbar K
+
+\item
+\mypub{Observation of the Color-Suppressed Decay $\overline{B}{}^0
+\to D^0 \pi^0$}
+%{Observation of color-suppressed $\overline{B}^0 \to D^0 \pi^0$,
+%$D^{*0} \pi^0$, $D^0 \eta$ and $D^0 \omega$ decays} 
+{\belle}
+{\PRL {\bf 88}, 052002 (2002)}	% 4 Feb 2002
+\newline[{\it Equal contribution} to the corresponding author]
+%; \cited{81}]
+%{hep-ex/0109021, #11}
+
+\item
+\mypub{Measurement of the branching fraction for $B \to \eta' K$ and
+search for  $B \to \eta' \pi^+$}
+{\belle}
+{\PLB{517}, 309 (2001)}
+%[\cited{57}]
+%{hep-ex/0108010}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Belle Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\clearpage
+%\vspace{12pt}
+%\hspace{-0.4in}{\bf Other Journal Papers on Experimental High-Energy Physics:}
+%\footnotetext[0]{\bf Note: * means a significant contribution to the work}
+%\footnote{\bf Note: * means a significant contribution to the work}
+
+%\item
+%\mmypub{Observation of $B^{\pm} \to \omega K^{\pm}$ Decay}
+%{Belle Collaboration, R.-S. Lu \etal}
+%{\PRL {\bf 89}, 191801 (2002)}
+%{{\bf corresponding author}}
+% hep-ex/0207019
+% #36: B --> omega K
+
+%\item
+%\mybpub{Measurement of the branching fraction for $B \to \eta' K$ and
+%search for  $B \to \eta' \pi^+$}
+%{\belle}
+%{\PLB{517}, 309 (2001)}
+%\newline[{SCI Impact Factor: 4.3}]
+%%{hep-ex/0108010}
+
+%\item
+%\mybpub{Observation of $B^+ \to p \overline{p} \pi^+$, $B^0 \to p \overline{p} K^0$, and $B^+ \to p \overline{p} K^{*+}$}
+%{Belle Collaboration, M.-Z. Wang, \etal}
+%{\PRL {\bf 92}, 131801 (2004)}
+%[SCI Impact Factor: 7.3]
+%% 2 April 2004
+%% PMID: 15089596
+%% hep-ex/0310018
+%% #75: B -> p pbar h(*)
+
+
+% #99: e+e- -> double ccbar Comment
+% #55: B -> chi_c1 ???
+%
+% #83: e+e- -> D(*)+ D(*)-
+% #81: B -> omega h
+% #62: B -> D** pi
+
+\item
+\pub{The Physics of the B Factories}
+{A.J.~Bevan, \etal}
+{Eur.\ Phys.\ J.\ C {\bf 74}, 3026 (2014)}
+
+\item
+\pub{Evidence for direct $CP$ violation in $B^0 \to K^+ \pi^-$ decays}
+{Belle Collaboration, Y.~Chao, \etal}
+{\PRL {\bf 93}, 191802 (2004)}
+% Phys Rev Lett. 2004 Nov 5;93(19):191802. Epub 2004 Nov 05. 
+% 5 November 2004
+% PMID: 15600826
+
+\item
+\pub{Evidence for $B^+ \to \omega \ell^+ \nu$}
+{Belle Collaboration, C.~Schwanda, \etal}
+{\PRL {\bf 93}, 131803 (2004)}
+% 24 September 2004
+% #84: B -> omega l nu
+
+\item
+\pub{Search for the Lepton-Flavor-Violating Decay $\tau^- \to \mu^- \eta$ at Belle}
+{Belle Collaboration, Y. Enari, \etal}
+{\PRL {\bf 93}, 081803 (2004)}
+% 20 August 2004
+% #74: tau -> mu eta
+
+\item
+\pub{Observation of $B^+ \to \psi(3770) K^+$}
+{Belle Collaboration, R.~Chistov \etal}
+{\PRL {\bf 93}, 051803 (2004)}
+% 30 July 2004
+% PMID: 15323686
+% #82: B+ -> psi(3770) K+
+
+\item
+\pub{Observation of Large CP Violation and Evidence for Direct CP Violation in $B^0 \to \pi^+ \pi^Ã$ Decays}
+{\belle}
+{\PRL {\bf 93}, 021601 (2004)}
+% 9 July 2004
+% PMID: 15323897
+% #85: CPV in B0 -> pi+ pi-
+
+\item
+\pub{Study of $B^- \to D^{**0}\pi^- (D^{**0} \to D^{(*)+}\pi^-)$ decays}
+{Belle Collaboration, K.~Abe \etal}
+{\PRD {\bf 69}, 112002 (2004)}
+%[\cited{170}]
+% 28 June 2004
+
+\item
+\pub{Improved measurements of the branching fractions for $B \to Kpi$, $\pi\pi$, and $K \overline{K}$ decays}
+{Belle Collaboration, Y.~Chao \etal}
+{\PRD {\bf 69}, 111102(R) (2004)}
+% hep-ex/0311061
+% #80: BR( B -> hh )
+
+\item
+\pub{Upper Bound on the Decay $\tau \to \mu \gamma$ from the Belle Detector}
+{\belle}
+{\PRL {\bf 92}, 171802 (2004)}
+% 30 April 2004
+% PMID: 15169139
+% #66: tau -> mu gamma
+
+\item
+\pub{Observation of Radiative Decay $D^0 \to \phi \gamma$}
+{Belle Collaboration, O. Tajima, \etal}
+{\PRL {\bf 92}, 101803 (2004)}
+% 12 March 2004
+% PMID: 15089196
+% hep-ex/0308037
+% #78: D0 -> phi gamma
+
+\item
+\pub{Measurement of $|V_{ub}|$ using inclusive $B \to X_u \ell \nu$ decays with a novel $X_u$-reconstruction method}
+{Belle Collaboration, H. Kakuno, \etal}
+{\PRL {\bf 92}, 101801 (2004)}
+% hep-ex/0311048
+% #79: |Vub| from B -> Xu l nu
+
+\item
+\pub{Observation of radiative $B \to \phi K \gamma$ decays}
+{Belle Collaboration, A. Drutskoy, \etal}
+{\PRL {\bf 92}, 051801 (2004)}
+% hep-ex/0309006
+% #65: B -> phi K gamma
+
+\item
+\pub{Measurements of the $D_{sJ}$ resonance properties}
+{Belle Collaboration, Y. Mikami, \etal}
+{\PRL {\b 92}, 012002 (2004)}
+%[\cited{119}]
+% hep-ex/0307052
+% #77: e+e- -> D_sJ
+
+\item
+\pub{Search for $B^- \to J/\psi \Lambda \overline{p}$ decay}
+{Belle Collaboration, S.L. Zang, \etal}
+{\PRD {\bf 69}, 017101 (2004)}
+%{hep-ex/0309060, to appear in Phys. Rev. D (Brief Reports)}
+% #71: B- -> J/psi lambda p-bar
+
+\item
+\pub{Measurement of $K^+ K^-$ production in two-photon collisions in the resonant-mass region}
+{\belle}
+{Eur. Phys. J. C {\bf 32}, 323 (2004)}
+%{hep-ex/0309077, to appear in Euro. Phys. J. C}
+%\newline[{SCI Impact Factor: 6.2}]
+% #68: gamma gamma -> K+ K-
+
+\item
+\pub{Study of B meson decays to three-body charmless hadronic final states}
+{Belle Collaboration, A. Garmash, \etal}
+{\PRD {\bf 69}, 012001 (2004)}
+% hep-ex/0307082
+% #64: B -> 3-body charmless hadrons
+
+%%%
+%%%   2003
+%%%
+
+\item
+\pub{Observation of $B \to K^* \ell^+ \ell^-$}
+{Belle Collaboration, A. Ishikawa, \etal}
+{\PRL {\bf 91}, 261601 (2003)}
+%{hep-ex/0308044, to appear in Phys. Rev. Lett}
+% #76: B -> K*l+l-
+
+\item
+\pub{Observation of a narrow charmonium-like state in exclusive $B^+ \to K^+ \pi^+ \pi^- J/\psi$ decays}
+{Belle Collaboration, S.-K. Choi, \etal}
+{\PRL {\bf 91}, 262001 (2003)}
+%[\cited{569}]
+%{hep-ex/0309032, to appear in Phys. Rev. Lett}
+% #73: Choi-Olsen resonance
+
+\item
+\pub{Evidence for $B^0 \to \pi^0 \pi^0$}
+{Belle Collaboration, S.H. Lee, \etal}
+{\PRL {\bf 91} 261801 (2003)}
+%{hep-ex/0308040, to appear in Phys. Rev. Lett}
+% #72: B0 -> pi0 pi0
+
+\item
+\pub{Search for $B^0 \to \ell^+ \ell^-$ at Belle}
+{Belle Collaboration, M.-C. Chang, \etal}
+{\PRD {\bf 68}, 111101(R) (2003)}
+%{hep-ex/0309069, to appear in Phys. Rev. D (RC)}
+% #70: B0 -> l+l-
+
+\item
+\pub{Measurement of Time-Dependent $CP$-Violating Asymmetries in $B^0 \to \phi K_S^0$, $K^+ K^- K_S^0$, and $\eta^\prime K_S^0$ Decays}
+{\belle}
+{\PRL {\bf 91}, 261602 (2003)}
+%{hep-ex/0308035, to appear in Phys. Rev. Lett}
+% #69: CPV in B -> phi KS
+
+\item
+\pub{Observation of the $D_{sJ}(2317)$ and $D_{sJ}(2457)$ in $B$ decays}
+{Belle Collaboration, P. Krokovny, \etal}
+{\PRL {\bf 91}, 262002 (2003)}
+%[\cited{185}]
+% hep-ex/0308019
+% #67: B -> D D_(sJ)*
+
+%%%%%%%
+%%%%%%%
+%%%%%%%
+
+\item
+\pub{Observation of $B^+ \to \rho^+ \rho^0$}
+{Belle Collaboration, J. Zhang, \etal}
+{\PRL {\bf 91}, 221801 (2003)}
+%{hep-ex/0306007, to appear in Phys. Rev. Lett}
+% #61: B -> rho rho
+
+\item
+\pub{Measurement of Branching Fractions and Polarization in $B \to \phi K^{(*)}$ Decays}
+{Belle Collaboration, K.-F. Chen, \etal}
+{\PRL {\bf 91}, 201801 (2003)}
+% #63: B -> phi K(*)
+
+\item
+\pub{Improved Measurement of the Partial-Rate $CP$ Asymmetry in $B^{+} \to  K^{0}\pi^{+}$ and $B^{-} \to \overline{K}^{0} \pi^{-}$ Decays}
+{Belle Collaboration, Y. Unno, K. Suzuki, \etal}
+{\PRD {\bf 68}, 011103 (2003)}
+%{hep-ex/0304035, submitted to PRD(RC)}
+% #59: B+- -> K0 pi+-
+
+\item
+\pub{Measurement of Branching Fraction Ratios and $CP$ Asymmetries in  $B^{\pm} \to D_{CP}K^{\pm}$}
+{Belle Collaboration, S.K. Swain, T.E. Browder, \etal}
+{\PRD {\bf 68},  051101 (2003)}
+% Phys.Rev. D68 (2003) 051101
+%{hep-ex/0304032}
+% #58: B- -> Dcp K- 
+
+\item
+\pub{Observation of $B^{0} \to p \overline{\Lambda} \pi^{-}$}
+{Belle Collaboration, M.-Z. Wang, \etal}
+{\PRL {\bf 90}, 201802 (2003)}
+%{hep-ex/0302024, submitted to PRL}
+% #57: B -> p lambda pi
+    
+\item
+\pub{Evidence for $CP$-Violating Asymmetries in $B^0 \to \pi^+\pi^-$
+Decays and Constraints on the CKM Angle $\phi_2$} 
+{\belle}
+{\PRD {\bf 68}, 012001 (2003)}
+%{hep-ex/0301032, submitted to PRD}
+% #56: CPV in B -> pi pi
+
+\item
+\pub{Observation of $\overline{B}{}^0 \to D^0 \overline{K}{}^0$ and
+$\overline{B}{}^0 \to D^0 \overline{K}{}^{*0}$ Decays}
+{Belle Collaboration, P. Krokovny \etal}
+{\PRL {\bf 90}, 141802 (2003)}
+%{hep-ex/0212066, submitted to PRL}
+% #54: B0 -> D0 K(*)0
+
+\item
+\pub{Study of Time-Dependent $CP$-Violating Asymmetries in $b \to s q
+\overline{q}$ Decays}
+{\belle}
+{\PRD {\bf 67}, 031102(R) (2003)}
+%{hep-ex/0212062, to be published in PRD(RC)}
+% #53: ICPV in b->sqq
+
+\item
+\pub{Studies of $B^0$-$\overline{B}{}^0$ Mixing Properties with
+Inclusive Dilepton Events}
+{Belle Collaboration, N. C. Hastings \etal}
+{\PRD {\bf 67}, 052004 (2003)}
+%{hep-ex/0212033, submitted to PRD}
+% #52: B-Bbar mixing (dilepton)
+
+\item
+\pub{Observation of $\overline{B}{}^0 \to \Lambda_c \overline{p}$ Decay}
+{Belle Collaboration, N. Gabyshev \etal}
+{\PRL {\bf 90}, 121802 (2003)}
+%{hep-ex/0212052, submitted to PRL}
+% #51: B -> lambda_c p
+
+\item
+\pub{Measurement of the $B^0$-$\overline{B}{}^0$ Mixing Rate with
+$B^0(\overline{B}{}^0) \to D^{*\mp} \pi^{\pm}$ Partial Reconstruction}
+{Belle Collaboration, Y. Zheng \etal}
+{\PRD {\bf 67}, 092004 (2003)}
+%{hep-ex/0211065, submitted to PRD}
+% #50: B mixing w/partial reconstruction
+
+\item
+\pub{Measurement of Branching Fractions and Charge Asymmetries for
+Two-Body $B$ Meson Decays with Charmonium}
+{\belle}
+{\PRD {\bf 67}, 032003 (2003)}
+%{hep-ex/0211047, to be published in PRD}
+% #47
+
+\item
+\pub{Study of $\overline{B}{}^0 \to D^{(*)0} \pi^+ \pi^-$ Decays}
+{Belle Collaboration, A. Satpathy \etal}
+{\PLB{553}, 159 (2003)}
+%{hep-ex/0211022, submitted to PLB}
+% #48: B0bar -> D0(*) pi pi
+
+\item
+\pub{Search for the Electric Dipole Moment of the $\tau$ Lepton}
+{Belle Collaboration, K. Inami \etal}
+{\PLB{55}, 16 (2003)}
+% hep-ex/0210066
+% #49: Tau EDM
+
+\item
+\pub{Measurement of Branching Fractions for $B\to \eta_c K^{(*)}$
+Decays}
+{Belle Collaboration, F. Fang \etal}
+{\PRL {\bf 90}, 071801 (2003)}
+%{hep-ex/0208047, submitted to PRL}
+% #45: B -> etac K(*)
+
+\item
+\pub{Measurement of the Electroweak Penguin Process 
+$B \to X_s \ell^+ \ell^-$} 
+{Belle Collaboration, J. Kaneko \etal}
+{\PRL {\bf 90}, 021801 (2003)}
+% hep-ex/0208029
+% #43: B --> Xs l+ l-
+
+\item
+\pub{Studies of the Decay $B^{\pm} \to D_{CP} K^{\pm}$}
+{Belle Collaboration, K. Abe \etal}
+{\PRL {\bf 90}, 131803 (2003)}
+%{hep-ex/0207012, submitted to PRL}
+% #35: B --> D_cp K
+
+%%%
+%%%   2002
+%%%
+
+\item
+\pub{Study of Exclusive $B$ decays to Charmed Baryons at Belle}
+{Belle Collaboration, N. Gabyshev \etal}
+{Phys. Rev. D {\bf 66}, 091102(R) (2002)}
+% hep-ex/0208041, submitted to PRL
+% #46: B -> charmed baryons
+
+\item
+\pub{Measurement of the Inclusive Semileptonic Branching Fraction of
+$B$ Mesons and $|V_{cb}|$}
+{\belle}
+{\PLB{547}, 181 (2002)}
+% hep-ex/0208033
+% #26: B -> X e nu
+
+\item
+\pub{Improved Measurement of Mixing-induced $CP$ Violation in the
+Neutral $B$ Meson System} 
+{\belle}
+{Phys. Rev. D {\bf 66}, 071102(R) (2002)}
+%[\cited{218}]
+% hep-ex/0208025
+% #44: sin2phi1 CPV
+
+\item
+\pub{Charmless Hadronic Two-Body $B$ Meson Decays}
+{Belle Collaboration, B.C.K. Casey \etal}
+{Phys. Rev. D {\bf 66}, 092002 (2002)}
+% hep-ex/0207090
+% #39: B -> hh
+
+\item
+\pub{Observation of $D_s^+ K^-$ and Evidence for $D_s^+ \pi^-$ Final
+States in Neutral $B$ Decays} 
+{Belle Collaboration, P. Krokovny \etal}
+{\PRL {\bf 89}, 231804 (2002)}
+% hep-ex/0207077
+% #42: B -> Ds K / Ds pi
+
+\item
+\pub{Mesurement of the $B^0 - \overline{B}^0$ Mixing Parameter
+$\Delta m_d$ using Semileptonic $B^0$ Decays}
+{Belle Collaboration, K. Hara \etal}
+{\PRL {\bf 89}, 251803 (2002)}
+% hep-ex/0207045
+% #41: B-Bbar mixing (semileptonic)
+
+\item
+\pub{Observation of $B \to D^{(*)} K^- K^{0(*)}$ Decays}
+{Belle Collaboration, A. Drutskoy \etal}
+{\PLB{542}, 171 (2002)}
+% hep-ex/0207041
+% #38: B -> DKK
+
+\item
+\pub{Measurement of $CP$-Violating Parameters in $B \to \eta^\prime K$
+Decays}
+{Belle Collaboration, K.-F. Chen \etal}
+{\PLB{546}, 196 (2002)}
+% hep-ex/0207033
+% #40: B -> eta' K (CP)
+
+\item
+\pub{Measurement of the Oscillation Frequency for
+ $B^0-\overline{B}{}^0$ Mixing using Hadronic $B^0$ Decays}
+{\belle}
+{\PLB{542}, 207 (2002)}
+% hep-ex/0207022
+% #37: B-Bbar mixing from hadronic decays
+
+\item
+\pub{Study of $B \to \rho \pi$ Decays at Belle}
+{Belle Collaboration, A. Gordon \etal}
+{\PLB{542}, 183 (2002)}
+% hep-ex/0207007
+% #34: B --> rho pi
+
+\item
+\pub{Observation of the Decay $B^0 \to D^+ D^{*-}$}
+{\belle}
+{\PRL {\bf 89}, 122001 (2002)}
+%{hep-ex/0206014}
+% #33: B --> D+ D*-
+
+\item
+\pub{Observation of the $\eta_c(2S)$ in Exclusive $B \to K K_S K^-
+\pi^+$ Decays}
+{Belle Collaboration, S.-K. Choi \etal}
+{\PRL {\bf 89}, 102001 (2002)}
+%[\cited{130}]
+%{hep-ex/0206002}
+% #32: Observation of eta_c(2S)
+
+\item
+\pub{Observation of Double $c \overline{c}$ Production at $e^+e^-$
+Annihilation at $\sqrt{s} \approx 10.6$ GeV} 
+{\belle}
+{\PRL {\bf 89}, 142001 (2002)}
+%[\cited{233}]
+% hep-ex/0205104
+% #30: e+e- -> double ccbar
+
+\item
+\pub{Measurement of $\chi_{c2}$ Production in Two-Photon Collisions}
+{\belle}
+{\PLB{540}, 33 (2002)}
+% hep-ex/0205100
+% #31: e+e- -> e+e- chi_c2
+
+\item
+\pub{Observation of $\overline{B}{}^0 \to D^{(*)0} p \overline{p}$}
+{\belle}
+{\PRL {\bf 89}, 151802 (2002)}
+% hep-ex/0205083
+% #29: B0bar -> D(*)0 p pbar
+
+\item
+\pub{Radiative $B$ Meson Decays into $K \pi \gamma$ and $K \pi \pi
+\gamma$ Final States}
+{\belle}
+{\PRL {\bf 89}, 231801 (2002)}
+% hep-ex/0205025
+% #28: B --> K pi (pi) gamma
+
+\item
+\pub{Measurements of Branching Fractions and Decay Amplitudes in $ B
+\to J/\psi K^*$ Decays}
+{\belle}
+{\PLB{538}, 11 (2002)}
+%{hep-ex/0205021, to appear in PLB}
+% #27: B --> J/psi K*
+
+\item
+\pub{Study of $CP$-Violating Asymmetries in $B^0 \to \pi^+
+\pi^-$ Decays}
+{\belle}
+{\PRL {\bf 89}, 071801 (2002)}
+% hep-ex/0204002
+% #25: pi+ pi- CPV
+
+\item
+\pub{Search for Charmless Two-body Baryonic Decays of $B$ Mesons}
+{\belle}
+{Phys. Rev. D {\bf 65}, 091103(R) (2002)}
+% hep-ex/0203027
+% #24: B --> 2-baryon
+
+\item
+\pub{Observation of $\chi_{c2}$ Production in $B$-meson Decay}
+{\belle}
+{\PRL {\bf 89}, 011803 (2002)}
+% hep-ex/0202028
+% #20: B -> chi_c2 decay
+
+\item
+\pub{Observation of Mixing-induced $CP$ Violation in the Neutral $B$
+Meson System}
+{\belle}
+{Phys. Rev. D {\bf 66}, 032007 (2002)}
+% hep-ex/0202027
+% #21 : sin2phi1 measurement (PRD)
+
+\item
+\pub{Precise Measurement of $B$ Meson Lifetimes with Hadronic Final
+States}
+{\belle}
+{\PRL {\bf 88}, 171801 (2002)}
+% hep-ex/0202009
+% #22: B lifetime (PRL)
+
+\item
+\pub{Study of Three-body Charmless $B$ Decays}
+{Belle Collaboration, A. Garmash \etal}
+{Phys. Rev. D {\bf 65}, 092005 (2002)}
+% hep-ex/0201007
+
+\item
+\pub{Measurement of $\mathcal{B}( \bar{B} \to D^+ l^- \bar{\nu})$
+and Determination of $|V_{cb}|$} 
+{\belle}
+{\PLB{526}, 258 (2002)}
+% hep-ex/0111082
+
+\item
+\pub{Determination of $|V_{cb}|$ using the semileptonic decay $\bar{B}^0
+\to D^{*+}e^-\bar{\nu}$}
+{\belle}
+{\PLB{526}, 247 (2002)}
+% hep-ex/0111060
+
+\item
+\pub{Measurement of the Lifetime Difference in $D^0$ Meson Decays}
+{\belle}
+{\PRL {\bf 88}, 162001 (2002)}
+% hep-ex/0111026
+
+\item
+\pub{Observation of $B^+ \to \chi_{c0} K^+$}
+{\belle}
+{\PRL {\bf 88}, 031802 (2002)}
+
+\item
+\pub{Production of Prompt Charmonia in $e^+e^-$ Annihilation at
+$\sqrt{s} \approx 10.6$ GeV}
+{\belle}
+{\PRL {\bf 88}, 052001 (2002)}
+%{hep-ex/0110012, #12}
+
+\item
+\pub{Observation of the Decay $B \to K l^+ l^-$}
+%{Observation of the decay $B \to K \mu^+ \mu^-$}
+{\belle}
+{\PRL {\bf 88}, 021801 (2002)}  % 14 January 2002
+%{hep-ex/0109026, to appear in PRL}
+
+\item
+\pub{Observation of Cabibbo-suppressed and $W$-exchange
+$\Lambda_c^+$ baryon decays}
+{\belle}
+{\PLB{524}, 33 (2002)}  % 3 January 2002
+%{hep-ex/0111032}
+
+%%%
+%%%   2001
+%%%
+
+\item
+\pub{Observation of $B \to J/\psi K_1(1270)$}
+{\belle}
+{\PRL {\bf 87}, 161601 (2001)}
+%{hep-ex/0105014}
+
+\item
+\pub{Observation of large CP violation in the neutral $B$ meson system}
+{\belle}
+{\PRL  {\bf 87}, 091802 (2001)}
+%[\cited{366}]
+
+\item
+\pub{Search for direct CP violation in $B \to K \pi$ decays}
+{\belle}
+{Phys. Rev. D {\bf 64}, 071101(R) (2001)}
+
+\item
+\pub{Meaasurement of $\Gamma(K_{\mu3}))/\Gamma(K_{e3})$ ratio using
+stopped positive  kaons} 
+{KEK-E246 Collaboration, K.~Horie \etal}
+{\PLB {513}, 311 (2001)}
+
+\item
+\pub{Observation of Cabibbo suppressed $B \to D^{(*)} K^-$ decays at Belle}
+{\belle}
+{Phys.\ Rev.\ Lett.\  {\bf 87}, 111801 (2001)}
+
+\item
+\pub{Measurement of branching fractions for $B \to \pi \pi$, $K \pi$ and
+$K K$  decays}
+{\belle}
+{Phys.\ Rev.\ Lett.\  {\bf 87}, 101801 (2001)}
+
+\item
+\pub{A measurement of the branching fraction for the inclusive $B
+\to X_s  \gamma$ decays with Belle}
+{\belle}
+{Phys.\ Lett.\ B {\bf 511}, 151 (2001)}
+%[\cited{245}]
+
+\item
+\pub{Measurement of inclusive production of neutral pions from
+$\Upsilon(4S)$ decays}
+{\belle}
+{Phys.\ Rev.\ D {\bf 64}, 072001 (2001)}
+
+\item
+\pub{Measurement of the $CP$ violation parameter $\sin 2\phi_1$ in
+$B_d^0$ meson decays} 
+{Belle Collaboration, A.~Abashian \etal}
+{Phys.\ Rev.\ Lett.\  {\bf 86}, 2509 (2001)}
+
+\item 
+\pub{Measurement of $B^0_d$-$\bar B^0_d$ mixing rate from the
+time evolution of dilepton events at the $\Upsilon(4S)$} 
+{Belle Collaboration, K.~Abe, \etal}
+{Phys.\ Rev.\ Lett.\  {\bf 86}, 3228 (2001)}
+%{hep-ex/0011090, submitted to \PRL}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% E246 Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\vspace{12pt}
+%\hspace{-0.4in}{\bf Journal Papers on E246 Physics:}
+
+%\item
+%\mybpub{First measurement of the $T$-violating muon polarization in the decay $K^+ \to \mu^+ \nu \gamma$}
+%{KEK-E246 Collaboration, V.V.~Anisimovsky \etal}
+%{\PLB{562}, 166 (2003)}
+%% hep-ex/0304027 
+
+\item
+\pub{Test of exotic scalar and tensor interactions in $K_{e3}$ decay using stopped positive kaons}
+{KEK-E246 Collaboration, A.~S.~Levchenko \etal}
+{Phys. Atom. Nuclei, {\bf 65}, 2232-2237 (2002)}
+%[IF: 0.616]
+% cited: 7
+
+\item
+\pub{Measurement of $\Gamma(K_{\mu 3})/\Gamma(K_{e3})$ ratio using stopped positive kaons}
+{KEK-E246 Collaboration, K.~Horie \etal}
+{\PLB{513}, 311 (2001)}
+% hep-ex/0106006
+% Phys.Lett.B513:311-318,2001
+
+\item
+\pub{Test of exotic scalar and tensor couplings in $K^+ \to \pi^0 e^+
+\nu$ decay}
+{KEK-E246 Collaboration, S.~Shimizu \etal}
+{Phys.\ Lett.\ B {\bf 495}, 33 (2000)}
+
+\item 
+\pub{A kinematically complete measurement of $K^+ \to \pi^+
+\pi^0 \pi^0$ decays}
+{KEK-E246 Collaboration, Y.~H.~Shin \etal}
+{Eur.\ Phys.\ J.\ {\bf C12}, 627 (2000)}
+
+\item 
+\pub{Test of exotic scalar and tensor couplings in $K^+ \to
+\pi^0 e^+ \nu$ decay}
+{KEK-E246 Collaboration, S.~Shimizu \etal}
+{Phys.\ Lett.\ {\bf B495}, 33 (2000)}
+
+%% Kmu3 T-violation paper
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theory Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Singlet 2/3 quark
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NIM Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\vspace{12pt}
+%\hspace{-0.4in}{\bf Journal Papers on Instrumentation:}
+
+%\item 
+%\mybpub{The Belle detector}
+%{Belle Collaboration, A.~Abashian \etal}
+%{\NIMA{479}, 117 (2002)}	% 21 February 2002
+%% KEK Progress Report 2000-4 
+
+%\item 
+%\mybpub{Beam test of the BELLE extreme forward calorimeter at KEK}
+%{M.~Z.~Wang, H.~C.~Huang, \etal}
+%{\NIM {\bf A455}, 319 (2000)}
+
+\item 
+\pub{Survey of the properties of BGO crystals for the extreme
+forward  calorimeter at BELLE}
+{R.~Akhmetshin, \etal}
+{\NIM {\bf A455}, 324 (2000)}
+
+%\item 
+%\mybpub{Performance of undoped BGO crystals under extremely high
+%dose conditions} 
+%{K.~C.~Peng {\it et al.}}
+%{\NIM {\bf A427}, 524 (1999)}
+
+%\item 
+%\mybpub{Radiation hardness of undoped BGO crystals}
+%{S.~K.~Sahu \etal}
+%%{S.~K.~Sahu, K.~C.~Peng, H.~C.~Huang, C.~H.~Wang, Y.~H.~Chang,
+%%W.~S.~Hou and K.~Ueno} 
+%{\NIM {\bf A388}, 144 (1997)}
+
+%\item 
+%\mybpub{Measurement of radiation damage on an epoxy based optical glue}
+%%{{\bf H.C.~Huang} \etal}
+%{{\bf H.C.~Huang}, K.C.~Peng, S.K.~Sahu, K.~Ueno, Y.H.~Chang,
+%C.H.~Wang, W.S.~Hou} 
+%{\NIM {\bf A385}, 559 (1997)}
+
+%\item 
+%\mybpub{Measurement of radiation damage on an optical reflector}
+%{K.~C.~Peng \etal}
+%%{K.~C.~Peng, S.~K.~Sahu, H.~C.~Huang, K.~Ueno, Y.~H.~Chang,
+%%C.~H.~Wang and W.~S.~Hou}
+%{\NIM {\bf A384}, 544 (1997)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item 
+\mypub{Beam test of the BELLE extreme forward calorimeter at KEK}
+{M.Z.~Wang, {\bf H.C.~Huang}, \etal}
+{\NIM {\bf A455}, 319 (2000)}
+%\newline[{IF: 1.166}, 12.12\%]
+
+\item 
+\mypub
+{Search for $T$-Violating Transverse Muon Polarization in $K^+ \to
+\pi^0 \mu^+ \nu$ Decay Using Stopped Kaons}
+{KEK-E246 Collaboration, M.~Abe \etal}
+{Phys.\ Rev.\ Lett.\  {\bf 83}, 4253 (1999)}
+%[\cited{51}]
+%[\iprl]
+
+\item 
+\mypub{Performance of undoped BGO crystals under extremely high
+dose conditions} 
+{K.~C.~Peng {\it et al.}}
+{\NIM {\bf A427}, 524 (1999)}
+
+\item 
+\mypub{Radiation hardness of undoped BGO crystals}
+{S.~K.~Sahu \etal}
+%{S.~K.~Sahu, K.~C.~Peng, H.~C.~Huang, C.~H.~Wang, Y.~H.~Chang,
+%W.~S.~Hou and K.~Ueno} 
+{\NIM {\bf A388}, 144 (1997)}
+
+%\item 
+%\mypub{Measurement of radiation damage on an epoxy based optical glue}
+%{{\bf H.C.~Huang} \etal}
+%%{H.~C.~Huang, K.~C.~Peng, S.~K.~Sahu, K.~Ueno, Y.~H.~Chang,
+%%C.~H.~Wang and W.~S.~Hou} 
+%{\NIM {\bf A385}, 559 (1997)}
+
+\item 
+\mypub{Measurement of radiation damage on an epoxy based optical glue}
+{{\bf H.C.~Huang}, K.C.~Peng, S.K.~Sahu, K.~Ueno, Y.H.~Chang,
+C.H.~Wang, W.S.~Hou} 
+{\NIM {\bf A385}, 559 (1997)}
+%[{IF: 1.166}, 12.12\%]
+% Nuclear Science \& Technology: \#4/33]
+
+\item 
+\mypub{Measurement of radiation damage on an optical reflector}
+{K.~C.~Peng \etal}
+%{K.~C.~Peng, S.~K.~Sahu, H.~C.~Huang, K.~Ueno, Y.~H.~Chang,
+%C.~H.~Wang and W.~S.~Hou}
+{\NIM {\bf A384}, 544 (1997)}
+
+\item \pub{Aerogel Cerenkov counter for the BELLE experiment}
+{T.~Iijima \etal}
+{\NIM {\bf A379}, 457 (1996)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item 
+\mypub{Singlet charge 2/3 quark hiding the top: Tevatron and LEP
+implications} 
+{W.S.~Hou$^{*}$ and \hch}
+{Phys.\ Rev.\  D {\bf 51}, 5285 (1995)} %[hep-ph/9409227].
+%\newline [{IF: 4.599}; \cited{8}]
+% Physical Review D, Vol.51, No.9, pp. 5285-5288, 1995.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Old Bio Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+\mypub{Sequence Comparison and Computer Modeling of Cardiotoxins
+and Cobratoxin Isolated from Taiwan Cobra} 
+%{S.-H.~Chiou \etal} 
+{Chiou SH, Hung CC, {\bf Huang HC}, Chen ST, Wang KT, Yang CC}
+{Biochem.\ Biophys.\ Res.\ Commun.\ {\bf 206}, 22 (1995)}
+%[\cited{34}]
+%[{IF: 3.161}]
+%{Biochemical and Biophysical Research Communications, Vol.206, No.1,
+%pp. 22-32, 1995.}
+
+\item 
+\mypub{Inhibition of Protein Kinase C by Snake Venom Toxins:
+Comparison of Enzyme Inhibition, Lethality and Hemolysis among
+Different Cardiotoxin Isoforms}
+%{S.-H.~Chiou \etal}
+{Chiou SH, Chuang MH, Hung CC, {\bf Huang HC}, Chen ST, Wang KT, Ho CL}
+{Biochem.\ Mol.\ Biol.\ Int.\ {\bf 35}, 1103 (1995)}
+%[\cited{7}]
+% IF = 0.9
+% cited: 7
+% Biochemistry and Molecular Biology International, Vol.35, No.5,
+% pp. 1103-1112, 1995. 
+
+\item 
+\mypub{Probing the S-1$^\prime$ Subsite Selectivity of an Industrial
+Alkaline Protease in Anhydrous t-Butanol}
+{Chen ST, Chen SY, Chen HJ, {\bf Huang HC}, Wang KT}
+{Bioorg.\ Med.\ Chem.\ Lett.\  {\bf 3}, 727-733 (1993)}
+%[{IF: 2.182}]
+% cited: 7
+% Bioorganic and Medical Chemistry Letters, Vol.3, No.4, pp. 727-733, 1993.
+%{S.-T.~Chen, S.-Y. Chen, H.-J. Chen, H.-C. Huang}
+
+\item 
+\mypub{Investigating the s-2 subsite selectivity of alkaline proteases in hydrolysis of diastereo-peptide esters and molecular-modeling interpretation}
+{Chen ST, Tu CC, Chen SY, {\bf Huang HC}, Wang KT}
+{Bioorg.\ Med.\ Chem.\ {\bf 1}, 361-367 (1993)}
+%[{IF: 2.185}]
+% Investigating the s-2 subsite selectivity of alkaline proteases in hydrolysis of diastereo-peptide esters and molecular-modeling interpretation
+% Bioorg Med Chem. 1993 Nov;1(5):361-7. 
+% PMID: 8081866 
+%Bioorganic and Medical Chemistry, Vol.1, No.5, pp. 361-367, 1993.
+%{S.T.~Chen, C.C.~Tu, S.Y.~Chen, {\bf H.C.~Huang}, K.T.~Wang}
+%Investigating the S-2 Subsite Selectivity of Alkaline
+%Proteases in Hydrolysis of Diastereo-Peptide Esters and
+%Molecular-Modeling Interpretation} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Submitted Papers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\vspace{16pt}
+%\hspace{-0.4in}{\bf Submitted Journal Papers:}
+
+%\item
+%\newpub
+%{J.-J. Li, H.-F. Juan, R.-S. Ko, I.-F. Chung, {\bf H.-C. Huang$^*$}}
+%{Identification of RNA-Binding Protein Residues Using Machine Learning Approaches}
+%{{\it submitted}}
+
+%\item
+%\mypub{ProtExt: a system for protein-protein interaction extraction from PubMed abstracts}
+%{Y.C.~Lin, C.L.~Peng, C.Y.~Kao, H.F.~Juan$^*$, {\bf H.C.~Huang}$^*$}
+%{{\it submitted}}
+
+%\item
+%\mypub{Comparative Analysis of Expression Profiles of Estrogen-Receptor Related Genes in Breast Cancer of Different Ethnic Origins Reveals Population-Unique SNPs}
+%{Hsiao-Wei Chen$^\dagger$, {\bf Hsuan-Cheng Huang$^\dagger$}, Yi-Shing Lin, King-Jen Chang, Wen-Hung Kuo, Hsiao-Lin Hwa, Fon-Jou Hsieh$^*$, Hsueh-Fen Juan$^*$}
+%{{\it submitted}}
+%[co-first author]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Books
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\clearpage
+
+\vspace{24pt}
+\hspace{-0.4in} {\bf Books \& Chapters:}
+
+\item
+\newpub
+{Juan HF \& {\bf Huang HC} (ed.)}
+{A Practical Guide to Cancer Systems Biology}
+{World Scientific Publishing, ISBN: 9813229144 (2018)}
+
+\item
+\newpub
+{Juan HF \& {\bf Huang HC} (ed.)}
+{Systems Biology: Applications in Cancer-related Research}
+{World Scientific Publishing, ISBN: 9814324450 (2012)}
+
+\item
+\newpub
+{Baba T, {\bf Huang HC}, Datsenko K, Wanner BL, Mori H}
+{The Applications of Systematic In-Frame, Single-Gene Knockout Mutant Collection of Escherichia coli K-12 (Chapter 12)}
+{in {\it Microbial Gene Essentiality --- Protocols and Bioinformatics}, {\it ed.} Osterman, Andrei L. \& Gerdes, Svetlana, Humana Press, pp.~183-194, ISBN: 978-1-58829-378-7 (2008)}
+%Series: Methods in Molecular Biology, Vol. 416
+%Microbial Gene Essentiality
+%Protocols and Bioinformatics
+
+\item
+\newpub
+{Juan HF \& {\bf Huang HC}}
+{Bioinformatics: Microarray Data Clustering and Functional Classification (Chapter 25)}
+{in {\it Microarrays (2nd ed.): Volume 2, Applications and Data Analysis}, {\it ed.} Rampal, Jang B., Humana Press, pp.~405-416, ISBN: 978-1-58829-944-4 (2007)}
+% Series: Methods in Molecular Biology, Vol. 382
+
+
+% End of short ver. %
+%\end{enumerate}
+%\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conference Proceedings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\clearpage
+
+\vspace{18pt}
+\hspace{-0.4in} {\bf Selected Conference Proceedings:}
+
+\vspace{6pt}
+\hspace{-0.4in} {\it Peer-reviewed:}
+
+\item
+\mypub
+{Prediction of Essential Genes by Mining Gene Ontology Semantics}
+{Yu-Cheng Liu, Po-I Chiu, {\bf Hsuan-Cheng Huang}, and Vincent S. Tseng}
+{The 7th International Symposium on Bioinformatics Research and Applications (ISBRA2011), Changsha, China, May 27-29, 2011}
+
+\item
+\mypub
+{Comparative Analysis of Co-expressed Protein Interaction Networks Reveals Heart Failure Related Modules}
+{Chen-Ching Lin, Hsueh-Fen Juan, {\bf Hsuan-Cheng Huang}}
+{The 2nd Taiwan-Japan Young Researchers Conference on Computational and Systems Biology (TJYoung2), Tokyo, Japan, November 4-6, 2008}
+(Travel Award; Oral presentation)
+
+\item
+\mypub
+{Development of 1-Butanol Tolerant Microorganism for Biofuel Production}
+{Chang, H.-Y., Huang, {\bf H.-C., Huang}, T.-C., H. Mori, Juan, H.-F.*} 
+ {The Fourth International Meeting on Synthetic Biology (SB4.0), Hong Kong, China, October 10-12, 2008}
+ (Travel Award; Oral presentation)
+
+\item
+\mypub
+{An Efficient Mechanism for Prediction of Protein-Ligand Interactions Based on Analysis of Protein Tertiary Substructures}
+{Chang, D. T.-H, Chen, C.-Y., Chung, W.-C., Oyang, Y.-J., Juan, H.-F., {\bf Huang, H.-C.}}
+{IEEE Fourth Symposium on Bioinformatics and Bioengineering (BIBE2004), Taichung, Taiwan, ROC, May 19--21 2004}
+
+\item
+\mypub{Baryonic $B$ Decays at Belle}
+{{\bf Hsuan-Cheng Huang}}
+{{\it Proceedings of the International Europhysics Conference on High Energy Physics} (EPS2006), Aachen,ÃGermany, July 17--23, 2003}
+[{Eur.\ Phys.\ J.\ C {\bf 33}, 587-587; EPJ direct C (2003), DOI: 10.1140/epjcd/s2003-03-110-9}]
+
+\item
+\mypub{Performance of a Small Angle BGO Calorimeter at Belle}
+{{\bf H. C. Huang}}
+{{\it Proceedings of the 10th International
+Conference on Calorimetry in High Energy Physics}, Pasadena, USA, March 25--29, 2002}
+
+\clearpage
+%\vspace{6pt}
+\hspace{-0.4in} {\it Invited:}
+%\nopagebreak
+~
+\item
+\newpub
+{H.-C. Huang}
+{Elucidating the essentiality of essential genes}
+{NCTS Symposium on Network Biology, Hsinchu, Taiwan, Nov. 11, 2005}
+
+\item
+\newpub
+{H.-C. Huang}
+{Identification of RNA-Binding Protein Residues Using Machine Learning Approaches}
+{Proceedings of the Bioinformatics in Taiwan 2005 Symposium and Workshop (BIT2005), Tainan, Taiwan, Sep.\ 9-10, 2005}
+
+\item
+\newpub
+{H.-C. Huang}
+{Identification of RNA-Binding Protein Residues Using Machine Learning Approaches}
+{Proceedings of the 5th Emerging Information Technology Conference (EITC 2005), Taipei, Taiwan, Aug.\ 15-16, 2005}
+
+\item
+\newpub
+{H.-C. Huang}
+{Systems Biology Study of a Novel Drug on Cancer Cells}
+{Proceedings of the First K.I.T. Bioinformatics Workshop and Symposium, Iizuka, Fukuoka, Japan, December 9-11, 2004}
+
+\item
+\newpub
+{H.-C. Huang}
+{Proteomics Study of Cyclic RGD in Breast Cancer Cell Using Bioinformatics Techniques}
+{Proceedings of Proteomics Symposium and 2004 Annual Meetings of Taiwan Bioinformatics Society, Chung-Li, Taiwan, March 5, 2004}
+
+\item 
+\mypub{Rare $B$ Decays at Belle}
+{H. C. Huang* (for the Belle Collaboration)}
+{hep-ex/0205062, {\it Proceedings of 
+the XXXVII Rencontres de Moriond on Electroweak Interactions and
+Unified Theories}, Les Arcs, France, March 9-16, 2002}
+
+\item
+\mypub{Non-CP Physics Results from Belle}
+{H. C. Huang* (for the Belle Collaboration)}
+{Proceedings of the 2001 Aspen Winter Conference on Particle Physics, Aspen, Colorado, USA, January 7-13,  2001}
+
+\vspace{6pt}
+%\clearpage
+\hspace{-0.4in} {\it Contributed:}
+~
+\item
+\mypub
+{Phylotranscriptomic patterns of network stochasticity and pathway dynamics during embryogenesis}
+{Ko KY, {\bf Huang HC}, Juan HF}
+{The 88th Annual Meeting of the Genetics Society of Japan, Mishima, Japan, September 7 -- 9, 2016}(Travel Award)
+
+\item
+\mypub
+{Comparison of microRNA-regulated protein interaction networks among worm, fly and human}
+{Lee, M.-S., Wu, K.-P., Huang, H.-C.}
+{2009 TPS International Proteomics Conference and 5th AOHUPO MPI Workshop, Taipei, Taiwan, June 19 -- 20, 2009}(Poster Award)
+
+\item
+\mypub
+{Regulation of carbon dioxide assimilation in R. palustris through CBB gene and GroEL overexpression}
+{Hu, C.-W., Huang, H.-C., Juan, H.-F.$^{*}$}
+{2008 Taiwan-Japan Proteomics Symposium, Taipei, Taiwan, December 03 -- 05, 2008}(Third Prize Poster Award)
+
+\item
+\mypub
+{Screening and proteomics study of butanol-tolerant \textsl{E. coli}} % (Abstract#P80)
+{Chang, H.-Y., Huang, H.-C., Mori, H., Juan, H.-F.$^{*}$}
+{Mawudu Autumn School, Taiwan Society of Biochemistry and Molecular Biology, Hsinchu, Taiwan, October 19 -- 20, 2007}(Poster Award)
+% ??????????????: ??????
+
+\item
+\mypub
+{\textit{Ganoderma lucidum} polysaccharides induce apoptosis in uman monocytic leukemia cell line} %(Abstract#P99)
+{Hsu, J.-W., Huang, H.-C., Cheng, K.-C., Chen, S.-T., Wong, C.-H., Juan, H.-F.$^{*}$}
+{Mawudu Autumn School, Taiwan Society of Biochemistry and Molecular Biology, Hsinchu, Taiwan, October 19 -- 20, 2007}(Poster Award)
+% ??????????????: ??????
+
+\item
+\mypub
+{Comparative analysis of differentially expressed genes in normal and white spot syndrome virus infected {\sl Penaeus monodon}}
+{Chang, C.-C., Leu, J.-H., , Wu, J.-L., Hsu, C.-W., Hirono, I., Aoki, T., Juan, H.-F., Lo, C.-F., Kou, G.-H.$^{*}$, Huang H.-C.$^{*}$} % (Abstract#P92)
+{Mawudu Autumn School, Taiwan Society of Biochemistry and Molecular Biology, Hsinchu, Taiwan, October 19 -- 20, 2007}(Poster Award)
+% ??????????????: ??????
+
+%8.Chen, C.-P., Huang, H.-C., Juan, H.-F.* (2007) "MicroRNAs-involved regulatory network of ATRA- and Am80-induced human leukemia cell line HL-60 differentiation" (Abstract#I10) The 8th International Conference on Systems Biology, Long Beach, USA, October 1-6.
+
+\item
+\mypub
+{Prediction of Functional Associated Proteins Using Topological Similarity in Protein-Protein Interaction Network}
+{Chiu, Y.-W., Juan, H.-F., Huang, H.-C.$^{*}$}
+% (Abstract#H14) 
+{The 8th International Conference on Systems Biology, Long Beach, USA, October 1 -- 6, 2007.}
+
+\item
+\mypub
+{An Essential Core of Protein-Protein Interaction Network in {\it Escherichia coli}}
+{Lin, C.-C., Juan, H.-F., Hsiang, J.-T., Mori, H., Huang, H.-C.$^{*}$}
+% (Abstract#H15)
+{The 8th International Conference on Systems Biology, Long Beach, USA, October 1 -- 6, 2007.}
+
+\item
+\mypub
+{Characterization of microRNA-Regulated Protein-Protein Interaction Network}
+{Hsu, C.-W., Juan, H.-F., Huang, H.-C.$^{*}$}
+%(Abstract#H16) 
+{The 8th International Conference on Systems Biology, Long Beach, USA, October 1 -- 6, 2007.}
+
+%14.Ni, K.-C. , Huang, H.-C., Chen, H.-W., Yi, T.-H., Chen, S.-T. Juan, H.-F.* (2007) "Regulatory mechanism of tpa-induced hl-60 cell differentiation" (Abstract#O031, Oral Presentation) 22th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, March 17-18.
+
+\item
+\mypub
+{Identification of Gene Networks and microRNAs in Atra- and Am80-Treated Human HL-60 Leukemia Cell Differenciation}
+{Chen CP, Huang HC, Chen HW, Juan HF$^*$}
+{(Abstract\#P591), The XXII Joint Annual Conference of Biomedical Sciences, Taiwan, Mar.\ 17-18, 2007}
+[Poster Award]
+
+%18.Leu, J.-H., Chang, C.-C., Wu, J.-L., Hirono, I., Aoki, T., Juan, H.-F., Lo, C.-F., Huang, H.-C., and Kou, G.H. (2007) "Comparative analysis of differentially expressed genes in normal and white spot syndrome virus infected penaeus monodon" (Abstract#P587) 22th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, March 17-18.
+%19.Chen, H.-W. , Huang, H.-C., Lin, Y.-S., Chang, K.-J., Kuo, W.-H., Hwa, H.-L., Hsieh, F.-J., Juan, H.-F.* (2006) "Gene expression profiles reveals association of single nucleotide polymorphisms with estrogen receptor status in breast cancer populations" (Oral Presentation) 2006 International Symposium on Biomedical Engineering, Taipei, Taiwan, December 14-16.
+%20.Juan, H.-F.*, Cheng, K.-C., Huang, H.-C., Ou, C.-H., Chen, J.-H., Yang, W.-B., Chen, S.-T., Wong, C.-H. (2006) "Elucidating the molecular regulation of Ganoderma lucidum polysaccharides in human monocytic cells: from gene expression to network construction" The 7th International Conference on Systems Biology, Yokohama, Japan, October 9-11.
+
+\item
+\mypub
+{BSIP Ã a web server for systems-biology structure identification program development}
+{Ou, C.-H., Chang, C.-C., Hsia, H.-C., Wang, F.-S., Juan, H.-F.$^{*}$, Huang, H.-C.$^{*}$}
+{The sixth annual Emerging Information Technology Conference (EITC-06), Dallas, USA, Aug.\ 10-12.} (Oral presentation)
+%22.Lin, C.-C., Hwang, Y.-C., Juan, H.-F., Mori, H., and Huang, H.-C. (2006) "Topological Characteristics of Essential Genes in the Protein Interaction Network of Escherichia coli" Bioinformatics in Taiwan (Abstract#P15), Taichung, Taiwan, Sep 12-15.
+% 23.Y.-C. Fang, H.-C. Huang and Juan, H.-F.* (2006) "Text Extraction and Mining of DNA Methylation Information" The sixth annual Emerging Information Technology Conference (EITC-06), Dallas, USA, Aug 10-12. (Oral presentation)
+% 25.Huang, T.-C. , Chang, C.-C., Huang, H.-C., Juan, H.-F.* (2006) "Induction of caspase-dependent cell death pathway by cyclic RGD in human breast carcinoma cell line MCF-7" 20th Annual symposium of the Protein Society & 20th Anniversary Celebration, San Diego, California, U.S.A., Aug 5-9.
+
+% Juan, H.-F.*, Cheng, K.-C., Huang, H.-C., Ou., C.-H., Chen, J.-H., Yang, W.-B., Chen, S.-T., Wong, C.-H. (2006) "Elucidating the molecular regulation of Ganoderma lucidum polysaccharides in human monocytic cells: from gene expression to network construction" The 11th Symposium on Recent Advances in Biophysics, Taipei, Taiwan, May 24-26, 2006.
+
+\item
+\newpub
+{Lin, N., Chiou, S.-H., Juan, H.-F., Huang, H.-C.}
+{Bioinformatics Approach to Study the Correlation between Gene Expression Profiles and Protein-Protein Interactions Using Matrices}
+{Fourth Asia Pacific Bioinformatics Conference (APBC2006), Taipei, Taiwan, Feb.\ 13-16, 2006}
+
+\item
+\newpub
+{Ou, C.-H., Chang, C.-C., Hsia, H.-C., Wang, F.-S., Juan, H.-F.*, Huang, H.-C.*}
+{BSIP --- a Web Server for Systems-Biology Structure Identification Program Development}
+{Fourth Asia Pacific Bioinformatics Conference (APBC2006), Taipei, Taiwan, Feb. 13--16, 2006}
+[2nd Prize]
+
+\item
+\newpub
+{Bow, Y.-Y., Chang, J.-Y., Juan, H.-F., Mori, H., Huang, H.-C.*}
+{Elucidating the essentiality of essential genes in E. coli K-12}
+{Fourth Asia Pacific Bioinformatics Conference (APBC2006), Taipei, Taiwan, Feb. 13-16, 2006}
+[First Prize]
+
+\item
+\newpub
+{Hwang, Y.-C., Lin, C.-C., Juan, H.-F., Mori, H., Huang, H.-C.*}
+{Topologial Characteristics of Protein Interaction Network and Roles of Essential Genes in E. coli K-12}
+{Fourth Asia Pacific Bioinformatics Conference (APBC2006), Taipei, Taiwan, Feb. 13-16, 2006}
+
+\item
+\newpub
+{Li, J.-J., Juan H.-F.*, Chung, I.-F., Huang, H.-C.*}
+{Identification of RNA-binding Protein Residues Using Machine Learning Approaches}
+{Fourth Asia Pacific Bioinformatics Conference, , Taipei, Taiwan, Feb. 13-16, 2006}
+
+\item
+\newpub
+{Bow, Y.-Y., Chang, J.-Y., Juan, H.-F., Mori, H., Huang, H.-C.*}
+{Elucidating the essentiality of essential genes in E. coli K-12}
+{Sixth International Conference on Systems Biology, Boston, MA, USA, Oct. 19-24, 2005}
+
+\item
+\newpub
+{Huang, T.-C., Chang, C.-C., Huang, H.-C., Juan, H.-F.*}
+{Cyclic RGD-induced cell death in human breast carcinoma cell line MCF-7: the influence of caspase pathway}
+{Sixth International Conference on Systems Biology, Boston, MA, USA, Oct. 19-24, 2005}
+
+\item
+\newpub
+{Tseng, H.-W., Chen, S.-T., Juan, H.-F., Huang, H.-C., Chen, C.-F., and Wang, G.-J.}
+{High-throughput Proteomic Analysis of the Anti-inflammatory Effect of Berberine in Rat Cultured Vascular Endothelial Cells}
+{(Abstract\#O100, Oral Presentation) 20th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, Mar. 26-27, 2005}
+
+\item
+\newpub
+{Chang, S.-C., Huang, H.-C., Chen, S.-T., and Juan, H.-F.}
+{A Subcellular Proteomics Analysis of Human Myeloid Leukemia Cells Differentiation to Macrophages Using Microwave Technology Combined with Mass Spectrometry}
+{(Abstract\#O87, Oral Presentation), 20th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, Mar. 26-27, 2005}
+
+\item
+\newpub
+{Huang, T.-C., Huang, H.-C., Chen, S.-T., and Juan, H.-F.*}
+{Cyclic RDG-induced Cell Death in Human Breast Carcinoma (MCF-7) Cells: the Influence of Caspase Pathway}
+{(Abstract\#O80, Oral Presentation) 20th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, Mar. 26-27, 2005}
+
+\item
+\newpub
+{Li, J.-J. Juan, H.-F., Ko, R.-S., Chung, I-F., Huang, H.-C.*}
+{Identification of RNA-binding Protein Residues Using Machine Learning Approaches}
+{(Abstract\#O39, Oral Presentation), 20th Joint Annual Conference of Biomedical Sciences, Taipei, Taiwan, Mar. 26-27, 2005}
+
+\item
+\newpub
+{Li, J.-J., Huang, H.-C.*, Ko, R.-S., Chen, S.-T., Juan, H.-F.*}
+{BGSSJ: an Interactive Tool for Biological Interpretation of Gene Expression and Proteomics Data}
+{(Abstract\#258), Bioinformatics in Taiwan, Taipei, Taiwan, September 9-11, 2004}
+[2nd Prize]
+
+\item
+\newpub
+{Peng, C.-L., Lin, Y.-C., Huang, H.-C., Kao, C. -Y., Chen, S.-T., and Juan, H.-F.}
+{ProtExt, a Web-based Protein-Protein Interaction Extraction System for PubMed Abstracts}
+{12th International Conference on Intelligent Systems for Molecular Biology and 3rd European Conference on Computational Biology (ISMB/ECCB 2004), Glasgow, UK, Jul. 31 - Aug. 4, 2004}
+
+\item
+\newpub
+{Juan, H.-F.*, Chang, S.-C., Huang, H.-C., Chen, S.-T.}
+{A New Application of Microwave Technology to Proteomics}
+{International Symposium on Microwave Science and Its Application to Related Fields 2004, Takamatsu, Japan, Jul. 26-30, 2004}
+[Financial Support]
+
+\item
+\newpub
+{Wang, I-H., Huang, H.-C., Chen, S.-T., Juan, H.-F.*}
+{Proteomic Analysis of a Novel Compound Ã Cyclic RGD in Breast Carcinoma Cell Line MCF-7 Using Biomic Approach}
+{(Abstract\#PB18) 3rd International Proteomics Conference 2004 (IPCÃ03), Taipei, Taiwan, May 15-17, 2004}
+
+\item
+\newpub
+{Tseng, H. W., Wang, G. J., Juan, H.-F., Chen, C. F., Huang, H. C., and Chen, S. T.}
+{Systems Biology Study of LPS-induced Inflammatory Responses Endothelial Cells}
+{ (Abstract\#PB14) 3rd International Proteomics Conference 2004 (IPCÃ03), Taipei, Taiwan, May 15-17, 2004}
+
+\item
+\newpub
+{Li, J.-J., Huang, H.-C., Ko, R.-S. Chen, S.-T., Juan, H.-F.*}
+{BGSSJ: an Interactive Tool for Biological Interpretation of Gene Expression and Proteomics Data}
+{(Abstract\#PA12) 3rd International Proteomics Conference 2004 (IPCÃ03), Taipei, Taiwan, May 15-17, 2004}
+[Top 10 Prize]
+
+\item
+\newpub
+{Peng, C.-L., Lin, Y.-C., Huang, H.-C., Kao, C. -Y., Chen, S.-T., and Juan, H.-F.*}
+{ProtExt: a Web-based Protein-protein Interaction Extraction System for PubMed Abstract}
+{(Abstract\#PA05), 3rd International Proteomics Conference 2004 (IPCÃ03), Taipei, Taiwan, May 15-17, 2004}
+
+\item
+\newpub
+{Juan, H.-F., Huang, H.-C., and Chen, S.-T.}
+{The Molecular Effect of cyclic-RGD peptide on MCF-7 Cells}
+{(Poster \#149) The 4th International Conference on Systems Biology, Saint Louis, MO, USA, November 5-9, 2003.}
+
+\item 
+\mypub{$K^+ K^-$ and $K^0_S K^0_S$ production in two-photon collisions
+at Belle} 
+{H. C. Huang (for the Belle Collaboration)}
+{hep-ex/0104024, {\it Proceedings of the 4th International Conference
+on B Physics and CP Violation} (BCP4), Japan, Feb. 2001, pp. 351-354}
+
+\item 
+\mypub{Measurement of $K_S^0 K_S^0$ production in two-photon
+collisions with Belle} 
+{Belle Collaboration, A.~Abashian \etal}
+{BELLE-CONF-0018, contributed to {\it the XXXth International Conference
+on High Energy Physics}, Osaka, July 2000}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Technical Notes / Reports / Preprints
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{24pt}
+\hspace{-0.4in} {\bf Technical Reports / Preprints:}
+
+\item
+\mypub{
+Airway microbiome-host transcriptome networks link microbial dysbiosis to survival outcomes and therapeutic opportunities in severe COVID-19}
+{Chen KP, Huang CH, Chen KY, Hsu CL, {\bf Huang HC$^*$}, Juan HF$^*$}
+{bioRxiv, 2025.06.24.661228}
+
+
+%\item
+%\mypub{Identification of cell states using super-enhancer RNA}
+%{YH Tu, HF Juan$^*$, {\bf HC Huang$^*$}}
+%{bioRxiv 209387 (2017)}
+
+%\item
+%\mypub
+%{Lengthening of 3$^{\prime}$UTR Increases Morphological Complexity in Animal Evolution}
+%{Chen CY, Chen ST, Juan HF$^*$, {\bf Huang HC$^*$}}
+%{Nature Precedings, doi:10.1038/npre.2010.4930.1}
+
+\item
+\mypub{Observation of $B \to \eta \pi$}
+{{\bf H.~C.~Huang}}
+{Belle Note 608}
+
+\item
+\mypub{Observation of $B \to \phi \phi K$}
+{{\bf H.~C.~Huang}}
+{Belle Note 581}
+
+\item
+\mypub{Evidence of $B \to \eta h$ Decay}
+{C.~C.~Chiang, {\bf H.~C.~Huang}, \etal}
+{Belle Note 506}
+
+\item
+\mypub{Online Luminosity Measurement of Extreme Forward Calorimeter}
+{P.~Chang {\it et al.}}
+{Belle Note draft}
+
+\item
+\mypub{Observation of $B^+ \to p \overline{p} K^+$ Decay and Search
+for Related Rare Decay Modes} 
+{M.~Z.~Wang, {\bf H.~C.~Huang}, K.~F.~Chen}
+{Belle Note 481}
+
+\item
+\mypub{Observation of Color-suppressed $B^0 \to \overline{D}^{(*)0}
+\eta$ Decay} 
+{{\bf H.~C.~Huang}}
+{Belle Note 438}
+
+\item
+\mypub{Study of $K^0_S K^0_S$ production in two-photon collisions}
+{{\bf H.~C.~Huang}}
+{Belle Note 416}
+
+\item 
+\mypub{The Readout System of EFC}
+{{\bf H.~C.~Huang}, \etal}
+{Belle Note 377}
+
+%\item 
+%\pub{BELLE progress report: April 1995 - March 1996}
+%{M.~T.~Cheng {\it et al.}~(BELLE Collaboration)}
+%{KEK-PROGRESS-REPORT-96-1-H}
+
+%\item 
+%\pub{A Study of CP violation in B meson decays: Technical
+%design report}
+%{M.~T.~Cheng {\it et al.}~(BELLE Collaboration)}
+%{BELLE-TDR-3-95}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Popular Science Articles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\vspace{24pt}
+%\hspace{-0.4in} {\bf Chinese Articles:}
+
+\end{enumerate}
+
+\end{document}
+
+%%
+%	2005 ISI Journal Citation Reports Science Edition
+%%
+J PROTEOME RES  6.901   BIOCHEMICAL RESEARCH METHODS: 2/53
+PROTEOMICS      6.088   BIOCHEMICAL RESEARCH METHODS: 5/53        BIOCHEMISTRY & MOLECULAR BIOLOGY      36/261
+BIOINFORMATICS  6.019   BIOCHEMICAL RESEARCH METHODS    6/53    COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS        1/83
+P NATL ACAD SCI USA     10.231
+GENOME RES      10.139
+PHYS REV LETT   7.489   PHYSICS, MULTIDISCIPLINARY      4/69
+PHYS REV D      4.852   PHYSICS, PARTICLES & FIELDS     4/21    ASTRONOMY & ASTROPHYSICS        8/46
+PHYS LETT B     5.301   PHYSICS, MULTIDISCIPLINARY      4/69
+NUCL INSTRUM METH A     PHYSICS, PARTICLES & FIELDS     15/21   INSTRUMENTS & INSTRUMENTATION   14/52   NUCLEAR SCIENCE & TECHNOLOGY    4/32
+J COMPUT CHEM   3.786   CHEMISTRY, MULTIDISCIPLINARY    13/125
+BIOORG MED CHEM LETT    2.478
+BIOORGAN MED CHEM       2.286
+NUCLEIC ACIDS RES       7.552   BIOCHEMISTRY & MOLECULAR BIOLOGY        24/261
+
+
+% 2003 ISI Journal Citation Reports Science Edition
+% Impact Foctor
+Bioinformatics 6.701  [3/51 BIOCHEMICAL RESEARCH METHODS;  1/83 COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS]
+Nucleic Acids Res. 6.575
+PNAS 10.272
+Genome Res 9.635
+PRL 7.035
+PRE 2.202
+PRD 4.599	PHYSICS, PARTICLES & FIELDS 4/19
+biophys j 4.463  8/66
+BBRC 2.836
+Proteomics 5.766 4/51
+MOL CELL PROTEOMICS 8.316  1/51
+PLB 4.066
+PLA 1.324
+EPJC 3.580
+DNA Research 5.590
+ELECTROPHORESIS 4.040 8/51
+J PROTEOME RES 5.611 
+J COMPUT BIOL 4.60 6/51  2/83
+NIM A 1.166 NUCLEAR SCIENCE & TECHNOLOGY 4/33   INSTRUMENTS & INSTRUMENTATION  10/49 
+J BIOL CHEM 6.482
+NAT BIOTECHNOL 17.721
+NAT GENET 26.494
+NAT MED 30.550
+NAT STRUCT BIOL 11.579
+NATURE 30.979
+SCIENCEÃ29.162
+CELL 26.626
+NEW ENGL J MED 34.833
+Lancet 18.316
+PROTEIN SCI 3.787
+PROTEINS 4.313
+BIOORG MED CHEM LETT 2.182
+BIOORGAN MED CHEM 2.185
+RNA 4.430  (2002: 5.099, 1999: 5.437)  BIOCHEMISTRY & MOLECULAR BIOLOGY 51/261
+MOL MICROBIOL 5.563
+STRUCTURE	5.993
+
+% 2002 SCI Impact Factor
+NAR 7.05
+PRL 7.3
+
+% 1999 SCI Impact Factor
+BBRC 3.161

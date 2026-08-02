@@ -1,6 +1,7 @@
 import re
 import json
 import io
+import sys
 
 def parse_latex_publications(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -204,7 +205,8 @@ def clean_tex(text):
     return text.strip()
 
 if __name__ == "__main__":
-    latex_file = 'pub-260201.tex'
+    # Canonical source; pass a path to parse a different file.
+    latex_file = sys.argv[1] if len(sys.argv) > 1 else 'sources/pub.tex'
     json_output = 'src/content/publications.json'
     
     pubs = parse_latex_publications(latex_file)

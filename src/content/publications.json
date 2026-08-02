@@ -1,18 +1,27 @@
 [
   {
-    "year": 2025,
+    "year": 2026,
+    "title": "scDock: Streamlining drug discovery targeting cell-cell communication via scRNA-seq analysis and molecular docking",
+    "authors": "Huang CH, Oyang YJ, Huang HC, Juan HF",
+    "venue": "Bioinformatics, 42, btag103 (2026)",
+    "doi": "",
+    "note": "",
+    "type": "journal"
+  },
+  {
+    "year": 2026,
     "title": "Mass spectrometry-based human spatial omics: fundamentals, innovations, and applications",
-    "authors": "Yang CC, LinCY, Yuan HY, Huang HC, Juan HF",
-    "venue": "J. Biomed. Sci., accepted",
+    "authors": "Yang CC, Lin CY, Yuan HY, Huang HC, Juan HF",
+    "venue": "J. Biomed. Sci., 33, 16 (2026)",
     "doi": "",
     "note": "IF: 12.1",
     "type": "journal"
   },
   {
-    "year": 2025,
+    "year": 2026,
     "title": "Reactive oxygen species driven immune inflammation in systemic sclerosis: mechanisms and emerging therapeutics",
     "authors": "Lee SC, Yu KH, Huang HC, Juan HF",
-    "venue": "Drug Discovery Today, accepted",
+    "venue": "Drug Discovery Today, 31, 104620 (2026)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -39,7 +48,7 @@
     "year": 2025,
     "title": "DHODH blockade induces ferroptosis in neuroblastoma by modulating the mevalonate pathway",
     "authors": "Shih JC, Chen PY, Kuo CH, Hsieh CH, Chang HY, Lee HC, Huang CH, Hsu CH, Hsu WM, Huang HC, Juan HF",
-    "venue": "Mol. Cell. Proteomics, 101014 (2025)",
+    "venue": "Mol. Cell. Proteomics, 24, 101014 (2025)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -84,7 +93,7 @@
     "year": 2024,
     "title": "Macrophages as determinants and regulators of systemic sclerosis-related interstitial lung disease",
     "authors": "Lee SC, Huang CH, Oyang YJ, Huang HC, Juan HF",
-    "venue": "J. Transl Med. 22, 600 (2024)",
+    "venue": "J. Transl. Med. 22, 600 (2024)",
     "doi": "",
     "note": "IF: 7.5",
     "type": "journal"
@@ -119,8 +128,8 @@
   {
     "year": 2023,
     "title": "Ensemble learning model for identifying the hallmark genes of NFκB/TNF signaling pathway in cancers",
-    "authors": "Su YY, Liu YL, Huang HC, Lin CC.",
-    "venue": "J. Transl Med. 21, 485 (2023)",
+    "authors": "Su YY, Liu YL, Huang HC, Lin CC",
+    "venue": "J. Transl. Med. 21, 485 (2023)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -173,7 +182,7 @@
   {
     "year": 2023,
     "title": "scDrug: From single-cell RNA-seq to drug response prediction",
-    "authors": "Hsieh CY, Wen JH, Lin SM, Tseng TY, Huang JH Huang HC, Juan HF",
+    "authors": "Hsieh CY, Wen JH, Lin SM, Tseng TY, Huang JH, Huang HC, Juan HF",
     "venue": "Comput. Struct. Biotechnol. J., 21, 150-157 (2023)",
     "doi": "",
     "note": "",
@@ -201,7 +210,7 @@
     "year": 2022,
     "title": "LncRNA SNHG1 regulates neuroblastoma cell fate via interactions with HDAC1/2",
     "authors": "Hsu CL, Yin CF, Chang YW, Fan YC, Lin SH, Wu YC, Huang HC, Juan HF",
-    "venue": "Cell Death & Disease, 13, 809 (2022)",
+    "venue": "Cell Death Dis., 13, 809 (2022)",
     "doi": "",
     "note": "IF: 9.6",
     "type": "journal"
@@ -245,7 +254,7 @@
   {
     "year": 2022,
     "title": "Phylotranscriptomic patterns of network stochasticity and pathway dynamics during embryogenesis",
-    "authors": "Ko KY, Chen CY, HF Juan, HC Huang",
+    "authors": "Ko KY, Chen CY, Juan HF, Huang HC",
     "venue": "Bioinformatics, 38, 763–769 (2022)",
     "doi": "",
     "note": "IF: 7.1",
@@ -270,10 +279,10 @@
     "type": "journal"
   },
   {
-    "year": 2021,
+    "year": 2022,
     "title": "BI-2536 Promotes Neuroblastoma Cell Death via Minichromosome Maintenance Complex Components 2 and 10",
     "authors": "Hsieh CH, Yeh HN, Huang CT, Wang WH, Hsu WM, Huang HC, Juan HF",
-    "venue": "Pharmaceuticals, 15, 37 (2021)",
+    "venue": "Pharmaceuticals, 15, 37 (2022)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -291,7 +300,7 @@
     "year": 2021,
     "title": "Identification of a gut microbiota member that ameliorates DSS-induced colitis in intestinal barrier enhanced Dusp6-deficient mice",
     "authors": "Chang CS, Liao YC, Huang CT, Lin CM, Cheung CHY, Ruan JW, Yu WH, Tsai YT, Lin IJ, Huang CH, Liou JS, Chou YH, Chien HJ, Chuang HL, Juan HF, Huang HC, Chan HL, Liao YC, Tang SC, Su YW, Tan TH, Bäumler AJ, Kao CY",
-    "venue": "Cell Reports, 37, 110016 (2021)",
+    "venue": "Cell Rep., 37, 110016 (2021)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -300,7 +309,7 @@
     "year": 2021,
     "title": "Identification of cell states using super-enhancer RNA",
     "authors": "Tu YH, Juan HF, Huang HC",
-    "venue": "BMC Genomics, 22, 787 (2021)",
+    "venue": "BMC Genomics, 22(Suppl 3), 787 (2021)",
     "doi": "",
     "note": "",
     "type": "journal"
@@ -927,6 +936,15 @@
     "type": "journal"
   },
   {
+    "year": 2011,
+    "title": "Ganoderma lucidum polysaccharides induce macrophage-like differentiation in human leukemia THP-1 cells via caspase and p53 activation",
+    "authors": "Hsu JW, Huang HC, Lee TY, Chen ST, Wong CH, Juan HF",
+    "venue": "Evid.-based Complement Altern. Med., 2011, 358711 (2011)",
+    "doi": "",
+    "note": "",
+    "type": "journal"
+  },
+  {
     "year": 2010,
     "title": "Dynamic functional modules in co-expressed protein interaction networks of dilated cardiomyopathy",
     "authors": "Lin CC, Hsiang JT, Wu CY, Oyang YJ, Juan HF, Huang HC",
@@ -940,15 +958,6 @@
     "title": "Modularity of Escherichia coli sRNA regulation revealed by sRNA-targets and protein network analysis",
     "authors": "Wu TH, Chang IYF, Chu LCJ, Huang HC, Ng WV",
     "venue": "BMC Bioinformatics, 11 (Suppl 7), S11 (2010)",
-    "doi": "",
-    "note": "",
-    "type": "journal"
-  },
-  {
-    "year": 2011,
-    "title": "Ganoderma lucidum polysaccharides induce macrophage-like differentiation in human leukemia THP-1 cells via caspase and p53 activation",
-    "authors": "Hsu JW, Huang HC, Lee TY, Chen ST, Wong CH, Juan HF",
-    "venue": "Evid.-based Complement Altern. Med., 2011, 358711 (2011)",
     "doi": "",
     "note": "",
     "type": "journal"

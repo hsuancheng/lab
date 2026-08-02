@@ -18,7 +18,7 @@
   "members": [
     {
       "name": "陳韻茹 Yun-Ru Chen",
-      "role": "Research Assistant",
+      "role": "Lab Administrator",
       "startYear": null,
       "email": "",
       "homepage": "",
@@ -26,39 +26,7 @@
     },
     {
       "name": "杜岳華 Yueh-Hua Tu",
-      "role": "PhD Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "Computational biology",
-      "role": "PhD Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "Systems biology",
-      "role": "PhD Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "Machine learning",
-      "role": "PhD Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "吳弈昕",
-      "role": "MS Student",
+      "role": "Postdoc Fellow",
       "startYear": null,
       "email": "",
       "homepage": "",
@@ -66,7 +34,7 @@
     },
     {
       "name": "林靖雅 Ching-Ya Lin",
-      "role": "MS Student",
+      "role": "PhD Student",
       "startYear": null,
       "email": "",
       "homepage": "",
@@ -74,7 +42,7 @@
     },
     {
       "name": "溫建泓 Jian-Hung Wen",
-      "role": "MS Student",
+      "role": "PhD Student",
       "startYear": null,
       "email": "",
       "homepage": "",
@@ -82,39 +50,15 @@
     },
     {
       "name": "歐秉昀",
-      "role": "MS Student",
+      "role": "PhD Student",
       "startYear": null,
       "email": "",
       "homepage": "",
       "interests": []
     },
     {
-      "name": "蔡秉勳",
-      "role": "MS Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "董冠群",
-      "role": "MS Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "江辰霈",
-      "role": "MS Student",
-      "startYear": null,
-      "email": "",
-      "homepage": "",
-      "interests": []
-    },
-    {
-      "name": "劉育伶",
-      "role": "MS Student",
+      "name": "李冠俊",
+      "role": "PhD Student",
       "startYear": null,
       "email": "",
       "homepage": "",
@@ -122,6 +66,46 @@
     }
   ],
   "alumni": [
+    {
+      "name": "劉育伶",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "江辰霈",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "董冠群",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "蔡秉勳",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
+    {
+      "name": "吳弈昕",
+      "role": "Alumni",
+      "startYear": null,
+      "email": "",
+      "homepage": "",
+      "interests": []
+    },
     {
       "name": "鐘偉哲",
       "role": "Alumni",

@@ -1,8 +1,107 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import people from "../content/people.json";
+
+const pi = people.pi[0];
 ---
 
 <BaseLayout title="Contact | Huang Lab">
-  <h1 style="font-size: 1.8rem; margin-bottom: 1rem;">Contact</h1>
-  <p>Contact page placeholder.</p>
+  <h1>Contact</h1>
+
+  <div class="contact-grid">
+    <section class="panel">
+      <h2>Principal Investigator</h2>
+      <p class="name">{pi.name}</p>
+      <p class="muted">{pi.title}</p>
+      <dl>
+        <dt>Email</dt>
+        <dd><a href={`mailto:${pi.email}`}>{pi.email}</a></dd>
+        <dt>Homepage</dt>
+        <dd><a href={pi.homepage}>{pi.homepage}</a></dd>
+        <dt>Google Scholar</dt>
+        <dd>
+          <a href={pi.googleScholar} target="_blank" rel="noopener noreferrer">Profile</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="panel">
+      <h2>Address</h2>
+      <address>
+        Department of Computer Science and Information Engineering<br />
+        National Taiwan University<br />
+        No. 1, Sec. 4, Roosevelt Road<br />
+        Taipei 10617, Taiwan
+      </address>
+      <dl>
+        <dt>Tel</dt>
+        <dd><a href="tel:+886233664888">+886-2-3366-4888</a></dd>
+        <dt>Fax</dt>
+        <dd>+886-2-2362-8167</dd>
+      </dl>
+    </section>
+  </div>
 </BaseLayout>
+
+<style>
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .panel {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem;
+    padding: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    color: var(--color-text-dark);
+  }
+
+  .name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+
+  .muted {
+    margin: 0.15rem 0 0;
+    font-size: 0.9rem;
+    color: #64748b;
+  }
+
+  address {
+    font-style: normal;
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.4rem 1rem;
+    margin: 1.25rem 0 0;
+    font-size: 0.95rem;
+  }
+
+  dt {
+    color: #64748b;
+  }
+
+  dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+</style>

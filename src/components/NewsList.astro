@@ -18,7 +18,7 @@ const displayNews = limit ? sorted.slice(0, limit) : sorted;
   
   <div style="border-top: 1px solid #e5e7eb;">
     {displayNews.map((item) => (
-      <article style="padding: 0.9rem 0; border-bottom: 1px solid #e5e7eb;">
+      <article style="padding: 0.9rem 0; border-bottom: 1px solid #e5e7eb; overflow-wrap: anywhere;">
         <div style="font-size: 0.85rem; color: #6b7280;">{item.date}</div>
         {item.link ? (
           <a href={item.link} style="font-weight: 600; display: inline-block; margin-top: 0.15rem; color: #1f2937; text-decoration: none;">

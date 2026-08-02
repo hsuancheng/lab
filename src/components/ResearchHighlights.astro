@@ -14,6 +14,15 @@
     </div>
 
     <div class="card">
+      <div class="card-icon">🧠</div>
+      <h3>AI Virtual Cell</h3>
+      <p>
+        Learning predictive models of cellular state that simulate how cells respond to drug and
+        genetic perturbations, turning single-cell atlases into in silico experiments.
+      </p>
+    </div>
+
+    <div class="card">
       <div class="card-icon">💊</div>
       <h3>Computational Drug Discovery</h3>
       <p>
@@ -69,7 +78,8 @@
 
   .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* 240px keeps all four cards on one row at the 1100px container width. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
   }
 

@@ -30,6 +30,23 @@
         therapeutic vulnerabilities in cancer and other human diseases.
       </p>
     </div>
+
+    <div class="card card-feature">
+      <div class="card-icon">⚛️</div>
+      <div>
+        <h3>Quantum Intelligence for Biological Discovery <span class="badge">Emerging</span></h3>
+        <p>
+          A direction we are beginning to explore: quantum machine learning at the scale of modern
+          omics. Recent theory establishes an exponential quantum advantage for classification and
+          dimension reduction over massive classical datasets, demonstrated on single-cell RNA
+          analysis with fewer than 60 logical qubits.
+        </p>
+        <p class="card-ref">
+          Starting point: <a href="https://arxiv.org/abs/2604.07639" target="_blank" rel="noopener noreferrer">Zhao
+          et al., <em>Exponential quantum advantage in processing massive classical data</em> (arXiv:2604.07639)</a>
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -86,6 +103,66 @@
   
   .card:hover::before {
     opacity: 1;
+  }
+
+  /* The emerging direction spans the full row rather than trailing the grid alone. */
+  .card-feature {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .card-feature .card-icon {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+
+  .card-feature h3 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 640px) {
+    .card-feature {
+      display: block;
+    }
+
+    .card-feature .card-icon {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .badge {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 25%, transparent);
+  }
+
+  .card-ref {
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #64748b;
+  }
+
+  .card-ref a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .card-ref a:hover {
+    color: var(--color-primary);
   }
 
   .card-icon {

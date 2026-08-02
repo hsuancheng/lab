@@ -1,14 +1,13 @@
 <section class="hero">
   <div class="hero-content">
+    <h1>
+      Huang Lab <span class="affiliation">National Taiwan University</span>
+    </h1>
     <p class="eyebrow">
       Computational Systems Biology
     </p>
-    <h1>
-      Huang Lab
-    </h1>
     <p class="tagline">
-      We develop computational methods for single-cell and multi-omics data, integrating network
-      biology and machine learning to uncover disease mechanisms and accelerate drug discovery.
+      Research at the intersection of single-cell omics, network biology, and machine learning.
     </p>
   </div>
   <div class="mesh-gradient"></div>
@@ -65,7 +64,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 1rem;
+    margin: 0 0 1.25rem;
     display: inline-block;
     padding: 0.4rem 1rem;
     background: rgba(255, 255, 255, 0.1);
@@ -75,13 +74,35 @@
   }
 
   h1 {
-    font-size: clamp(3rem, 6vw, 4.5rem);
-    margin: 0.5rem 0 1.5rem;
-    line-height: 1.05;
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    margin: 0 0 1.25rem;
+    line-height: 1.1;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #fff;
     text-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+
+  /* Affiliation rides with the lab name without competing with it. */
+  .affiliation {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.42em;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  @media (min-width: 900px) {
+    .affiliation {
+      display: inline;
+      margin-top: 0;
+    }
+
+    /* The separator only makes sense once the affiliation sits on the same line. */
+    .affiliation::before {
+      content: "· ";
+    }
   }
 
   .tagline {

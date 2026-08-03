@@ -58,6 +58,10 @@ scripts/              ← Python ETL (LaTeX parser, legacy-site scraper)
 - **`base: '/lab'`** is set in `astro.config.mjs` — internal links and asset paths must respect it.
 - **Styling** is vanilla scoped CSS (no Tailwind). Design system: Outfit headings / Inter body,
   mesh-gradient hero, glassmorphism cards and navbar, `translateY` + shadow hover.
+- **No decorative graphics.** Do not add molecule renderings, network/graph illustrations, hero
+  imagery, background patterns, or similar ornament — HC has ruled this out. Layout carries the
+  design; new visuals are only appropriate when they convey real information (an actual figure from
+  the work) and HC asks for them.
 - **Python** scripts run under the project `.venv/`; the LaTeX parser is stdlib-only, so `python3` suffices.
 - **Commit messages in English.** Verify with `npm run build` before committing.
 

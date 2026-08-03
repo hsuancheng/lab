@@ -5,7 +5,6 @@
   
   <div class="cards-grid">
     <div class="card">
-      <div class="card-icon">🦠</div>
       <h3>Single-cell & Spatial Omics</h3>
       <p>
         Computational methods for high-dimensional biological data, from cell-state trajectories and
@@ -14,7 +13,6 @@
     </div>
 
     <div class="card">
-      <div class="card-icon">🧠</div>
       <h3>AI Virtual Cell</h3>
       <p>
         Learning predictive models of cellular state that simulate how cells respond to drug and
@@ -23,7 +21,6 @@
     </div>
 
     <div class="card">
-      <div class="card-icon">💊</div>
       <h3>Computational Drug Discovery</h3>
       <p>
         Predicting drug responses and repurposing candidates by coupling single-cell transcriptomics
@@ -32,7 +29,6 @@
     </div>
 
     <div class="card">
-      <div class="card-icon">🕸️</div>
       <h3>Cancer Systems Biology</h3>
       <p>
         Multi-omics integration and network analysis to dissect tumor heterogeneity, resistance, and
@@ -41,16 +37,12 @@
     </div>
 
     <div class="card card-feature">
-      <div class="card-icon">⚛️</div>
-      <div>
-        <h3>Quantum Intelligence for Biological Discovery <span class="badge">Emerging</span></h3>
-        <p>
-          Quantum machine learning for modern omics, as fault-tolerant quantum computing comes
-          within reach. Recent theory demonstrates exponential advantages in classification and
-          dimensionality reduction, including single-cell RNA analysis and compound screening for
-          drug discovery.
-        </p>
-      </div>
+      <h3>Quantum Intelligence for Biological Discovery <span class="badge">Emerging</span></h3>
+      <p>
+        Quantum machine learning for modern omics, as fault-tolerant quantum computing comes within
+        reach. Recent theory demonstrates exponential advantages in classification and dimensionality
+        reduction, including single-cell RNA analysis and compound screening for drug discovery.
+      </p>
     </div>
   </div>
 </section>
@@ -114,28 +106,10 @@
   /* The emerging direction spans the full row rather than trailing the grid alone. */
   .card-feature {
     grid-column: 1 / -1;
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
   }
 
-  .card-feature .card-icon {
-    flex-shrink: 0;
-    margin-bottom: 0;
-  }
-
-  .card-feature h3 {
-    margin-top: 0;
-  }
-
-  @media (max-width: 640px) {
-    .card-feature {
-      display: block;
-    }
-
-    .card-feature .card-icon {
-      margin-bottom: 1rem;
-    }
+  .card-feature p {
+    max-width: 75ch;
   }
 
   .badge {
@@ -152,15 +126,6 @@
     color: var(--color-primary);
     background: color-mix(in srgb, var(--color-primary) 10%, transparent);
     border: 1px solid color-mix(in srgb, var(--color-primary) 25%, transparent);
-  }
-
-  .card-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-    padding: 0.5rem;
-    background: #f1f5f9;
-    border-radius: 0.75rem;
   }
 
   h3 {

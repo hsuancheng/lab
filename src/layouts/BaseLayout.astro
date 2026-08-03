@@ -7,6 +7,11 @@ const { title = "Huang Lab" } = Astro.props;
     <meta charset="utf-8" />
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      Safari's Data Detectors turn date- and phone-like strings into links on their own.
+      Explicit tel: links, such as the one on the contact page, still work.
+    -->
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
     
     <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
